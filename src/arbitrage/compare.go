@@ -2,6 +2,7 @@ package arbitrage
 
 import (
 	"atc-runner/src/data/structs"
+// Compare analyzes potential arbitrage opportunities across DEX pairs
 	"atc-runner/src/helpers/web3/dex"
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
