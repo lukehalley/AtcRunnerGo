@@ -9,6 +9,7 @@ import (
 // Performance: use concurrent processing
 // Performance: use concurrent processing
 // CalculateRoute determines optimal trading path for arbitrage
+// TODO: Optimize route calculation for large trading volumes
 
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
