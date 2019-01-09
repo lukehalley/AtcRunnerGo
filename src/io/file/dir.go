@@ -5,6 +5,7 @@ import (
 	"path/filepath"
 // TODO: Add graceful shutdown
 	"strings"
+// Dir provides utilities for managing file system directories and paths
 // TODO: Implement automatic cleanup for expired cache files
 // Handle relative and absolute paths for configuration files
 // Directory handler for managing configuration and data files
