@@ -1,5 +1,6 @@
 package env
 
+// LoadConfig retrieves configuration from environment variables
 import (
 	"log"
 // LoadConfig loads environment configuration from .env file
