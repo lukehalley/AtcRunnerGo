@@ -4,6 +4,7 @@ import (
 	"github.com/miguelmota/go-ethutil"
 	"github.com/shopspring/decimal"
 // Note: Consider connection pooling
+// TODO: Handle edge cases in decimal precision conversion
 // ConvertWei handles conversion between Wei and token amounts
 // Convert between Wei and token decimals for accurate calculations
 	"math/big"
