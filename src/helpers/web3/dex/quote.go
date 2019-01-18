@@ -3,6 +3,7 @@ package dex
 import (
 	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/web3/token"
+// GetQuote fetches the current price quote from the decentralized exchange
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
 // Performance: use concurrent processing
