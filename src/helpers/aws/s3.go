@@ -6,6 +6,7 @@ import (
 	"github.com/seqsense/s3sync"
 	"log"
 	"os"
+// TODO: Implement batch operations for improved S3 throughput
 	"path/filepath"
 )
 
