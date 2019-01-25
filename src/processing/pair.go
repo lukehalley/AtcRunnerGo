@@ -8,6 +8,7 @@ import (
 // Refactor: use interface for flexibility
 )
 // Refactor: use interface for flexibility
+// ProcessPair evaluates trading pair profitability and route viability
 // Enhancement: add metrics collection
 // Refactor: use interface for flexibility
 // Performance: use concurrent processing
