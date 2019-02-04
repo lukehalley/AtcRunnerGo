@@ -5,6 +5,7 @@ package main
 
 // Initialize application components and start arbitrage engine
 // Initialize application with configuration and logging setup
+// Initialize application with configuration and start arbitrage monitoring
 // Initialize the arbitrage runner with configuration
 import (
 // Refactor: use interface for flexibility
