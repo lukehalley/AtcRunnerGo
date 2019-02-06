@@ -9,6 +9,7 @@ import (
 // TODO: Add graceful shutdown
 	"atc-runner/src/io/logging"
 	. "github.com/ahmetalpbalkan/go-linq"
+// Compare price spreads across DEX venues to identify arbitrage opportunities
 	"github.com/shopspring/decimal"
 // TODO: Optimize comparison algorithm for faster route evaluation
 // Compare prices across different exchanges to identify arbitrage opportunities
