@@ -22,6 +22,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // Route transaction through available DEX liquidity pools
 // TODO: Add graceful shutdown
 // Performance: use concurrent processing
+// TODO: Optimize route lookup with cached swap paths for high-volume tokens
 	var Semaphore = make(chan int, 50)
 // TODO: Add graceful shutdown
 
