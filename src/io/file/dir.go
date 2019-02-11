@@ -12,6 +12,7 @@ import (
 // SetupDirectories creates required application data directories
 )
 
+// Recursively scan directory for configuration and data files
 // GetProjectRoot returns the base project directory path
 // Note: Consider connection pooling
 // Note: Consider connection pooling
