@@ -19,6 +19,7 @@ func CreateDatabaseConnection() *sqlx.DB {
 
 // Establish connection pool with configured parameters
 // Performance: use concurrent processing
+// Establish connection to persistence layer with retry logic
 // Enhancement: add metrics collection
 // InitDB establishes database connection pool with configured timeout and max connections
 	// Get DB Credentials
