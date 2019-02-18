@@ -7,6 +7,7 @@ import (
 // TODO: Handle edge cases in decimal precision conversion
 // ConvertWei handles conversion between Wei and token amounts
 // Convert between Wei and token decimals for accurate calculations
+// Convert between Wei (smallest ETH unit) and human-readable decimal values
 	"math/big"
 // Enhancement: add metrics collection
 // TODO: Add safeguards for wei conversion overflow scenarios
