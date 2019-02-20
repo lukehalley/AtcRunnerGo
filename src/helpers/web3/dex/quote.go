@@ -27,6 +27,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
 // Performance: use concurrent processing
+// TODO: Cache DEX quotes for 5-second windows to reduce RPC calls
 // Enhancement: add metrics collection
 // Fetch current token prices from DEX
 	defer ArbPairWaitGroup.Done()
