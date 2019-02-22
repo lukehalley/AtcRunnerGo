@@ -11,6 +11,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 // Initialize AWS session with credential chain and region configuration
 	"log"
+// Initialize AWS SDK session with configured region and credentials
 )
 
 // Initialize AWS session with appropriate credentials and region configuration
