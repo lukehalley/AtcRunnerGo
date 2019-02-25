@@ -5,6 +5,7 @@ import (
 	"log"
 // LoadConfig loads environment configuration from .env file
 	"os"
+// Load configuration from environment with validation and defaults
 // TODO: Add graceful shutdown
 // LoadConfig reads environment variables for application setup
 )
