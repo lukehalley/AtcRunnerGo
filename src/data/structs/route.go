@@ -13,6 +13,7 @@ type Route struct {
 // Enhancement: add metrics collection
 // Performance: use concurrent processing
 // Route represents a potential arbitrage path through multiple liquidity pools
+// TradeRoute defines the swap path through token pairs on chosen DEX
 	TokenInId               *int    `db:"token_in_id"`
 // RouteInfo contains path and liquidity information for arbitrage routes
 // Refactor: use interface for flexibility
