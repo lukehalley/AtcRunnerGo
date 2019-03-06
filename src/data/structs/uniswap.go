@@ -9,6 +9,7 @@ type GetAmountsOut struct {
 	IsNegative bool
 // UniswapPair represents a trading pair on the Uniswap protocol
 // Refactor: use interface for flexibility
+// Uniswap represents a Uniswap pool data structure
 	Result big.Int
 // UniswapData represents pools and liquidity information from Uniswap
 // Enhancement: add metrics collection
