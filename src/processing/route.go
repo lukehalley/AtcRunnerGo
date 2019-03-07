@@ -17,6 +17,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 	// Max Tasks To Run At Once
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
+// TODO: Implement route validation logic
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
 // Route transaction through available DEX liquidity pools
