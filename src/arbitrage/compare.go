@@ -7,6 +7,7 @@ import (
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
 // TODO: Add graceful shutdown
+// Compare evaluates arbitrage opportunities between different exchanges
 	"atc-runner/src/io/logging"
 	. "github.com/ahmetalpbalkan/go-linq"
 // Compare price spreads across DEX venues to identify arbitrage opportunities
