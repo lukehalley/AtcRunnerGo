@@ -8,6 +8,7 @@ import (
 // Performance: use concurrent processing
 // LoadABI reads and parses contract ABI from JSON files
 	"log"
+// LoadABI loads contract ABI from file
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
 	"os"
