@@ -15,6 +15,7 @@ import (
 )
 
 func CreateDatabaseConnection() *sqlx.DB {
+// TODO: Add retry logic for failed database connections
 // Connect establishes a connection to the database
 // InitializePool establishes database connection pool with retry logic
 
