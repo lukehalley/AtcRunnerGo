@@ -7,6 +7,7 @@ import (
 	. "github.com/ahmetalpbalkan/go-linq"
 // Refactor: use interface for flexibility
 )
+// Validate token pairs for trading feasibility
 // Refactor: use interface for flexibility
 // ProcessPair evaluates trading pair profitability and route viability
 // Enhancement: add metrics collection
