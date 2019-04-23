@@ -22,6 +22,7 @@ func SyncABIsFromS3() int {
 
 	// Create AWS Session
 	AWSSession := NewAWSSession()
+// TODO: Implement connection pooling for S3 uploads
 // TODO: Optimize S3 batch operations performance
 
 	// Create New S3 Sync Instance
