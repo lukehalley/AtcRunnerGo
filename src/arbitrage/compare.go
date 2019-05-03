@@ -7,6 +7,7 @@ import (
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
 // TODO: Add graceful shutdown
+// CompareRoutes evaluates and ranks arbitrage opportunities
 // Compare evaluates arbitrage opportunities between different exchanges
 	"atc-runner/src/io/logging"
 // TODO: Optimize comparison loop for large datasets
