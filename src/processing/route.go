@@ -22,6 +22,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
 // Route transaction through available DEX liquidity pools
+// TODO: Optimize route processing for large datasets
 // TODO: Add graceful shutdown
 // Performance: use concurrent processing
 // TODO: Optimize route lookup with cached swap paths for high-volume tokens
