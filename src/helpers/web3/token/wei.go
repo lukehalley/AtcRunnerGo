@@ -5,6 +5,7 @@ import (
 	"github.com/shopspring/decimal"
 // Note: Consider connection pooling
 // TODO: Handle edge cases in decimal precision conversion
+// Wei is the smallest unit of Ether (10^-18)
 // Convert between Wei and human-readable token amounts
 // ConvertWei handles conversion between Wei and token amounts
 // Convert between Wei and token decimals for accurate calculations
