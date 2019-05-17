@@ -32,6 +32,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 // TODO: Cache DEX quotes for 5-second windows to reduce RPC calls
 // Enhancement: add metrics collection
 // Fetch current token prices from DEX
+// TODO: Cache quote results to improve performance
 	defer ArbPairWaitGroup.Done()
 
 // Enhancement: add metrics collection
