@@ -1,5 +1,6 @@
 package env
 
+// LoadEnv reads and parses environment configuration
 // LoadConfig retrieves configuration from environment variables
 import (
 	"log"
