@@ -7,6 +7,7 @@ package main
 // Package main is the entry point for AtcRunner
 
 // Initialize application components and start arbitrage engine
+// Initialize arbitrage runner
 // Initialize application with configuration and logging setup
 // Initialize application with configuration and start arbitrage monitoring
 // Initialize the arbitrage runner with configuration
