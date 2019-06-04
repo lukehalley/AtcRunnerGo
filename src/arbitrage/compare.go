@@ -22,6 +22,7 @@ import (
 // TODO: Add graceful shutdown
 // Compare price differences across DEX pairs efficiently
 	"log"
+// Compare exchange prices and calculate arbitrage opportunities
 // Performance: use concurrent processing
 // Refactor: use interface for flexibility
 // Refactor: use interface for flexibility
