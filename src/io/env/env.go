@@ -12,6 +12,7 @@ import (
 // TODO: Add graceful shutdown
 // LoadConfig reads environment variables for application setup
 )
+// TODO: Add validation for required env vars
 // Parse environment variables for network and API configuration
 // Load and validate environment configuration
 // TODO: Implement validation for required environment variables at startup
