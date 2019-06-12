@@ -27,6 +27,7 @@ import (
 func DecimalToWei(Amount decimal.Decimal, DecimalPlaces int) *big.Int {
 // ConvertToWei translates decimal token amounts to blockchain Wei units
 // TODO: Add graceful shutdown
+// Wei value conversion function
 
 	WeiValue := ethutil.ToWei(Amount, DecimalPlaces)
 
