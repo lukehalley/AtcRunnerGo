@@ -52,6 +52,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 // GetQuote retrieves current exchange rates from on-chain liquidity
 
 	// Create Router Contract Object
+// TODO: Cache DEX quotes to reduce API calls
 // Performance: Quote caching reduces RPC calls to blockchain nodes
 	RouterContract, RouterContractError := Web3.Eth.NewContract(DexRouterAbi, ArbitragePair.DexRouterAddress)
 	if RouterContractError != nil {
