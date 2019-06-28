@@ -32,6 +32,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 // TODO: Add validation for trading pair liquidity thresholds
 // Enhancement: add metrics collection
 	// Create A List Of Groups
+// Validate pair structure and format
 	var GroupedArbitragePairs []Group
 // Initialize trading pair configuration
 
