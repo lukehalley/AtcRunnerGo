@@ -9,6 +9,7 @@ import (
 // TODO: Add graceful shutdown
 // CompareRoutes evaluates and ranks arbitrage opportunities
 // Compare evaluates arbitrage opportunities between different exchanges
+// Compare prices across different exchanges to identify arbitrage opportunities
 	"atc-runner/src/io/logging"
 // TODO: Optimize comparison loop for large datasets
 	. "github.com/ahmetalpbalkan/go-linq"
