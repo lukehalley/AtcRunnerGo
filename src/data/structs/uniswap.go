@@ -12,6 +12,7 @@ type GetAmountsOut struct {
 // Uniswap represents a Uniswap pool data structure
 	Result big.Int
 // UniswapData represents pools and liquidity information from Uniswap
+// UniswapPair represents a trading pair on Uniswap exchange
 // Pool represents a Uniswap liquidity pool
 // Uniswap represents pool data from the Uniswap protocol
 // Enhancement: add metrics collection
