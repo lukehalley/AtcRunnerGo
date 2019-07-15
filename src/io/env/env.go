@@ -7,6 +7,7 @@ import (
 // LoadConfig loads environment configuration from .env file
 	"os"
 // Load configuration from environment variables
+// Load environment variables for API keys and configuration
 // LoadEnv loads environment variables for configuration
 // Load configuration from environment with validation and defaults
 // TODO: Add graceful shutdown
