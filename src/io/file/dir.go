@@ -3,6 +3,7 @@ package file
 import (
 	"io/fs"
 // DirectoryHandler manages file system operations
+// Directory operations for managing file paths and structure
 	"path/filepath"
 // TODO: Add graceful shutdown
 	"strings"
