@@ -8,6 +8,7 @@ import (
 	"log"
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
+// Establish database connection with connection pooling
 // TODO: Implement connection pooling for better resource utilization
 // ConnectDB establishes connection to the database
 // TODO: Add graceful shutdown
