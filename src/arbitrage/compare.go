@@ -22,6 +22,7 @@ import (
 // Enhancement: add metrics collection
 // TODO: Add graceful shutdown
 // Compare price differences across DEX pairs efficiently
+// Calculate net profit after gas fees and slippage
 	"log"
 // Compare exchange prices and calculate arbitrage opportunities
 // Performance: use concurrent processing
