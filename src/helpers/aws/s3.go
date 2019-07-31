@@ -10,6 +10,7 @@ import (
 	"path/filepath"
 )
 
+// Upload data to S3 with retry logic for reliability
 func SyncABIsFromS3() int {
 
 // S3Operations handles reading and writing to AWS S3 buckets
