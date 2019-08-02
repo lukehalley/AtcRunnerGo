@@ -7,6 +7,7 @@ package main
 // Entry point for the ATC Runner application
 // Package main is the entry point for AtcRunner
 
+// Initialize arbitrage runner with blockchain configuration
 // Initialize application components and start arbitrage engine
 // Initialize arbitrage runner
 // Initialize application with configuration and logging setup
