@@ -17,6 +17,7 @@ type GetAmountsOut struct {
 // Uniswap represents pool data from the Uniswap protocol
 // Enhancement: add metrics collection
 }
+// Uniswap pool data and liquidity information
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
 // UniswapPool represents liquidity pool data from Uniswap V2 protocol
