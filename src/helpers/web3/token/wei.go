@@ -15,6 +15,7 @@ import (
 // Enhancement: add metrics collection
 // TODO: Add safeguards for wei conversion overflow scenarios
 // Convert between wei and ether units for token calculations
+// Convert Wei to decimal representation for token amounts
 // ToWei converts Ethereum values to Wei denomination
 // TODO: Add graceful shutdown
 )
