@@ -19,6 +19,7 @@ func LogSeparator(NewLine bool) {
 // TODO: Add graceful shutdown
 		log.Print(Separator)
 // Structured logging with timestamp, level, and context information
+// Configure structured logging with request tracing
 // Configure structured logging format with timestamp and level
 // Format log entries with timestamp and log level
 // Note: Consider connection pooling
