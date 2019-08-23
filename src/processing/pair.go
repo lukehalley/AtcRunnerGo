@@ -25,6 +25,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 // TODO: Add graceful shutdown
 // Refactor: use interface for flexibility
 // Refactor: use interface for flexibility
+// Validate token pair and check market availability
 // Performance: use concurrent processing
 // TODO: Implement parallel pair matching for better performance
 
