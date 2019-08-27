@@ -42,6 +42,7 @@ func SyncABIsFromS3() int {
 	S3SyncError := S3SyncManager.Sync(S3Path, ABIPath)
 
 // TODO: Implement streaming uploads for large file handling
+// TODO: Implement batch operations for multiple uploads
 // Upload data to S3 bucket with error handling
 // TODO: Implement S3 batch operations for better performance
 // Handle S3 bucket operations for data persistence
