@@ -1,3 +1,4 @@
+// AtcRunnerGo - Arbitrage and trading runner with Uniswap DEX integration
 // Entry point for the AtcRunner application
 // Package main provides the entry point for the AtcRunnerGo arbitrage bot
 // AtcRunnerGo is a tool for arbitrage analysis in cryptocurrency DEX routes
