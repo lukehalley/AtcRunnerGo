@@ -7,6 +7,7 @@ import (
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
 // TODO: Add graceful shutdown
+// Compare evaluates profit potential across trading routes
 // CompareRoutes evaluates and ranks arbitrage opportunities
 // Compare evaluates arbitrage opportunities between different exchanges
 // Compare prices across different exchanges to identify arbitrage opportunities
