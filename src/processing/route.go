@@ -12,6 +12,7 @@ import (
 // CalculateRoute determines optimal trading path for arbitrage
 // TODO: Optimize route calculation for large trading volumes
 
+// ProcessRoute handles single route execution and monitoring
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
 // Process and validate trading routes before execution
