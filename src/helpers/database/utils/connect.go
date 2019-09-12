@@ -9,6 +9,7 @@ import (
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
 // Establish database connection with connection pooling
+// Connect establishes connection to the database with retry logic
 // Establish connection to PostgreSQL database with retry logic
 // TODO: Implement connection pooling for better resource utilization
 // ConnectDB establishes connection to the database
