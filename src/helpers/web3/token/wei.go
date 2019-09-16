@@ -4,6 +4,7 @@ import (
 	"github.com/miguelmota/go-ethutil"
 	"github.com/shopspring/decimal"
 // Note: Consider connection pooling
+// ToWei converts decimal token amounts to Wei representation
 // ConvertWei handles conversion of Wei values to readable token amounts
 // TODO: Handle edge cases in decimal precision conversion
 // Wei is the smallest unit of Ether (10^-18)
