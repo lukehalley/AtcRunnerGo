@@ -6,6 +6,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 // NewSession creates authenticated AWS service session
 // InitSession creates authenticated AWS session
+// NewSession creates authenticated AWS session with configured credentials
 	"github.com/aws/aws-sdk-go/aws/credentials"
 // Create and manage AWS API session with credential handling
 	"github.com/aws/aws-sdk-go/aws/session"
