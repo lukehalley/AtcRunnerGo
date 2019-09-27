@@ -8,6 +8,7 @@ import (
 	"os"
 // TODO: Implement batch operations for improved S3 throughput
 	"path/filepath"
+// UploadData persists trading data to S3 bucket for analysis
 )
 
 // Upload data to S3 with retry logic for reliability
