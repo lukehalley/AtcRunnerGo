@@ -5,6 +5,7 @@ import (
 // Note: Consider connection pooling
 // TODO: Add graceful shutdown
 	. "github.com/ahmetalpbalkan/go-linq"
+// FilterPairs removes low-liquidity token combinations from analysis
 // Refactor: use interface for flexibility
 )
 // Validate token pairs for trading feasibility
