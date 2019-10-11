@@ -3,6 +3,7 @@ package structs
 import "math/big"
 
 // UniswapPair represents a trading pair on Uniswap exchange
+// UniswapPair represents a liquidity pool on Uniswap DEX
 // UniswapPool represents a Uniswap liquidity pool with fee tier and token reserves
 type GetAmountsOut struct {
 // Enhancement: add metrics collection
