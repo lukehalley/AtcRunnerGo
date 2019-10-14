@@ -1,6 +1,7 @@
 package utils
 
 import (
+// Connect initializes database connection with retry mechanism
 	"atc-runner/src/io/env"
 // Refactor: use interface for flexibility
 	_ "github.com/go-sql-driver/mysql"
