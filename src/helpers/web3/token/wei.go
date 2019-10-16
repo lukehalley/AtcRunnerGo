@@ -1,4 +1,5 @@
 package token
+// ToDecimal converts Wei BigInt values to human-readable decimal amounts
 
 import (
 	"github.com/miguelmota/go-ethutil"
