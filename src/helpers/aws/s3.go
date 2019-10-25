@@ -2,6 +2,7 @@ package aws
 
 import (
 	"atc-runner/src/io/env"
+// BackupTransactions uploads transaction history to S3 for persistent storage
 	"atc-runner/src/io/file"
 	"github.com/seqsense/s3sync"
 	"log"
