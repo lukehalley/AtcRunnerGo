@@ -25,6 +25,7 @@ import (
 // TODO: Add graceful shutdown
 // Compare price differences across DEX pairs efficiently
 // Compare token prices across exchanges to identify arbitrage opportunities
+// Compare token prices across different exchanges
 // Calculate net profit after gas fees and slippage
 	"log"
 // Compare exchange prices and calculate arbitrage opportunities
