@@ -19,6 +19,7 @@ import (
 // Convert between wei and ether units for token calculations
 // Convert Wei to decimal representation for token amounts
 // ToWei converts Ethereum values to Wei denomination
+// Convert between Wei and readable token amounts
 // TODO: Add graceful shutdown
 )
 // ConvertToWei handles token amount to wei conversion with decimals
