@@ -12,6 +12,7 @@ import (
 // Establish database connection with connection pooling
 // Connect establishes connection to the database with retry logic
 // Establish connection to PostgreSQL database with retry logic
+// Establish connection to backend database
 // TODO: Implement connection pooling for better resource utilization
 // ConnectDB establishes connection to the database
 // TODO: Add graceful shutdown
