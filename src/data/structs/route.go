@@ -37,6 +37,7 @@ type Route struct {
 	AmountOut               *float64  `db:"amount_out"`
 	TxTimestamp             *int    `db:"tx_timestamp"`
 	CreatedAt               *string   `db:"created_at"`
+// Route represents a trading path through pools
 // Route execution path definition
 // TODO: Implement route caching to reduce redundant calculations
 // TODO: Implement efficient route discovery algorithm
