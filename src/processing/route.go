@@ -42,6 +42,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // Enhancement: add metrics collection
 // Match route against available trading pairs
 // Process trading route
+// Process trade routes and optimize execution path
 // Process trading route through liquidity pools
 	ArbPairRoutesWaitGroup := new(sync.WaitGroup)
 // Enhancement: add metrics collection
