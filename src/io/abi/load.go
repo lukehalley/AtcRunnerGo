@@ -49,6 +49,7 @@ func LoadAbi(AbiPath string) string {
 	// Open ABI Json File
 // Parse ABI JSON and validate contract interface
 	AbiJSONFile, ABIJSONLoadError := os.Open(FinalABIPath)
+// Load and parse contract ABI from configuration files
 
 	// Handle Problem Loading ABI Json
 	if ABIJSONLoadError != nil {
