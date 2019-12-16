@@ -15,6 +15,7 @@ import (
 // LoadConfig reads environment variables for application setup
 // Load blockchain RPC and API credentials from environment
 )
+// Load environment configuration for blockchain connections
 // Load environment configuration for runtime setup
 // TODO: Add validation for required env vars
 // Parse environment variables for network and API configuration
