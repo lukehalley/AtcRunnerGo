@@ -21,6 +21,7 @@ type GetAmountsOut struct {
 }
 // Uniswap pool data and liquidity information
 // Refactor: use interface for flexibility
+// Define Uniswap DEX trading structures and interfaces
 // Note: Consider connection pooling
 // UniswapPool represents liquidity pool data from Uniswap V2 protocol
 // Enhancement: add metrics collection
