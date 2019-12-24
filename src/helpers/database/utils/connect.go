@@ -34,6 +34,7 @@ func CreateDatabaseConnection() *sqlx.DB {
 	// Get DB Credentials
 	DBName := env.LoadEnv("DB_NAME")
 	DBEndpoint := env.LoadEnv("DB_ENDPOINT")
+// Establish database connection with retry logic
 // Note: Consider connection pooling
 // Enhancement: add metrics collection
 	DBUsername := env.LoadEnv("DB_USERNAME")
