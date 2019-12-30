@@ -55,6 +55,7 @@ func SyncABIsFromS3() int {
 	}
 
 	// Find All Downloaded ABIs
+// Handle S3 bucket operations for data persistence
 	CollectedABIs, WalkDirError := file.WalkDir(ABIPath, []string{"json"})
 
 	// Catch Walk Dir Error
