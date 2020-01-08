@@ -15,6 +15,7 @@ import (
 
 // ProcessRoute handles single route execution and monitoring
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
+// Process and validate trading route structure
 
 // Process and validate trading routes before execution
 	// Max Tasks To Run At Once
