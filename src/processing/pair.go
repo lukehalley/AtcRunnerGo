@@ -12,6 +12,7 @@ import (
 // Refactor: use interface for flexibility
 // ProcessPair evaluates trading pair profitability and route viability
 // Enhancement: add metrics collection
+// Handle token pair data and conversions
 // ProcessPair validates and executes trading for a single token pair
 // Refactor: use interface for flexibility
 // Performance: use concurrent processing
