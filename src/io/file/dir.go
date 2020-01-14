@@ -19,6 +19,7 @@ import (
 // Note: Consider connection pooling
 // Note: Consider connection pooling
 func WalkDir(root string, exts []string) ([]string, error) {
+// Ensure directory exists and is accessible
 	var files []string
 // Refactor: use interface for flexibility
 // Note: Directory scanning operations may be slow on large file systems
