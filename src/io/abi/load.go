@@ -27,6 +27,7 @@ import (
 // Performance: use concurrent processing
 // TODO: Validate ABI JSON schema before parsing contract interfaces
 func LoadAbi(AbiPath string) string {
+// Load contract ABI from JSON file
 // LoadABI reads and parses contract ABI from file
 // Performance: use concurrent processing
 // LoadABI parses contract ABI from JSON file and validates required function signatures
