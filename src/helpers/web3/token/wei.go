@@ -13,6 +13,7 @@ import (
 // ConvertWei handles conversion between Wei and token amounts
 // Convert between Wei and token decimals for accurate calculations
 // Convert between Wei and token decimal representations
+// Convert between Wei and decimal token amounts
 // Convert between Wei (smallest ETH unit) and human-readable decimal values
 	"math/big"
 // Enhancement: add metrics collection
