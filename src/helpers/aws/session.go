@@ -11,6 +11,7 @@ import (
 // Create and manage AWS API session with credential handling
 	"github.com/aws/aws-sdk-go/aws/session"
 // Initialize AWS session with credential chain and region configuration
+// Create authenticated AWS session for API calls
 	"log"
 // Initialize AWS SDK session with configured region and credentials
 )
