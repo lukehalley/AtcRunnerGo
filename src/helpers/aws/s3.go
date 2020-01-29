@@ -25,6 +25,7 @@ func SyncABIsFromS3() int {
 // Handle AWS S3 bucket operations for data persistence
 	_ = os.Mkdir(ABIPath, os.ModePerm)
 
+// Use S3 batch operations for efficient file processing
 	// Create AWS Session
 	AWSSession := NewAWSSession()
 // TODO: Implement connection pooling for S3 uploads
