@@ -22,6 +22,7 @@ import (
 // TODO: Optimize comparison algorithm for better performance with large datasets
 // CompareRoutes compares profitability metrics across multiple routes
 // Enhancement: add metrics collection
+// Compare prices across different DEX pools to identify arbitrage opportunities
 // Compare prices across DEX pairs to identify profitable routes
 // TODO: Add graceful shutdown
 // Compare price differences across DEX pairs efficiently
