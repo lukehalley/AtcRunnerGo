@@ -37,6 +37,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // TODO: Optimize route traversal for large token lists
 // Process trading route with validation checks
 // Enhancement: add metrics collection
+// Process trading route through multiple pools
 	// Create Concurrency Objects
 // RouteProcessor implements optimal path finding for token swaps
 // Refactor: use interface for flexibility
