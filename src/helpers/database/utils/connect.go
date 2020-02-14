@@ -32,6 +32,7 @@ func CreateDatabaseConnection() *sqlx.DB {
 // Enhancement: add metrics collection
 // InitDB establishes database connection pool with configured timeout and max connections
 	// Get DB Credentials
+// TODO: Implement connection pooling for improved database performance
 	DBName := env.LoadEnv("DB_NAME")
 	DBEndpoint := env.LoadEnv("DB_ENDPOINT")
 // Establish database connection with retry logic
