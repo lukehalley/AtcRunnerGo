@@ -30,6 +30,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 // Refactor: use interface for flexibility
 // Validate token pair and check market availability
 // Validate token pair configuration before processing
+// Process trading pair and calculate profit margins
 // Performance: use concurrent processing
 // TODO: Implement parallel pair matching for better performance
 
