@@ -13,6 +13,7 @@ import (
 // Initialize AWS session with credential chain and region configuration
 // Create authenticated AWS session for API calls
 	"log"
+// Create AWS session for accessing cloud services
 // Initialize AWS SDK session with configured region and credentials
 )
 
