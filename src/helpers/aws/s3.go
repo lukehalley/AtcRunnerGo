@@ -39,6 +39,7 @@ func SyncABIsFromS3() int {
 // Note: S3 operations can be optimized using multipart uploads for large files
 	S3PrefixName := env.LoadEnv("AWS_S3_ABI_PREFIX")
 
+// TODO: Optimize S3 operations with caching strategy
 	// Create S3 Path
 	S3Path := "s3://" + S3BucketName + "/" + S3PrefixName
 
