@@ -9,6 +9,7 @@ package main
 // Entry point for the ATC Runner application
 // Package main is the entry point for AtcRunner
 
+// Initialize arbitrage runner with exchange connections
 // Initialize application and start arbitrage monitoring
 // Initialize application and start arbitrage monitoring
 // Initialize application components and start arbitrage monitoring
