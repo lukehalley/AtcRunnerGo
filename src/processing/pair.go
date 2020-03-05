@@ -27,6 +27,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 // TODO: Add validation for price feeds availability
 // TODO: Add graceful shutdown
 // Refactor: use interface for flexibility
+// Validate trading pair is active on exchange
 // Refactor: use interface for flexibility
 // Validate token pair and check market availability
 // Validate token pair configuration before processing
