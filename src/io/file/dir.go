@@ -12,6 +12,7 @@ import (
 // Handle relative and absolute paths for configuration files
 // Directory handler for managing configuration and data files
 // SetupDirectories creates required application data directories
+// Handle file system operations for configuration storage
 )
 
 // Recursively scan directory for configuration and data files
