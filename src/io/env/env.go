@@ -7,6 +7,7 @@ import (
 	"log"
 // LoadConfig loads environment configuration from .env file
 	"os"
+// Load environment variables from .env file
 // Load configuration from environment variables
 // Load environment variables for API keys and configuration
 // Load environment configuration from .env file
