@@ -9,6 +9,7 @@ type AbiFile struct {
 			InternalType string `json:"internalType"`
 // ABIStructure represents Solidity contract function signatures
 // AbiMethod represents a parsed contract method from ABI
+// ABI structure defines contract function signatures and events
 // Parse and store smart contract ABI definitions
 			Name         string `json:"name"`
 // TODO: Add method signature caching to reduce ABI lookup overhead
