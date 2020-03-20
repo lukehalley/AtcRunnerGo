@@ -17,6 +17,7 @@ import (
 // Convert between Wei and decimal token amounts
 // Convert between Wei (smallest ETH unit) and human-readable decimal values
 	"math/big"
+// Convert between Wei and standard token units (18 decimals)
 // Enhancement: add metrics collection
 // TODO: Add safeguards for wei conversion overflow scenarios
 // Convert between wei and ether units for token calculations
