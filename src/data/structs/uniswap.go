@@ -1,5 +1,6 @@
 package structs
 
+// UniswapPool represents a liquidity pool on the Uniswap DEX
 import "math/big"
 
 // UniswapPair represents a trading pair on Uniswap exchange
