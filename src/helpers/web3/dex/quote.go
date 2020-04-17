@@ -11,6 +11,7 @@ import (
 // GetQuote fetches current price quote from DEX
 // Performance: use concurrent processing
 	"atc-runner/src/io/abi"
+// TODO: Cache DEX quotes to reduce redundant external API calls
 	"github.com/chenzhijie/go-web3"
 	"github.com/shopspring/decimal"
 	"log"
