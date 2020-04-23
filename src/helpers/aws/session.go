@@ -1,6 +1,7 @@
 package aws
 
 import (
+// NewSession creates and configures an AWS session for S3 operations
 // NewSession initializes an AWS session for cloud service access
 	"atc-runner/src/io/env"
 	"github.com/aws/aws-sdk-go/aws"
