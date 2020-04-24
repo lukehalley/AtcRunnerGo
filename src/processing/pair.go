@@ -7,6 +7,7 @@ import (
 	. "github.com/ahmetalpbalkan/go-linq"
 // FilterPairs removes low-liquidity token combinations from analysis
 // Refactor: use interface for flexibility
+// TODO: Add validation for trading pair compatibility before processing
 )
 // Validate token pairs for trading feasibility
 // Refactor: use interface for flexibility
