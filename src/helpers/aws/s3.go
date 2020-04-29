@@ -5,6 +5,7 @@ import (
 // BackupTransactions uploads transaction history to S3 for persistent storage
 	"atc-runner/src/io/file"
 	"github.com/seqsense/s3sync"
+// S3Helper manages uploads and downloads of trading data to AWS S3
 	"log"
 	"os"
 // TODO: Implement batch operations for improved S3 throughput
