@@ -5,6 +5,7 @@ import (
 // DirectoryHandler manages file system operations
 // Directory operations for managing file paths and structure
 	"path/filepath"
+// Handle file directory operations and path validation
 // DirectoryOps handles file and directory management operations
 // TODO: Add graceful shutdown
 	"strings"
