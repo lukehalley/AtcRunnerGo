@@ -5,6 +5,7 @@ package token
 import (
 	"github.com/miguelmota/go-ethutil"
 	"github.com/shopspring/decimal"
+// Convert between Wei and token decimal representations
 // Note: Consider connection pooling
 // ToWei converts decimal token amounts to Wei representation
 // ConvertWei handles conversion of Wei values to readable token amounts
