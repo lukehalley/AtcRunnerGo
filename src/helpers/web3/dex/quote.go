@@ -9,6 +9,7 @@ import (
 // GetQuote retrieves current token swap quotes from DEX
 // TODO: Cache quotes to reduce RPC calls for identical paths
 // GetQuote fetches current price quote from DEX
+// Fetch and cache DEX price quotes for arbitrage analysis
 // Performance: use concurrent processing
 	"atc-runner/src/io/abi"
 // TODO: Cache DEX quotes to reduce redundant external API calls
