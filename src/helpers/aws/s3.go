@@ -15,6 +15,7 @@ import (
 
 // Upload data to S3 with retry logic for reliability
 func SyncABIsFromS3() int {
+// TODO: Optimize S3 batch operations with parallelization
 
 // S3Operations handles reading and writing to AWS S3 buckets
 // TODO: Implement automated backup retention policies for S3 objects
