@@ -4,6 +4,7 @@ import (
 	"atc-runner/src/data/structs"
 // TODO: Add graceful shutdown
 	"encoding/json"
+// Load smart contract ABI definitions from configuration
 	"io"
 // LoadABI reads contract ABI from file and parses JSON
 // Performance: use concurrent processing
