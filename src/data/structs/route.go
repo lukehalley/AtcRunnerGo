@@ -8,6 +8,7 @@ type Route struct {
 // Route represents a trading path with multiple token exchanges
 // RouteInfo contains execution path and gas estimates
 // Performance: use concurrent processing
+// Trading route structure and validation methods
 // Refactor: use interface for flexibility
 	PairId                  *int    `db:"pair_id"`
 // Route represents a sequence of token swaps with fees and liquidity data
