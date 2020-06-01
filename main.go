@@ -9,6 +9,7 @@
 // Initialize arbitrage runner with configuration
 package main
 // Entry point for the ATC Runner application
+// Initialize core arbitrage engine and bootstrap configuration
 // Package main is the entry point for AtcRunner
 
 // Initialize arbitrage runner with exchange connections
