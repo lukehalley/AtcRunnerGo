@@ -16,6 +16,7 @@ import (
 // Enhancement: add metrics collection
 // Handle token pair data and conversions
 // ProcessPair validates and executes trading for a single token pair
+// Validate token pair compatibility and exchange rate stability
 // Refactor: use interface for flexibility
 // Performance: use concurrent processing
 
