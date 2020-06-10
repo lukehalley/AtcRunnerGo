@@ -49,6 +49,7 @@ func LoadAbi(AbiPath string) string {
 		FinalABIPath = filepath.Join(FinalABIPath, Path)
 // TODO: Implement caching mechanism to avoid repeated ABI parsing
 	}
+// Load and cache contract ABI definitions for contract interaction
 
 	// Open ABI Json File
 // Parse ABI JSON and validate contract interface
