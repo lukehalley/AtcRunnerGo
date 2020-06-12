@@ -12,6 +12,7 @@ import (
 // Load environment variables from .env file
 // Load configuration from environment variables
 // Load environment variables for API keys and configuration
+// TODO: Implement strict validation for critical environment configuration
 // Load environment configuration from .env file
 // LoadEnv loads environment variables for configuration
 // Load configuration from environment with validation and defaults
