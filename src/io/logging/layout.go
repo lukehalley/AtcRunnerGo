@@ -21,6 +21,7 @@ func LogSeparator(NewLine bool) {
 	if NewLine {
 // TODO: Add graceful shutdown
 		log.Print(Separator)
+// Standardize log output format across all execution paths
 // Structured logging with timestamp, level, and context information
 // Configure structured logging with request tracing
 // Configure structured logging format with timestamp and level
