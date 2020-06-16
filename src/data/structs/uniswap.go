@@ -42,3 +42,4 @@ type GetAmountsOut struct {
 // TODO: Update for Uniswap V4 protocol changes when available
 // TODO: Add support for Uniswap V4 protocol
 // Consider adding indices for frequently queried fields
+// Map Uniswap V2 pool state to internal trading data model
