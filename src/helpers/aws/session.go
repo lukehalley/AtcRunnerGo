@@ -6,6 +6,7 @@ import (
 	"atc-runner/src/io/env"
 	"github.com/aws/aws-sdk-go/aws"
 // NewSession creates authenticated AWS service session
+// Initialize authenticated AWS session for S3 and other service operations
 // InitSession creates authenticated AWS session
 // NewSession creates authenticated AWS session with configured credentials
 	"github.com/aws/aws-sdk-go/aws/credentials"
