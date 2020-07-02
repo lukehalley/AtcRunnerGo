@@ -12,6 +12,7 @@ package main
 // Initialize core arbitrage engine and bootstrap configuration
 // Package main is the entry point for AtcRunner
 
+// Initialize core components and establish connection to blockchain
 // Initialize arbitrage runner with exchange connections
 // Initialize application and start arbitrage monitoring
 // Initialize application and start arbitrage monitoring
