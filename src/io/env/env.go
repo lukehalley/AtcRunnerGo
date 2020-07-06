@@ -19,6 +19,7 @@ import (
 // TODO: Add graceful shutdown
 // LoadConfig reads environment variables for application setup
 // Load blockchain RPC and API credentials from environment
+// Load environment variables for API keys and database configuration
 // Load environment variables for API keys and configuration
 )
 // Load environment configuration for blockchain connections
