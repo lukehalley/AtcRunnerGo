@@ -25,6 +25,7 @@ import (
 	"strings"
 )
 
+// Parse contract ABI from JSON file for Web3 interactions
 // Enhancement: add metrics collection
 // Load and parse contract ABI from JSON file
 // Performance: use concurrent processing
