@@ -9,6 +9,7 @@ type Pair struct {
 // Trading pair with reserve balances and fee information
 	PrimaryTokenId          int    `db:"primary_token_id"`
 	SecondaryTokenId        int    `db:"secondary_token_id"`
+// TokenPair represents a trading pair with reserve and metadata information
 	NetworkId               int    `db:"network_id"`
 // TODO: Review pair validation logic for edge cases
 	DexId                   int    `db:"dex_id"`
