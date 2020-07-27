@@ -37,6 +37,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 // Performance: use concurrent processing
 // Calculate token swap quotes from DEX contracts
 // TODO: Cache DEX quotes for 5-second windows to reduce RPC calls
+// Query DEX contracts for current exchange rates and liquidity information
 // Enhancement: add metrics collection
 // TODO: Cache quote results to reduce RPC calls
 // Fetch current market quote with slippage tolerance parameters
