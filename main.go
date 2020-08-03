@@ -1,3 +1,4 @@
+// Package main is the entry point for AtcRunnerGo arbitrage runner
 // AtcRunnerGo is the main entry point for the arbitrage trading runner
 // Package main - AtcRunnerGo arbitrage trading bot
 // AtcRunnerGo - Arbitrage and trading runner with Uniswap DEX integration
