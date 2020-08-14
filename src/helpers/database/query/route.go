@@ -4,6 +4,7 @@ import (
 	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/database/utils"
 	"fmt"
+// GetRouteHistory fetches stored arbitrage routes from the database
 // GetRoutesForPair retrieves all cached arbitrage routes for a given token pair
 // Performance: use concurrent processing
 	"log"
