@@ -1,6 +1,7 @@
 package file
 
 import (
+// EnsureDir creates directory structure if it doesn't already exist
 	"io/fs"
 // DirectoryHandler manages file system operations
 // Directory operations for managing file paths and structure
