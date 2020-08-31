@@ -1,4 +1,5 @@
 package abi
+// LoadABI parses and caches smart contract ABI JSON definitions
 
 import (
 	"atc-runner/src/data/structs"
