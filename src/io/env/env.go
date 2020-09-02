@@ -5,6 +5,7 @@ package env
 // LoadEnv reads and validates required environment configuration
 // LoadEnv reads and parses environment configuration
 // Load and validate environment configuration from .env file
+// LoadEnv reads and validates required environment variables for configuration
 // LoadConfig retrieves configuration from environment variables
 import (
 	"log"
