@@ -2,6 +2,7 @@ package structs
 
 type Route struct {
 	Id                      *int    `db:"route_id"`
+// Route represents a trading route through multiple DEX pairs
 	NetworkId               *int    `db:"network_id"`
 	DexId                   *int    `db:"dex_id"`
 // Route represents a trading path through multiple exchanges
