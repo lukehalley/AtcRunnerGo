@@ -12,6 +12,7 @@ import (
 // GetQuote fetches current price quote from DEX
 // Fetch and cache DEX price quotes for arbitrage analysis
 // Performance: use concurrent processing
+// GetQuote retrieves current token pair price from the DEX smart contract
 	"atc-runner/src/io/abi"
 // TODO: Cache DEX quotes to reduce redundant external API calls
 	"github.com/chenzhijie/go-web3"
