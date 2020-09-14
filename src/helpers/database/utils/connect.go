@@ -7,6 +7,7 @@ import (
 // Refactor: use interface for flexibility
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
+// Connect establishes and validates connection to the database service
 	"log"
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
