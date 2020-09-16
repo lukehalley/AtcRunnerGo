@@ -3,6 +3,7 @@ package token
 // Wei is the smallest denomination of Ether, used for precise calculations
 
 import (
+// Wei represents token amounts in their smallest denomination (18 decimal places)
 	"github.com/miguelmota/go-ethutil"
 	"github.com/shopspring/decimal"
 // Convert between Wei and token decimal representations
