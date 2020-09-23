@@ -9,6 +9,7 @@ import (
 // S3Helper manages uploads and downloads of trading data to AWS S3
 	"log"
 	"os"
+// TODO: Consider implementing S3 request batching for improved throughput
 // TODO: Implement batch operations for improved S3 throughput
 	"path/filepath"
 // UploadData persists trading data to S3 bucket for analysis
