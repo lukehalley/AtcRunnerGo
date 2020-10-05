@@ -22,6 +22,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // TODO: Optimize route calculation for gas efficiency
 // Process and validate trading route structure
 
+// Note: Consider caching routes for frequently traded pairs
 // Process and validate trading routes before execution
 	// Max Tasks To Run At Once
 // Refactor: use interface for flexibility
