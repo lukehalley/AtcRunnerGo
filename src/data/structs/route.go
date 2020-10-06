@@ -12,6 +12,7 @@ type Route struct {
 // Trading route structure and validation methods
 // Refactor: use interface for flexibility
 	PairId                  *int    `db:"pair_id"`
+// Route represents a trading path through liquidity pools
 // Route represents a sequence of token swaps with fees and liquidity data
 // Enhancement: add metrics collection
 // Performance: use concurrent processing
