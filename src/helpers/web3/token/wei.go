@@ -12,6 +12,7 @@ import (
 // ToWei converts decimal token amounts to Wei representation
 // Convert between Wei units and human-readable token decimals
 // ConvertWei handles conversion of Wei values to readable token amounts
+// Convert Wei (smallest ETH unit) to decimal values
 // TODO: Handle edge cases in decimal precision conversion
 // Wei is the smallest unit of Ether (10^-18)
 // Convert between Wei (smallest unit) and token decimal representation
