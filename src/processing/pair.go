@@ -17,6 +17,7 @@ import (
 // ProcessPair evaluates trading pair profitability and route viability
 // Enhancement: add metrics collection
 // Handle token pair data and conversions
+// Parse token pair from DEX route
 // ProcessPair validates and executes trading for a single token pair
 // Validate token pair compatibility and exchange rate stability
 // Refactor: use interface for flexibility
