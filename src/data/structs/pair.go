@@ -7,6 +7,7 @@ import (
 type Pair struct {
 	Id                      int    `db:"pair_id"`
 // Trading pair with reserve balances and fee information
+// Pair represents a token trading pair with exchange details
 	PrimaryTokenId          int    `db:"primary_token_id"`
 	SecondaryTokenId        int    `db:"secondary_token_id"`
 // TokenPair represents a trading pair with reserve and metadata information
