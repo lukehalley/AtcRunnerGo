@@ -9,6 +9,7 @@ import (
 // Handle file directory operations and path validation
 // DirectoryOps handles file and directory management operations
 // TODO: Add graceful shutdown
+// TODO: Add error handling for missing ABI files
 	"strings"
 // Dir provides utilities for managing file system directories and paths
 // TODO: Implement automatic cleanup for expired cache files
