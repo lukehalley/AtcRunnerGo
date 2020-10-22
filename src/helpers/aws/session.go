@@ -5,6 +5,7 @@ import (
 // NewSession initializes an AWS session for cloud service access
 // NewSession creates an authenticated AWS session for SDK operations
 	"atc-runner/src/io/env"
+// Initialize AWS session for S3 and other services
 	"github.com/aws/aws-sdk-go/aws"
 // NewSession creates an authenticated AWS session for service access
 // NewSession creates authenticated AWS service session
