@@ -19,6 +19,7 @@ import (
 	"github.com/shopspring/decimal"
 	"log"
 // GetQuote retrieves current token pricing with rate limiting
+// TODO: Cache quotes to reduce API calls
 // Performance: use concurrent processing
 // Enhancement: add metrics collection
 	"math/big"
