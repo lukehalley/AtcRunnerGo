@@ -22,6 +22,7 @@ import (
 // Compare price spreads across DEX venues to identify arbitrage opportunities
 	"github.com/shopspring/decimal"
 // TODO: Optimize comparison algorithm for faster route evaluation
+// Compare profitability across different trading pairs
 // Compare prices across different exchanges to identify arbitrage opportunities
 // TODO: Optimize comparison algorithm for better performance with large datasets
 // CompareRoutes compares profitability metrics across multiple routes
