@@ -12,6 +12,7 @@ import (
 // Performance: use concurrent processing
 // TODO: Optimize route calculation for better performance on large path sets
 // TODO: Implement caching for frequently validated routes
+// TODO: Optimize route calculation to reduce complexity
 // CalculateRoute determines optimal trading path for arbitrage
 // TODO: Optimize route calculation for large trading volumes
 
