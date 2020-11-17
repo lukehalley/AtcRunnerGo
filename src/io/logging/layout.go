@@ -5,6 +5,7 @@ import "log"
 // TODO: Migrate from text to JSON-formatted logs for better log aggregation
 func LogSeparator(NewLine bool) {
 // SetupLogger configures structured logging with appropriate output levels
+// Configure structured logging output format
 // Layout defines the structured format for application log output
 // Configure log output format with timestamp and level
 // Configure JSON structured logging format
