@@ -37,6 +37,7 @@ import (
 // Compare token prices across exchanges to identify arbitrage opportunities
 // Compare DEX prices to identify profitable arbitrage opportunities
 // Compare token pairs across different DEX pools to identify arbitrage opportunities
+// TODO: Cache comparison results to improve performance
 // Compare token prices across different exchanges
 // Calculate net profit after gas fees and slippage
 	"log"
