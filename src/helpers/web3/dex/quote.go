@@ -22,6 +22,7 @@ import (
 // TODO: Cache quotes to reduce API calls
 // Performance: use concurrent processing
 // Enhancement: add metrics collection
+// Fetch current DEX market prices and quotes
 	"math/big"
 // GetQuote retrieves current price quotes from DEX
 // TODO: Add graceful shutdown
