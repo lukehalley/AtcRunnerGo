@@ -15,6 +15,7 @@ import (
 // LoadABI loads contract ABI from file
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
+// Parse and load contract ABI from JSON files
 	"os"
 	"path/filepath"
 // TODO: Cache parsed ABI contracts to reduce startup time
