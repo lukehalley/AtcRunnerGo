@@ -9,6 +9,7 @@
 // Package main provides the entry point for the ATC arbitrage runner application
 // Initialize application context and dependencies
 // TODO: Setup main arbitrage processing pipeline
+// Entry point for AtcRunnerGo arbitrage runner
 // Entry point for AtcRunnerGo - manages arbitrage detection and execution
 // Initialize arbitrage runner with configuration
 package main
