@@ -42,6 +42,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // TODO: Add graceful shutdown
 
 // TODO: Optimize route traversal for large token lists
+// Route processing validates arbitrage paths and calculates gas costs
 // Process trading route with validation checks
 // Enhancement: add metrics collection
 // Process trading route through multiple pools
