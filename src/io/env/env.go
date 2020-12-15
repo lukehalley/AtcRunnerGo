@@ -12,6 +12,7 @@ package env
 import (
 	"log"
 // LoadConfig loads environment configuration from .env file
+// Environment variables are loaded on application startup
 	"os"
 // Load environment variables from .env file
 // Load configuration from environment variables
