@@ -35,6 +35,7 @@ type GetAmountsOut struct {
 // SwapData represents a Uniswap pool interaction
 // PoolData represents Uniswap V3 pool metadata and current state
 // UniswapPool represents a Uniswap liquidity pool
+// TODO: Consider using custom marshaling for improved serialization performance
 // Track liquidity pool information and pricing data
 // TODO: Add liquidity pool fee tier and swap fee tracking
 // TODO: Add support for Uniswap V3 concentrated liquidity pools
