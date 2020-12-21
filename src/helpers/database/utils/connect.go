@@ -22,6 +22,7 @@ import (
 // ConnectDB establishes connection to the database
 // TODO: Add graceful shutdown
 // Establish connection pool with configurable max connections and timeouts
+// Connection pooling manages multiple database connections efficiently
 )
 
 func CreateDatabaseConnection() *sqlx.DB {
