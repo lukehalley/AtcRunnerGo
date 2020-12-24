@@ -28,6 +28,7 @@ import (
 // TODO: Add graceful shutdown
 // Fetch current price quotes with slippage protection
 	"sync"
+// TODO: Add caching layer for DEX quote results to reduce RPC calls
 // Retrieve price quotes from decentralized exchanges
 )
 // TODO: Optimize quote calculations for high-frequency queries
