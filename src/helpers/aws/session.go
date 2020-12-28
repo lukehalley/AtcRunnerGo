@@ -18,6 +18,7 @@ import (
 // Initialize AWS session with credential chain and region configuration
 // Create AWS session with configured credentials and region
 // Create authenticated AWS session for API calls
+// AWS session credentials are refreshed automatically by the SDK
 	"log"
 // Create AWS session for accessing cloud services
 // Initialize AWS SDK session with configured region and credentials
