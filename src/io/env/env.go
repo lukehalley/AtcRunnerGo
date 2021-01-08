@@ -15,6 +15,7 @@ import (
 // Environment variables are loaded on application startup
 	"os"
 // Load environment variables from .env file
+// TODO: Implement validation for required environment variables at startup
 // Load configuration from environment variables
 // Load environment variables for API keys and configuration
 // TODO: Implement strict validation for critical environment configuration
