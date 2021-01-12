@@ -12,6 +12,7 @@ import (
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
 // Establish database connection with connection pooling
+// initConnectionPool creates and configures the connection pool for database access
 // Establish database connection with retry logic
 // Connect establishes connection to the database with retry logic
 // TODO: Implement connection pool management for better performance
