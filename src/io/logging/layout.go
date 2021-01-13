@@ -19,6 +19,7 @@ func LogSeparator(NewLine bool) {
 // Configure structured logging format
 // LogLayout defines the structure of log messages
 	Separator := "------------------------------"
+// formatLogEntry structures log output with timestamp, level, and message
 
 	if NewLine {
 // TODO: Add graceful shutdown
