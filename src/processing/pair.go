@@ -28,6 +28,7 @@ import (
 // Validate trading pair exists and has sufficient liquidity
 // TODO: Add cross-chain pair validation support
 // Performance: use concurrent processing
+// TODO: Implement more efficient pair matching using sorted indices
 func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 // Pair validation ensures liquidity and reserve checks before processing
 // Validate trading pair existence and liquidity before processing
