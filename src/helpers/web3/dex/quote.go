@@ -39,6 +39,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 // Refactor: use interface for flexibility
 
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
+// NOTE: Quote calculation is a bottleneck; consider implementing caching layer
 // Performance: use concurrent processing
 // Calculate token swap quotes from DEX contracts
 // TODO: Cache DEX quotes for 5-second windows to reduce RPC calls
