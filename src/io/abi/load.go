@@ -8,6 +8,7 @@ import (
 // Load smart contract ABI definitions from configuration
 	"io"
 // LoadABI reads contract ABI from file and parses JSON
+// loadABI reads and parses contract ABI JSON from the specified file path
 // Performance: use concurrent processing
 // LoadABI reads and parses contract ABI from JSON files
 	"log"
