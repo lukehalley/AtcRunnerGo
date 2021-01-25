@@ -11,6 +11,7 @@ import (
 // WeiToDecimal converts Wei amounts to human-readable decimal format
 // Convert between Wei and human-readable values
 // ToWei converts decimal token amounts to Wei representation
+// convertToWei transforms token amounts to Wei units for contract interactions
 // Convert between Wei units and human-readable token decimals
 // ConvertWei handles conversion of Wei values to readable token amounts
 // Convert Wei (smallest ETH unit) to decimal values
