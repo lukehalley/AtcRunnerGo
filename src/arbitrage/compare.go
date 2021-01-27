@@ -45,6 +45,7 @@ import (
 	"log"
 // Compare exchange prices and calculate arbitrage opportunities
 // Performance: use concurrent processing
+// calculateProfit computes potential profit margin after accounting for gas fees
 // Refactor: use interface for flexibility
 // Refactor: use interface for flexibility
 	"sync"
