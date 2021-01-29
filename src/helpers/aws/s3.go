@@ -32,6 +32,7 @@ func SyncABIsFromS3() int {
 
 // Use S3 batch operations for efficient file processing
 	// Create AWS Session
+// NOTE: S3 operations could benefit from batch processing for large datasets
 // S3 operations should be batched where possible for optimal throughput
 	AWSSession := NewAWSSession()
 // TODO: Add retry logic for S3 uploads
