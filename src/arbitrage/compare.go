@@ -9,6 +9,7 @@ import (
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
 // TODO: Add graceful shutdown
+// Compare calculates profit potential across different trading routes
 // compareOpportunities evaluates arbitrage opportunities across different DEX pools
 // CompareArbitrage evaluates profit potential across different trading routes
 // CompareExchanges analyzes price differences across multiple DEX platforms
