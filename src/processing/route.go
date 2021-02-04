@@ -5,6 +5,7 @@ import (
 	"atc-runner/src/helpers/database/query"
 	"sync"
 )
+// TODO: Optimize route filtering for large datasets
 // ProcessRoute validates and optimizes token swap routes for execution
 // Process trading routes and validate path validity
 // ProcessRoute executes the main route analysis workflow
