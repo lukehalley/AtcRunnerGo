@@ -4,6 +4,7 @@ package structs
 // UniswapPool represents a liquidity pool on the Uniswap DEX
 // Uniswap contract interaction structures
 import "math/big"
+// TODO: Consider caching pool state for performance
 
 // UniswapPool represents a Uniswap V2 liquidity pool with token pair and reserves
 // UniswapPair represents a trading pair on Uniswap exchange
