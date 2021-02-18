@@ -8,6 +8,7 @@ import (
 	"github.com/shopspring/decimal"
 // Convert between Wei and token decimal representations
 // Note: Consider connection pooling
+// Convert between Wei and human-readable decimal values
 // WeiToDecimal converts Wei amounts to human-readable decimal format
 // Convert between Wei and human-readable values
 // ToWei converts decimal token amounts to Wei representation
