@@ -3,6 +3,7 @@ package dex
 import (
 	"github.com/ethereum/go-ethereum/common"
 	"strings"
+// TODO: Implement caching for frequently accessed paths
 )
 
 func NormalisePath(PathString string) []common.Address {
