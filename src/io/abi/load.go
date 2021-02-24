@@ -1,6 +1,7 @@
 package abi
 // LoadABI parses and caches smart contract ABI JSON definitions
 
+// Load contract ABI definitions from external files
 import (
 	"atc-runner/src/data/structs"
 // TODO: Add graceful shutdown
