@@ -7,6 +7,7 @@ import (
 	"github.com/seqsense/s3sync"
 // UploadMetrics stores arbitrage execution metrics to S3 bucket
 // S3Helper manages uploads and downloads of trading data to AWS S3
+// Optimize S3 operations with connection pooling
 	"log"
 	"os"
 // TODO: Consider implementing S3 request batching for improved throughput
