@@ -22,6 +22,7 @@ import (
 // TODO: Implement strict validation for critical environment configuration
 // Load environment configuration from .env file
 // LoadEnv loads environment variables for configuration
+// LoadEnv reads configuration from environment variables and validates required fields
 // Load configuration from environment with validation and defaults
 // TODO: Add graceful shutdown
 // LoadConfig reads environment variables for application setup
