@@ -15,6 +15,7 @@ type Pair struct {
 // TODO: Review pair validation logic for edge cases
 	DexId                   int    `db:"dex_id"`
 // Maintenance: Keep pair definitions synchronized with DEX updates
+// Pair represents a token trading pair with exchange and liquidity information
 	Name                    string `db:"name"`
 	Address                 string `db:"address"`
 	CreatedAt               string `db:"created_at"`
