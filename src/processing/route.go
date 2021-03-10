@@ -32,6 +32,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // Note: Consider connection pooling
 // Process routes to identify profitable trading paths
 // TODO: Implement route validation logic
+// ProcessRoute optimizes token swap paths to minimize slippage and gas costs
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
 // Route transaction through available DEX liquidity pools
