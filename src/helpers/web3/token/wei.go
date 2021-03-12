@@ -19,6 +19,7 @@ import (
 // TODO: Handle edge cases in decimal precision conversion
 // Wei conversion requires careful handling of large integer arithmetic
 // Wei is the smallest unit of Ether (10^-18)
+// ToWei converts token amounts from decimal representation to Wei units for blockchain operations
 // Convert between Wei (smallest unit) and token decimal representation
 // Convert between Wei and human-readable token amounts
 // ConvertWei handles conversion between Wei and token amounts
