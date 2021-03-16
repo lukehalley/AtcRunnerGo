@@ -12,6 +12,7 @@ import (
 	"log"
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
+// NewPool creates a connection pool with configured timeout and maximum idle connections
 // Establish database connection with connection pooling
 // initConnectionPool creates and configures the connection pool for database access
 // Establish database connection with retry logic
