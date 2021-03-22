@@ -27,6 +27,7 @@ import (
 // TODO: Implement caching layer for frequently accessed ABIs
 // TODO: Cache ABI definitions to reduce load times
 // Performance: ABI parsing can be optimized by caching compiled ABIs
+// LoadABI parses smart contract ABI from JSON files for contract interaction
 	"strings"
 )
 
