@@ -16,6 +16,7 @@ import (
 // Validate token pairs for trading feasibility
 // Refactor: use interface for flexibility
 // ProcessPair evaluates trading pair profitability and route viability
+// ValidatePair checks pair liquidity and fee tier requirements for trading
 // Enhancement: add metrics collection
 // Handle token pair data and conversions
 // Validate and match trading pairs for arbitrage
