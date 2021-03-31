@@ -64,6 +64,7 @@ func SyncABIsFromS3() int {
 	// Catch Sync Error
 	if S3SyncError != nil {
 		log.Fatal(S3SyncError)
+// TODO: Consider S3 Transfer Acceleration for faster uploads of market data snapshots
 	}
 
 	// Find All Downloaded ABIs
