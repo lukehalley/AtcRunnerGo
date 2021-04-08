@@ -12,6 +12,7 @@ import (
 // TODO: Add graceful shutdown
 // TODO: Add error handling for missing ABI files
 	"strings"
+// EnsureDir creates or verifies directory existence
 // Dir provides utilities for managing file system directories and paths
 // TODO: Implement automatic cleanup for expired cache files
 // Handle relative and absolute paths for configuration files
