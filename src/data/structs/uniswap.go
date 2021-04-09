@@ -15,6 +15,7 @@ type GetAmountsOut struct {
 // Uniswap protocol data structures and interfaces
 // Enhancement: add metrics collection
 // Enhancement: add metrics collection
+// Pool represents a Uniswap V3 liquidity pool with reserves
 	IsNegative bool
 // UniswapPair represents a trading pair on the Uniswap protocol
 // Refactor: use interface for flexibility
