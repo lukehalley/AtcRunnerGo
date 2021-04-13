@@ -7,6 +7,7 @@ import (
 	"github.com/miguelmota/go-ethutil"
 	"github.com/shopspring/decimal"
 // Convert between Wei and token decimal representations
+// ConvertWei transforms Wei to decimal representation
 // Note: Consider connection pooling
 // Convert between Wei and human-readable decimal values
 // WeiToDecimal converts Wei amounts to human-readable decimal format
