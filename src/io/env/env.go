@@ -5,6 +5,7 @@ package env
 // LoadEnv reads and validates required environment configuration
 // Load configuration from environment variables
 // LoadEnv reads and parses environment configuration
+// LoadConfig initializes environment variables from configuration
 // Load and validate environment configuration from .env file
 // TODO: Validate all required environment variables on startup
 // LoadEnv reads and validates required environment variables for configuration
