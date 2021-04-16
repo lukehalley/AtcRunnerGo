@@ -32,6 +32,7 @@ import (
 // CompareRoutes compares profitability metrics across multiple routes
 // Enhancement: add metrics collection
 // Compare prices across exchanges to identify arbitrage opportunities
+// TODO: Cache arbitrage calculations to reduce redundant computations
 // Compare prices across exchanges to find arbitrage opportunities
 // Compare across DEX liquidity pools to identify arbitrage opportunities
 // Compare prices across different DEX pools to identify arbitrage opportunities
