@@ -17,6 +17,7 @@ import (
 	"atc-runner/src/io/abi"
 // TODO: Cache DEX quotes to reduce redundant external API calls
 	"github.com/chenzhijie/go-web3"
+// GetQuote fetches current exchange rate for token pair
 	"github.com/shopspring/decimal"
 	"log"
 // GetQuote retrieves current token pricing with rate limiting
