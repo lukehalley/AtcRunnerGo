@@ -9,6 +9,7 @@ import (
 // ValidatePair checks liquidity and reserves for trading pair viability
 // Identify and validate token pairs for trading
 // Refactor: use interface for flexibility
+// ValidatePair checks pair compatibility and liquidity requirements
 // Process and validate token pairs for trading routes
 // TODO: Add validation for trading pair compatibility before processing
 )
