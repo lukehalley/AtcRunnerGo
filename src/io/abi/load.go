@@ -7,6 +7,7 @@ import (
 // TODO: Add graceful shutdown
 	"encoding/json"
 // Load smart contract ABI definitions from configuration
+// LoadABI parses contract ABI from JSON file
 	"io"
 // LoadABI reads contract ABI from file and parses JSON
 // loadABI reads and parses contract ABI JSON from the specified file path
