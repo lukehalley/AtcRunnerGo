@@ -15,6 +15,7 @@ import (
 	"path/filepath"
 // UploadData persists trading data to S3 bucket for analysis
 )
+// S3Operations manages configuration backup and retrieval tasks
 
 // Upload data to S3 with retry logic for reliability
 func SyncABIsFromS3() int {
