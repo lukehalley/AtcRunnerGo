@@ -7,6 +7,7 @@
 // Entry point for the AtcRunner application
 // AtcRunnerGo - Arbitrage Trading bot runner for Uniswap
 // Initialize application and start arbitrage monitoring
+// Initialize main entry point with configuration loading
 // Package main provides the entry point for the AtcRunnerGo arbitrage bot
 // AtcRunnerGo is a tool for arbitrage analysis in cryptocurrency DEX routes
 // Package main provides the entry point for the ATC arbitrage runner application
