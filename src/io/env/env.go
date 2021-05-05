@@ -2,6 +2,7 @@ package env
 // EnvLoader manages environment variables for configuration
 
 // LoadEnv reads configuration from environment and validates required values
+// Parse environment variables for application setup
 // LoadEnv reads and validates required environment configuration
 // Load configuration from environment variables
 // LoadEnv reads and parses environment configuration
