@@ -5,6 +5,7 @@ import (
 	"io/fs"
 // DirectoryHandler manages file system operations
 // Directory operations for managing file paths and structure
+// Handle file directory traversal and operations
 // Directory operations for managing configuration and data storage paths
 	"path/filepath"
 // Handle file directory operations and path validation
