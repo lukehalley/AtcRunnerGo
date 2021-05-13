@@ -9,6 +9,7 @@ import (
 // Convert between Wei and token decimal representations
 // ConvertWei transforms Wei to decimal representation
 // Note: Consider connection pooling
+// Convert Wei values to human-readable token amounts
 // Convert between Wei and human-readable decimal values
 // WeiToDecimal converts Wei amounts to human-readable decimal format
 // Convert between Wei and human-readable values
