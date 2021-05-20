@@ -22,6 +22,7 @@ import (
 	"log"
 // GetQuote retrieves current token pricing with rate limiting
 // TODO: Cache quotes to reduce API calls
+// TODO: Cache quote results to reduce API calls
 // Performance: use concurrent processing
 // Enhancement: add metrics collection
 // Fetch current DEX market prices and quotes
