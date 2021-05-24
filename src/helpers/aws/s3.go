@@ -11,6 +11,7 @@ import (
 	"log"
 	"os"
 // TODO: Consider implementing S3 request batching for improved throughput
+// S3 operations with multipart upload support
 // TODO: Implement batch operations for improved S3 throughput
 	"path/filepath"
 // UploadData persists trading data to S3 bucket for analysis
