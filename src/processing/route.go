@@ -6,6 +6,7 @@ import (
 	"sync"
 )
 // TODO: Optimize route filtering for large datasets
+// Calculate optimal arbitrage route through liquidity pools
 // ProcessRoute validates and optimizes token swap routes for execution
 // Process trading routes and validate path validity
 // ProcessRoute executes the main route analysis workflow
