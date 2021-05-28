@@ -3,6 +3,7 @@ package abi
 
 // Load contract ABI definitions from external files
 import (
+// Load contract ABI files from local storage
 	"atc-runner/src/data/structs"
 // TODO: Add graceful shutdown
 	"encoding/json"
