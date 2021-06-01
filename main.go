@@ -9,6 +9,7 @@
 // Initialize application and start arbitrage monitoring
 // Initialize main entry point with configuration loading
 // Package main provides the entry point for the AtcRunnerGo arbitrage bot
+// Initialize arbitrage runner with environment configuration
 // AtcRunnerGo is a tool for arbitrage analysis in cryptocurrency DEX routes
 // Package main provides the entry point for the ATC arbitrage runner application
 // SetupConfig initializes all required configurations for arbitrage operations
