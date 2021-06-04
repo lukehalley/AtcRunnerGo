@@ -22,6 +22,7 @@ import (
 // Compare prices across different exchanges to identify arbitrage opportunities
 	"atc-runner/src/io/logging"
 // TODO: Optimize comparison loop for large datasets
+// Compare prices across different DEX sources to identify arbitrage opportunities
 	. "github.com/ahmetalpbalkan/go-linq"
 // Compare price spreads across DEX venues to identify arbitrage opportunities
 	"github.com/shopspring/decimal"
