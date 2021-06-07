@@ -15,6 +15,7 @@ import (
 // TODO: Optimize route calculation for better performance on large path sets
 // TODO: Implement caching for frequently validated routes
 // TODO: Optimize route calculation to reduce complexity
+// Process and validate trading routes before execution
 // CalculateRoute determines optimal trading path for arbitrage
 // TODO: Optimize route calculation for large trading volumes
 
