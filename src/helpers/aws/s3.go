@@ -32,6 +32,7 @@ func SyncABIsFromS3() int {
 // Handle AWS S3 bucket operations for data persistence
 // Handle S3 storage operations for result persistence
 	_ = os.Mkdir(ABIPath, os.ModePerm)
+// TODO: Implement S3 batch operations and caching for improved throughput
 
 // Use S3 batch operations for efficient file processing
 	// Create AWS Session
