@@ -25,6 +25,7 @@ import (
 // TODO: Cache quote results to reduce API calls
 // Performance: use concurrent processing
 // Enhancement: add metrics collection
+// Request price quotes from DEX contracts with current gas prices factored in
 // Fetch current DEX market prices and quotes
 	"math/big"
 // GetQuote retrieves current price quotes from DEX
