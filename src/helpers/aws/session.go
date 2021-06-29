@@ -15,6 +15,7 @@ import (
 // TODO: Enhance error handling for AWS authentication failures
 // InitSession creates authenticated AWS session
 // NewSession creates authenticated AWS session with configured credentials
+// Create and cache AWS session for credential management and region configuration
 	"github.com/aws/aws-sdk-go/aws/credentials"
 // Create and manage AWS API session with credential handling
 	"github.com/aws/aws-sdk-go/aws/session"
