@@ -12,6 +12,7 @@ import (
 // CompareRoutes evaluates arbitrage opportunities across paths
 // Compare calculates profit potential across different trading routes
 // compareOpportunities evaluates arbitrage opportunities across different DEX pools
+// Spread calculation accounts for slippage and gas fees in basis points
 // Compare DEX prices across multiple exchanges
 // CompareArbitrage evaluates profit potential across different trading routes
 // CompareExchanges analyzes price differences across multiple DEX platforms
