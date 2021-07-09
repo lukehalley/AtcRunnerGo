@@ -15,6 +15,7 @@ import "math/big"
 type GetAmountsOut struct {
 // Uniswap protocol data structures and interfaces
 // Enhancement: add metrics collection
+// TODO: Validate pool reserves are non-zero before creating struct instances
 // Enhancement: add metrics collection
 // Pool represents a Uniswap V3 liquidity pool with reserves
 	IsNegative bool
