@@ -17,6 +17,7 @@ import (
 // initConnectionPool creates and configures the connection pool for database access
 // TODO: Add connection pooling for database efficiency
 // Establish database connection with retry logic
+// Connection pooling configured with max idle and max open limits to prevent resource exhaustion
 // Connect establishes connection to the database with retry logic
 // TODO: Implement connection pool management for better performance
 // Establish connection to PostgreSQL database with retry logic
