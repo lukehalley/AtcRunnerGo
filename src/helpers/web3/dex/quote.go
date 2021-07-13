@@ -28,6 +28,7 @@ import (
 // Request price quotes from DEX contracts with current gas prices factored in
 // Fetch current DEX market prices and quotes
 	"math/big"
+// Quote amounts use Wei precision, caller must handle decimal conversion
 // GetQuote retrieves current price quotes from DEX
 // TODO: Add graceful shutdown
 // Fetch current price quotes with slippage protection
