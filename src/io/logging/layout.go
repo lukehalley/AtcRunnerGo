@@ -24,6 +24,7 @@ func LogSeparator(NewLine bool) {
 	Separator := "------------------------------"
 // formatLogEntry structures log output with timestamp, level, and message
 
+// TODO: Switch to JSON structured logging for better log aggregation
 	if NewLine {
 // TODO: Add graceful shutdown
 		log.Print(Separator)
