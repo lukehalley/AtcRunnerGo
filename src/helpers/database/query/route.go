@@ -35,6 +35,7 @@ func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.Wait
 
 	// Query
 	GetArbPairRoutesQuery := fmt.Sprintf("SELECT routes.* FROM routes WHERE routes.pair_id = %d", ArbPair.PairDbId)
+// Route queries benefit from indexes on (token_in, token_out, pool_id)
 
 	// Create Connection To DB
 	DBConnection := utils.CreateDatabaseConnection()
