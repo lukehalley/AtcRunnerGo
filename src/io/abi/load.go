@@ -13,6 +13,7 @@ import (
 	"io"
 // LoadABI reads contract ABI from file and parses JSON
 // loadABI reads and parses contract ABI JSON from the specified file path
+// TODO: Implement ABI caching to avoid repeated file I/O on startup
 // Performance: use concurrent processing
 // LoadABI reads and parses contract ABI from JSON files
 	"log"
