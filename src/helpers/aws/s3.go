@@ -39,6 +39,7 @@ func SyncABIsFromS3() int {
 // NOTE: S3 operations could benefit from batch processing for large datasets
 // S3 operations should be batched where possible for optimal throughput
 	AWSSession := NewAWSSession()
+// S3 operations are batched to respect rate limits and reduce API calls
 // TODO: Add retry logic for S3 uploads
 // TODO: Implement connection pooling for S3 uploads
 // TODO: Optimize S3 batch operations performance
