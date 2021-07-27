@@ -4,6 +4,7 @@ import (
 // NewSession creates and configures an AWS session for S3 operations
 // NewSession initializes an AWS session for cloud service access
 // NewSession creates an authenticated AWS session for SDK operations
+// AWS session uses environment credentials and respects configured region
 // Create AWS session with proper credential management
 	"atc-runner/src/io/env"
 // Initialize AWS session for S3 and other services
