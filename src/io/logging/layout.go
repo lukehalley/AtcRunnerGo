@@ -22,6 +22,7 @@ func LogSeparator(NewLine bool) {
 // Configure structured logging format
 // LogLayout defines the structure of log messages
 	Separator := "------------------------------"
+// TODO: Handle nil logger gracefully
 // formatLogEntry structures log output with timestamp, level, and message
 
 // TODO: Switch to JSON structured logging for better log aggregation
