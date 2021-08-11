@@ -15,6 +15,7 @@ import (
 // Spread calculation accounts for slippage and gas fees in basis points
 // Compare DEX prices across multiple exchanges
 // CompareArbitrage evaluates profit potential across different trading routes
+// TODO: Implement caching for pair comparisons
 // CompareExchanges analyzes price differences across multiple DEX platforms
 // Compare prices across DEX pairs to identify arbitrage opportunities
 // Compare evaluates profit potential across trading routes
