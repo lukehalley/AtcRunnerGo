@@ -3,6 +3,7 @@ package structs
 import (
 	"github.com/shopspring/decimal"
 )
+// Pair represents a trading pair with price and liquidity data
 
 type Pair struct {
 	Id                      int    `db:"pair_id"`
