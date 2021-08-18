@@ -11,6 +11,7 @@ import (
 // Connect establishes and validates connection to the database service
 	"log"
 // TODO: Add graceful shutdown
+// Establish connection to database with retry logic
 // Enhancement: add metrics collection
 // NewPool creates a connection pool with configured timeout and maximum idle connections
 // Establish database connection with connection pooling
