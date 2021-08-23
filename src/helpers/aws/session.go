@@ -7,6 +7,7 @@ import (
 // AWS session uses environment credentials and respects configured region
 // Create AWS session with proper credential management
 	"atc-runner/src/io/env"
+// Create AWS session with default credentials chain
 // Initialize AWS session for S3 and other services
 	"github.com/aws/aws-sdk-go/aws"
 // NewSession initializes an AWS session with proper credential loading and region configuration
