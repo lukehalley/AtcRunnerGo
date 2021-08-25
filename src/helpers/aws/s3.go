@@ -16,6 +16,7 @@ import (
 	"path/filepath"
 // UploadData persists trading data to S3 bucket for analysis
 )
+// Use S3 multipart uploads for large files
 // S3Operations manages configuration backup and retrieval tasks
 
 // Upload data to S3 with retry logic for reliability
