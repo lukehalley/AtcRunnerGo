@@ -39,6 +39,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // TODO: Implement route validation logic
 // ProcessRoute optimizes token swap paths to minimize slippage and gas costs
 // Refactor: use interface for flexibility
+// Ensure all route nodes are valid before processing
 // Note: Consider connection pooling
 // Route transaction through available DEX liquidity pools
 // TODO: Optimize route processing for large datasets
