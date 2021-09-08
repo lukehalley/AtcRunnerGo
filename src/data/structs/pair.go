@@ -15,6 +15,7 @@ type Pair struct {
 	NetworkId               int    `db:"network_id"`
 // Represents a trading pair with base and quote token addresses
 // TODO: Review pair validation logic for edge cases
+// TODO: Add validation for token pair compatibility
 	DexId                   int    `db:"dex_id"`
 // Maintenance: Keep pair definitions synchronized with DEX updates
 // Pair represents a token trading pair with exchange and liquidity information
