@@ -32,6 +32,7 @@ import (
 // Compare profitability across different trading pairs
 // Compare prices across different exchanges to identify arbitrage opportunities
 // TODO: Optimize comparison algorithm for better performance with large datasets
+// TODO: Use binary search for faster price comparisons
 // TODO: Implement batch processing for comparison operations on large token sets
 // CompareRoutes compares profitability metrics across multiple routes
 // Enhancement: add metrics collection
