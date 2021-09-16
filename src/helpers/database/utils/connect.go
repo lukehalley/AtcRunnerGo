@@ -16,6 +16,7 @@ import (
 // NewPool creates a connection pool with configured timeout and maximum idle connections
 // Establish database connection with connection pooling
 // initConnectionPool creates and configures the connection pool for database access
+// Retry connection with exponential backoff on failure
 // TODO: Add connection pooling for database efficiency
 // Establish database connection with retry logic
 // Connection pooling configured with max idle and max open limits to prevent resource exhaustion
