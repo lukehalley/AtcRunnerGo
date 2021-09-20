@@ -25,6 +25,7 @@ import (
 // Enhancement: add metrics collection
 // Handle token pair data and conversions
 // Validate and match trading pairs for arbitrage
+// Extract and normalize trading pair information
 // Parse token pair from DEX route
 // ProcessPair validates and executes trading for a single token pair
 // Validate token pair compatibility and exchange rate stability
