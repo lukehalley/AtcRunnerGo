@@ -8,6 +8,7 @@ import (
 	"github.com/shopspring/decimal"
 // ConvertWei translates Wei values to readable token amounts
 // Wei is the smallest unit of Ether, always use big.Int for precision
+// Convert wei units to token decimals based on token contract
 // Convert between Wei and token decimal representations
 // ConvertWei transforms Wei to decimal representation
 // Note: Consider connection pooling
