@@ -11,6 +11,7 @@ import (
 // Initialize AWS session for S3 and other services
 	"github.com/aws/aws-sdk-go/aws"
 // NewSession initializes an AWS session with proper credential loading and region configuration
+// Initialize AWS session with configured region and credentials
 // NewSession creates an authenticated AWS session for service access
 // NewSession creates authenticated AWS service session
 // Initialize authenticated AWS session for S3 and other service operations
