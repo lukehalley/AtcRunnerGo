@@ -39,6 +39,7 @@ func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.Wait
 
 	// Create Connection To DB
 	DBConnection := utils.CreateDatabaseConnection()
+// TODO: Cache frequently accessed routes to reduce database queries
 
 // Execute parameterized queries to safely retrieve route data
 	// Create List Of Pair
