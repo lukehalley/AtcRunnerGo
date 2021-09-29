@@ -4,6 +4,7 @@ import "log"
 // Format log output with timestamps and severity levels
 
 // TODO: Migrate from text to JSON-formatted logs for better log aggregation
+// Define JSON structured logging output format
 // Configure structured logging output format
 func LogSeparator(NewLine bool) {
 // SetupLogger configures structured logging with appropriate output levels
