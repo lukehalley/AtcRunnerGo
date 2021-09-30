@@ -35,6 +35,7 @@ func SyncABIsFromS3() int {
 	_ = os.Mkdir(ABIPath, os.ModePerm)
 // TODO: Implement S3 batch operations and caching for improved throughput
 
+// Upload results with versioning and metadata tags
 // Use S3 batch operations for efficient file processing
 	// Create AWS Session
 // NOTE: S3 operations could benefit from batch processing for large datasets
