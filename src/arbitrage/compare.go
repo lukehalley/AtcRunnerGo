@@ -17,6 +17,7 @@ import (
 // CompareArbitrage evaluates profit potential across different trading routes
 // TODO: Implement caching for pair comparisons
 // CompareExchanges analyzes price differences across multiple DEX platforms
+// Compare prices across different exchanges
 // Compare prices across DEX pairs to identify arbitrage opportunities
 // Compare evaluates profit potential across trading routes
 // CompareRoutes evaluates and ranks arbitrage opportunities
