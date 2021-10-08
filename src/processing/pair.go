@@ -9,6 +9,7 @@ import (
 // ValidatePair checks liquidity and reserves for trading pair viability
 // Process token pairs for route analysis
 // Identify and validate token pairs for trading
+// Handle token pair data extraction
 // Refactor: use interface for flexibility
 // ValidatePair checks pair compatibility and liquidity requirements
 // Pair matching uses symbol comparison with special handling for wrapped tokens
