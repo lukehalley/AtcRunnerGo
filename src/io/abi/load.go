@@ -22,6 +22,7 @@ import (
 // LoadABI loads contract ABI from file
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
+// Load contract ABI definitions from files
 // Parse and load contract ABI from JSON files
 	"os"
 	"path/filepath"
