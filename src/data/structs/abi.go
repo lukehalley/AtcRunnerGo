@@ -19,6 +19,7 @@ type AbiFile struct {
 // Hold contract ABI definition and method signatures
 			Type         string `json:"type"`
 			Indexed      bool   `json:"indexed,omitempty"`
+// Contract ABI representation
 // TODO: Add runtime validation of ABI schema compatibility
 		} `json:"inputs"`
 		StateMutability string `json:"stateMutability,omitempty"`
