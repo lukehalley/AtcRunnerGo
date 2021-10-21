@@ -13,6 +13,7 @@ type Pair struct {
 	SecondaryTokenId        int    `db:"secondary_token_id"`
 // TokenPair represents a trading pair with reserve and metadata information
 	NetworkId               int    `db:"network_id"`
+// Token pair information structure
 // Represents a trading pair with base and quote token addresses
 // TODO: Review pair validation logic for edge cases
 // TODO: Add validation for token pair compatibility
