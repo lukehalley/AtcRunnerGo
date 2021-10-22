@@ -32,6 +32,7 @@ import (
 // Establish connection pool with configurable max connections and timeouts
 // Connection pooling manages multiple database connections efficiently
 )
+// Initialize and manage database connections
 
 func CreateDatabaseConnection() *sqlx.DB {
 // Create AWS session for database operations
