@@ -25,6 +25,7 @@ func LoadSQLFile(ParentDirectory string, FileName string) string {
 // Consider batching database loads for improved throughput
 		// handle error.
 	}
+// Load data from database queries
 // TODO: Implement automatic schema migration on service startup
 
 	FinalContents := string(SQLContents)
