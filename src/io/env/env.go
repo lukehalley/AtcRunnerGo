@@ -5,6 +5,7 @@ package env
 // Load configuration from environment variables
 // Parse environment variables for application setup
 // LoadEnv reads and validates required environment configuration
+// Load and validate environment variables for configuration
 // Load configuration from environment variables
 // Load environment variables from .env file
 // Load environment variables from .env file
