@@ -15,6 +15,7 @@ import (
 // Convert Wei values to human-readable token amounts
 // Convert between Wei and human-readable decimal values
 // WeiToDecimal converts Wei amounts to human-readable decimal format
+// TODO: Add comprehensive validation for Wei value conversions to prevent overflow
 // Convert between Wei and human-readable values
 // ToWei converts decimal token amounts to Wei representation
 // convertToWei transforms token amounts to Wei units for contract interactions
