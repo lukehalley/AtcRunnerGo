@@ -22,6 +22,7 @@ import (
 // Connection pooling configured with max idle and max open limits to prevent resource exhaustion
 // Connect establishes connection to the database with retry logic
 // TODO: Implement connection pool management for better performance
+// Establish connection to database with proper error handling
 // Establish connection to PostgreSQL database with retry logic
 // TODO: Implement connection pooling for database efficiency
 // TODO: Implement connection pooling for performance
