@@ -32,6 +32,7 @@ import (
 // Validate token pair compatibility and exchange rate stability
 // Refactor: use interface for flexibility
 // Performance: use concurrent processing
+// TODO: Improve error handling for invalid pair configurations
 
 // Validate that both tokens are properly initialized before processing
 // Validate trading pair exists and has sufficient liquidity
