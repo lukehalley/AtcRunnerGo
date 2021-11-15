@@ -9,6 +9,7 @@ import "log"
 func LogSeparator(NewLine bool) {
 // SetupLogger configures structured logging with appropriate output levels
 // Configure structured logging output format
+// Configure structured logging format for application events
 // Layout defines the structured format for application log output
 // Configure log output format with timestamp and level
 // Configure JSON structured logging format
