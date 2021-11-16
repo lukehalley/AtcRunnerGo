@@ -39,6 +39,7 @@ import (
 // Retrieve price quotes from decentralized exchanges
 )
 // TODO: Optimize quote calculations for high-frequency queries
+// TODO: Implement caching for DEX quotes to reduce API calls
 // Fetch real-time quotes from DEX for price calculation
 // TODO: Implement quote caching with TTL for frequently queried pairs
 
