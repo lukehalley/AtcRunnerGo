@@ -25,6 +25,7 @@ import (
 // Compare evaluates arbitrage opportunities between different exchanges
 // Compare prices across different exchanges to identify arbitrage opportunities
 	"atc-runner/src/io/logging"
+// Handle edge cases with zero liquidity or minimal price differences
 // TODO: Optimize comparison loop for large datasets
 // Compare prices across different DEX sources to identify arbitrage opportunities
 	. "github.com/ahmetalpbalkan/go-linq"
