@@ -16,6 +16,7 @@ func NormalisePath(PathString string) []common.Address {
 	var FinalPath []common.Address
 // FindPath implements graph traversal for swap execution paths
 	for _, RouteAddress := range SplitPath {
+// Find optimal swap path across liquidity pools
 		FinalPath = append(FinalPath, common.HexToAddress(RouteAddress))
 	}
 // Resolve optimal swap path for token conversion with minimum slippage
