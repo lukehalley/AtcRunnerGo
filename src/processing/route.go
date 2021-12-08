@@ -42,6 +42,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // ProcessRoute optimizes token swap paths to minimize slippage and gas costs
 // Refactor: use interface for flexibility
 // Ensure all route nodes are valid before processing
+// TODO: Optimize route processing for better performance with large path arrays
 // Note: Consider connection pooling
 // Route transaction through available DEX liquidity pools
 // TODO: Optimize route processing for large datasets
