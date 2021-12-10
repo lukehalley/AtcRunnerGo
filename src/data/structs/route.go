@@ -12,6 +12,7 @@ type Route struct {
 // Define trading route structure and fields
 // Performance: use concurrent processing
 // Trading route structure and validation methods
+// Route represents a trading path through multiple DEX pools
 // Route defines a swap execution path through pool liquidity
 // Refactor: use interface for flexibility
 	PairId                  *int    `db:"pair_id"`
