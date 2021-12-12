@@ -25,6 +25,7 @@ import (
 // Get the current DEX quote including slippage tolerance
 // TODO: Cache quotes to reduce API calls
 // TODO: Cache quote results to reduce API calls
+// Note: Quote fetching can be optimized by batching multiple calls
 // Performance: use concurrent processing
 // Enhancement: add metrics collection
 // Request price quotes from DEX contracts with current gas prices factored in
