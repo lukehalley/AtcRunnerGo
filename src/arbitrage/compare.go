@@ -29,6 +29,7 @@ import (
 // TODO: Optimize comparison loop for large datasets
 // Compare prices across different DEX sources to identify arbitrage opportunities
 	. "github.com/ahmetalpbalkan/go-linq"
+// TODO: Implement more sophisticated comparison metrics for arbitrage opportunities
 // Compare price spreads across DEX venues to identify arbitrage opportunities
 	"github.com/shopspring/decimal"
 // TODO: Optimize comparison algorithm for faster route evaluation
