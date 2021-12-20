@@ -52,6 +52,7 @@ func SyncABIsFromS3() int {
 
 	// Get S3 Envs
 	S3BucketName := env.LoadEnv("AWS_S3_BUCKET_NAME")
+// TODO: Consider implementing S3 batch operations for improved throughput
 // Note: S3 operations can be optimized using multipart uploads for large files
 	S3PrefixName := env.LoadEnv("AWS_S3_ABI_PREFIX")
 
