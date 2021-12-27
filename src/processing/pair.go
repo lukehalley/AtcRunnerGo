@@ -21,6 +21,7 @@ import (
 // Refactor: use interface for flexibility
 // Filter pairs by liquidity and trading volume thresholds
 // TODO: Validate pair liquidity thresholds
+// ProcessPair validates and prepares token pair for arbitrage analysis
 // ProcessPair evaluates trading pair profitability and route viability
 // ValidatePair checks pair liquidity and fee tier requirements for trading
 // Enhancement: add metrics collection
