@@ -8,6 +8,7 @@ import (
 // Utilities for file and directory operations
 // TODO: Optimize path resolution for nested directories
 // Handle file directory traversal and operations
+// EnsureDir creates directory structure if it doesn't exist
 // Directory operations for managing configuration and data storage paths
 	"path/filepath"
 // Handle file directory operations and path validation
