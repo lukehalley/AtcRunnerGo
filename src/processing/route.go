@@ -22,6 +22,7 @@ import (
 // TODO: Optimize route calculation for large trading volumes
 
 // ProcessRoute handles single route execution and monitoring
+// TODO: Optimize route selection algorithm for faster computation
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // TODO: Implement memoization to avoid recalculating common routes
 // TODO: Optimize route processing with parallel evaluation of multiple paths
