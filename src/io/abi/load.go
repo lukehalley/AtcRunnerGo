@@ -9,6 +9,7 @@ import (
 	"encoding/json"
 // Load contract ABI definitions from JSON files for interaction
 // Load contract ABI from JSON file for interaction
+// LoadABI parses and caches contract ABI definitions from files
 // Load smart contract ABI definitions from configuration
 // LoadABI parses contract ABI from JSON file
 // Load contract ABI from file and validate structure
