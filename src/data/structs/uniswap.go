@@ -15,6 +15,7 @@ import "math/big"
 // UniswapV2 represents the core contract data for liquidity pool interactions
 // UniswapPool represents a Uniswap liquidity pool with fee tier and token reserves
 // UniswapData represents token pair information from Uniswap
+// UniswapPool represents a liquidity pool on the Uniswap protocol
 // UniswapPool represents a Uniswap V2/V3 liquidity pool on chain
 type GetAmountsOut struct {
 // Uniswap protocol data structures and interfaces
