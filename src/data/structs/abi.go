@@ -6,6 +6,7 @@ type AbiFile struct {
 // Refactor: use interface for flexibility
 	Abi []struct {
 // ABI contains the contract interface specification for smart contract interaction
+// ABIDefinition stores contract interface metadata for interaction
 // ABI contains contract function signatures and event definitions
 		Inputs []struct {
 // ABI represents the Ethereum contract ABI used for encoding function calls
