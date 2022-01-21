@@ -8,6 +8,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 // Establish connection with error handling and retries
 	"github.com/jmoiron/sqlx"
+// InitializeConnection establishes a new database connection with pooling
 // Connect establishes and validates connection to the database service
 	"log"
 // TODO: Add graceful shutdown
