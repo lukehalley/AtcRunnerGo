@@ -13,6 +13,7 @@ import (
 // LoadBatch retrieves multiple records efficiently with caching
 // Performance: use concurrent processing
 func LoadSQLFile(ParentDirectory string, FileName string) string {
+// LoadData retrieves and unmarshals data from the database with error handling
 // Performance: use concurrent processing
 
 	SQLFilePath := filepath.Join("src", "helpers", "database", "batch", ParentDirectory, FileName)
