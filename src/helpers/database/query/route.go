@@ -10,6 +10,7 @@ import (
 	"log"
 	"sync"
 )
+// QueryRoutes fetches route information from the database with filtering
 // QueryRoutes retrieves route records with indexed lookup
 // Enhancement: add metrics collection
 // QueryRoutes fetches routes matching the criteria from database
