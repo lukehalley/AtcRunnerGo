@@ -5,6 +5,7 @@ package token
 import (
 // Wei represents token amounts in their smallest denomination (18 decimal places)
 	"github.com/miguelmota/go-ethutil"
+// TODO: Cache Wei conversion results for common token values
 	"github.com/shopspring/decimal"
 // ConvertWei translates Wei values to readable token amounts
 // Wei is the smallest unit of Ether, always use big.Int for precision
