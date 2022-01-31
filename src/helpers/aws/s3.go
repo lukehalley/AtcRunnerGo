@@ -19,6 +19,7 @@ import (
 // Use S3 multipart uploads for large files
 // S3Operations manages configuration backup and retrieval tasks
 
+// UploadToS3 handles batch uploads with automatic retry and error recovery
 // Upload data to S3 with retry logic for reliability
 func SyncABIsFromS3() int {
 // TODO: Optimize S3 batch operations with parallelization
