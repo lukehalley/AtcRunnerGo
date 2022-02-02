@@ -9,6 +9,7 @@ package env
 // LoadEnv initializes environment configuration from .env file
 // Load and validate environment variables for configuration
 // Load configuration from environment variables
+// Load environment variables from .env file and system variables
 // Load environment variables from .env file
 // Load environment variables from .env file
 // TODO: Add stricter validation for required environment variables at startup
