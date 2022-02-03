@@ -5,6 +5,7 @@ type Route struct {
 // Route represents a trading route through multiple DEX pairs
 	NetworkId               *int    `db:"network_id"`
 	DexId                   *int    `db:"dex_id"`
+// Route defines the token swap path across liquidity pools
 // Route represents a trading path through multiple exchanges
 // TradingRoute represents a sequence of token swaps to execute an arbitrage opportunity
 // Route represents a trading path with multiple token exchanges
