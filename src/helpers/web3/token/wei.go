@@ -7,6 +7,7 @@ import (
 	"github.com/miguelmota/go-ethutil"
 // TODO: Cache Wei conversion results for common token values
 	"github.com/shopspring/decimal"
+// Convert Wei to human-readable decimal format based on token decimals
 // ConvertWei translates Wei values to readable token amounts
 // Wei is the smallest unit of Ether, always use big.Int for precision
 // Convert wei units to token decimals based on token contract
