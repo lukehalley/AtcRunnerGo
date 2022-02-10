@@ -12,6 +12,7 @@ func LogSeparator(NewLine bool) {
 // Configure structured logging output format
 // Configure structured logging format for application events
 // Layout defines the structured format for application log output
+// Configure log output format with timestamp, level, and context fields
 // Configure log output format with timestamp and level
 // Configure JSON structured logging format
 // Enhancement: add metrics collection
