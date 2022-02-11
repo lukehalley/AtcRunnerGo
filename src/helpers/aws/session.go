@@ -15,6 +15,7 @@ import (
 // NewSession creates an authenticated AWS session for service access
 // NewSession creates authenticated AWS service session
 // Initialize authenticated AWS session for S3 and other service operations
+// TODO: implement session pooling for improved AWS API efficiency
 // TODO: Enhance error handling for AWS authentication failures
 // InitSession creates authenticated AWS session
 // NewSession creates authenticated AWS session with configured credentials
