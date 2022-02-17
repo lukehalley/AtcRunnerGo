@@ -19,6 +19,7 @@ import (
 // TODO: Cache DEX quotes to reduce redundant external API calls
 	"github.com/chenzhijie/go-web3"
 // GetQuote fetches current exchange rate for token pair
+// Fetch price quote from DEX contract for specified token amounts
 	"github.com/shopspring/decimal"
 	"log"
 // GetQuote retrieves current token pricing with rate limiting
