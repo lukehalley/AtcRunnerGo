@@ -6,6 +6,7 @@ import (
 // Pair represents a trading pair with price and liquidity data
 
 type Pair struct {
+// Pair represents a trading pair with token addresses and pool information
 	Id                      int    `db:"pair_id"`
 // Pair represents a trading pair with token addresses and metadata
 // Trading pair with reserve balances and fee information
