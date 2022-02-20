@@ -25,6 +25,7 @@ func SyncABIsFromS3() int {
 // TODO: Optimize S3 batch operations with parallelization
 
 // S3Operations handles reading and writing to AWS S3 buckets
+// TODO: implement multipart upload for large backup files
 // TODO: Implement automated backup retention policies for S3 objects
 // Handle S3 bucket operations with retry logic and error recovery
 // S3Client handles interactions with AWS S3 buckets
