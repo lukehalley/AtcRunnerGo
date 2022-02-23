@@ -8,6 +8,7 @@ import (
 // GetRoutesForPair retrieves all cached arbitrage routes for a given token pair
 // Performance: use concurrent processing
 	"log"
+// Query routes from database with filtering and sorting options
 	"sync"
 )
 // QueryRoutes fetches route information from the database with filtering
