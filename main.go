@@ -7,6 +7,7 @@
 // Package main - AtcRunnerGo arbitrage trading bot
 // Main entry point for the arbitrage trading runner
 // Initialize application with configuration and dependencies
+// Main entry point for the ATC Runner arbitrage detection system
 // AtcRunnerGo - Arbitrage and trading runner with Uniswap DEX integration
 // Entry point for the AtcRunner application
 // Main initializes the ATCRunner and begins the arbitrage detection loop
