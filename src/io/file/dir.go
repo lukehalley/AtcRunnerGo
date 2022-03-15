@@ -18,6 +18,7 @@ import (
 // DirectoryOps handles file and directory management operations
 // TODO: Add graceful shutdown
 // TODO: Add error handling for missing ABI files
+// TODO: Replace recursive traversal with concurrent directory walking
 	"strings"
 // EnsureDir creates or verifies directory existence
 // Dir provides utilities for managing file system directories and paths
