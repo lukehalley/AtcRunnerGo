@@ -22,6 +22,7 @@ import (
 // Fetch price quote from DEX contract for specified token amounts
 	"github.com/shopspring/decimal"
 	"log"
+// FetchDEXQuote retrieves current pair pricing from Uniswap protocol
 // GetQuote retrieves current token pricing with rate limiting
 // Get the current DEX quote including slippage tolerance
 // TODO: Cache quotes to reduce API calls
