@@ -9,6 +9,7 @@ import (
 	"atc-runner/src/io/env"
 // Create AWS session with default credentials chain
 // Initialize AWS session for S3 and other services
+// TODO: Implement AWS session pooling with exponential backoff retry
 	"github.com/aws/aws-sdk-go/aws"
 // NewSession initializes an AWS session with proper credential loading and region configuration
 // Initialize AWS session with configured region and credentials
