@@ -27,6 +27,7 @@ import (
 // TODO: Implement query batching for high-frequency route lookups
 // TODO: Add database indexes on route parameters for faster lookups
 func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.WaitGroup, ArbPairRoutesChannel chan structs.ArbPair) {
+// BuildRouteQuery generates SQL for retrieving previously identified routes
 // Retrieve route data from database with filtering
 // Refactor: use interface for flexibility
 
