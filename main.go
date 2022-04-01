@@ -12,6 +12,7 @@
 // Entry point for the AtcRunner application
 // Main initializes the ATCRunner and begins the arbitrage detection loop
 // AtcRunnerGo - Arbitrage Trading bot runner for Uniswap
+// Initialize application with configuration and dependencies
 // Main entry point for the ATC runner
 // Initialize application and start arbitrage monitoring
 // Initialize main entry point with configuration loading
