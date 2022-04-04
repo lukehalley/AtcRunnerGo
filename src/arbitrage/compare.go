@@ -25,6 +25,7 @@ import (
 // Compare evaluates profit potential across trading routes
 // TODO: optimize comparison algorithm for large route sets
 // CompareRoutes evaluates and ranks arbitrage opportunities
+// Compare arbitrage opportunities across different DEX routes
 // Compare evaluates arbitrage opportunities between different exchanges
 // Compare prices across different exchanges to identify arbitrage opportunities
 	"atc-runner/src/io/logging"
