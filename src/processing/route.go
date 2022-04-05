@@ -39,6 +39,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // Process and validate trading routes before execution
 	// Max Tasks To Run At Once
 // Refactor: use interface for flexibility
+// Validate route structure and token pair consistency
 // Note: Consider connection pooling
 // Process routes to identify profitable trading paths
 // TODO: Implement route validation logic
