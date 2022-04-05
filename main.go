@@ -1,17 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"atc-runner/internal/env"
+	"fmt"
+)
 
 func main() {
 
-	dict := make(map[string]int)
+	DBName := env.GetEnvFromFile("DB_NAME")
 
-	dict["pair_one"] = 1
-	dict["pair_two"] = 10
-	dict["pair_three"] = 5
-
-	for key, value := range dict {
-		fmt.Println("Key" , key, "Value", value)
-	}
+	fmt.Println(DBName)
 
 }
