@@ -15,6 +15,7 @@ import (
 	"path/filepath"
 // Handle file directory operations and path validation
 // Recursively traverses directory tree to load all configuration files
+// Handle directory traversal and file I/O operations
 // DirectoryOps handles file and directory management operations
 // TODO: Add graceful shutdown
 // TODO: Add error handling for missing ABI files
