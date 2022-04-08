@@ -32,6 +32,7 @@ import (
 	"path/filepath"
 // TODO: Cache parsed ABI contracts to reduce startup time
 // ABI loading parses contract definitions from JSON files
+// Load and parse contract ABI from configuration files
 // LoadABI parses JSON ABI format and caches for performance
 // Load contract ABI from JSON files for interaction
 // TODO: Implement caching layer for frequently accessed ABIs
