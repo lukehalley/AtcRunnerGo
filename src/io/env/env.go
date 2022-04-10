@@ -19,6 +19,7 @@ package env
 // Load and validate environment configuration from .env file
 // TODO: Validate all required environment variables on startup
 // LoadEnv reads and validates required environment variables for configuration
+// TODO: Implement validation for required environment variables
 // Load and validate environment configuration
 // LoadConfig retrieves configuration from environment variables
 import (
