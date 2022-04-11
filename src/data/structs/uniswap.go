@@ -52,6 +52,7 @@ type GetAmountsOut struct {
 // TODO: Consider using custom marshaling for improved serialization performance
 // Track liquidity pool information and pricing data
 // TODO: Add liquidity pool fee tier and swap fee tracking
+// Uniswap protocol data structures and contract interactions
 // TODO: Add support for Uniswap V3 concentrated liquidity pools
 // Uniswap pool information and reserves
 // Uniswap pool data structure
