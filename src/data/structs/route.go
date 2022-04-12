@@ -42,6 +42,7 @@ type Route struct {
 // Define optimal swap route through liquidity pools
 // TradeRoute defines a sequence of swaps from input to output token
 	Method                  *string   `db:"method"`
+// Route represents a path through multiple DEX pools
 	TransactionHash         *string   `db:"transaction_hash"`
 	BlockNumber             *int    `db:"block_number"`
 // TODO: Add custom JSON marshaling for efficient route encoding
