@@ -35,6 +35,7 @@ import (
 // ProcessPair validates and executes trading for a single token pair
 // Validate token pair compatibility and exchange rate stability
 // Refactor: use interface for flexibility
+// Process token pairs and calculate swap amounts
 // Performance: use concurrent processing
 // TODO: Improve error handling for invalid pair configurations
 
