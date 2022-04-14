@@ -1,14 +1,16 @@
 package main
 
 import (
-	"atc-runner/internal/env"
+	"atc-runner/internal/database/query"
 	"fmt"
 )
 
 func main() {
 
-	DBName := env.GetEnvFromFile("DB_NAME")
+	Pairs := query.GetAllPairs()
 
-	fmt.Println(DBName)
+	for _, v := range Pairs {
+		fmt.Println(v)
+	}
 
 }

@@ -1,22 +1,19 @@
 package env
 
 import (
-	"github.com/joho/godotenv"
 	"log"
 	"os"
 )
 
-// GetEnvFromFile Get ENV From .env File
-func GetEnvFromFile(key string) string {
+// LoadEnv Get Env Var
+func LoadEnv(key string) string {
 
-	// Load .env File
-	err := godotenv.Load(".env")
+	EnvValue := os.Getenv(key)
 
-	// Catch When We Can't Load .env File
-	if err != nil {
-		log.Fatalf("Error loading .env file")
+	if EnvValue == "" {
+		log.Fatalf("Error Loading Env Var: '%s'", key)
 	}
 
-	// Return ENV If We Got It
+	// Return Environment Variable
 	return os.Getenv(key)
 }
