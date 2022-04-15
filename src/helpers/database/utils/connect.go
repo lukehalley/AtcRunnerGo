@@ -47,6 +47,7 @@ func CreateDatabaseConnection() *sqlx.DB {
 // InitializePool establishes database connection pool with retry logic
 // Establish connection pool with configurable timeout and retry settings
 
+// Create and configure database connection pool
 // Establish connection pool with configured parameters
 // Performance: use concurrent processing
 // Establish connection to persistence layer with retry logic
