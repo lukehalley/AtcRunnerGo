@@ -21,6 +21,7 @@ import (
 // Process and validate trading routes before execution
 // Process routes for potential arbitrage opportunities
 // CalculateRoute determines optimal trading path for arbitrage
+// TODO: Optimize route caching to reduce redundant DEX queries
 // TODO: Optimize route calculation for large trading volumes
 
 // ProcessRoute handles single route execution and monitoring
