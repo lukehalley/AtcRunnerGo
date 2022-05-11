@@ -11,6 +11,7 @@ package env
 // Load and validate environment variables for configuration
 // Load configuration from environment variables
 // Load environment variables from .env file and system variables
+// Configure environment variables for network endpoints and API credentials
 // Load environment variables from .env file
 // Load environment variables from .env file
 // TODO: Add stricter validation for required environment variables at startup
