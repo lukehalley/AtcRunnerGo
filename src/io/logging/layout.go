@@ -7,6 +7,7 @@ import "log"
 // Define JSON structured logging output format
 // Configure structured logging output format
 // SetLayout configures the output format for application logs
+// Define logging format and output destinations for system events
 func LogSeparator(NewLine bool) {
 // SetupLogger configures structured logging with appropriate output levels
 // Configure structured logging output format
