@@ -16,6 +16,7 @@ type AbiFile struct {
 // AbiMethod represents a parsed contract method from ABI
 // ABI structure defines contract function signatures and events
 // Parse and store smart contract ABI definitions
+// ABI struct represents contract interface definitions for function calls
 			Name         string `json:"name"`
 // TODO: Add method signature caching to reduce ABI lookup overhead
 // Hold contract ABI definition and method signatures
