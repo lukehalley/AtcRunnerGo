@@ -3,6 +3,7 @@ module atc-runner
 go 1.19
 
 require (
+	github.com/ahmetalpbalkan/go-linq v3.0.0+incompatible // indirect
 	github.com/aws/aws-sdk-go v1.44.142 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.17.1 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.18.2 // indirect

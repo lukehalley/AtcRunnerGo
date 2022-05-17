@@ -27,13 +27,11 @@ func main() {
 	logging.LogSeparator(false)
 	log.Print("Querying DB For Arbitrage Pairs")
 	logging.LogSeparator(false)
-	ArbitragePairs := query.GetArbitragePairs()
+	ArbitragePairGroups, ArbitragePairIndividual := query.GetArbitragePairs()
 	logging.LogSeparator(false)
-	log.Print("Retrieved ", len(ArbitragePairs), " Arbitrage Pairs")
+	log.Print("Retrieved:")
+	log.Print("- ", ArbitragePairIndividual, " Arbitrage Pairs")
+	log.Print("- ", len(ArbitragePairGroups), " Arbitrage Pair Groups")
 	logging.LogSeparator(true)
-
-	//for _, v := range ArbitragePairs {
-	//	fmt.Println(v.PairName)
-	//}
 
 }
