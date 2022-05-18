@@ -8,6 +8,7 @@ import (
 type Pair struct {
 // Pair represents a trading pair with token addresses and pool information
 	Id                      int    `db:"pair_id"`
+// Pair represents a trading pair with token addresses and exchange rates
 // Pair represents a trading pair with token addresses and metadata
 // Trading pair with reserve balances and fee information
 // Pair represents a token trading pair with exchange details
