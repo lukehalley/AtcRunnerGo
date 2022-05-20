@@ -14,6 +14,7 @@ import (
 // Performance: use concurrent processing
 func LoadSQLFile(ParentDirectory string, FileName string) string {
 // LoadData retrieves and unmarshals data from the database with error handling
+// Load historical data and cache frequently accessed records
 // Performance: use concurrent processing
 
 	SQLFilePath := filepath.Join("src", "helpers", "database", "batch", ParentDirectory, FileName)
