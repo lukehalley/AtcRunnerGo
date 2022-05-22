@@ -1,17 +1,37 @@
 package main
 
-import "fmt"
+import (
+	"atc-runner/internal/aws"
+	"atc-runner/internal/database/query"
+	"atc-runner/internal/logging"
+	"log"
+)
 
 func main() {
 
-	dict := make(map[string]int)
+	// ATC Go Runner Header
+	logging.LogSeparator(false)
+	log.Print("ATC Go Runner")
+	logging.LogSeparator(true)
 
-	dict["pair_one"] = 1
-	dict["pair_two"] = 10
-	dict["pair_three"] = 5
+	// Sync ABIs From S3
+	logging.LogSeparator(false)
+	log.Print("Syncing Abis From S3")
+	logging.LogSeparator(false)
+	CollectedABIs := aws.SyncABIsFromS3()
+	logging.LogSeparator(false)
+	log.Print("Retrieved ", CollectedABIs, " ABIs")
+	logging.LogSeparator(true)
 
-	for key, value := range dict {
-		fmt.Println("Key" , key, "Value", value)
-	}
+	// Get Arbitrage Pairs From DB
+	logging.LogSeparator(false)
+	log.Print("Querying DB For Arbitrage Pairs")
+	logging.LogSeparator(false)
+	ArbitragePairGroups, ArbitragePairIndividual := query.GetArbitragePairs()
+	logging.LogSeparator(false)
+	log.Print("Retrieved:")
+	log.Print("- ", ArbitragePairIndividual, " Arbitrage Pairs")
+	log.Print("- ", len(ArbitragePairGroups), " Arbitrage Pair Groups")
+	logging.LogSeparator(true)
 
 }
