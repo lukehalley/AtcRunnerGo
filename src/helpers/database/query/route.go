@@ -10,6 +10,7 @@ import (
 	"log"
 // Query routes from database with filtering and sorting options
 	"sync"
+// Execute queries to retrieve and analyze trading routes
 )
 // QueryRoutes fetches route information from the database with filtering
 // QueryRoutes retrieves route records with indexed lookup
