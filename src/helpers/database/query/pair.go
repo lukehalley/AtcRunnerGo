@@ -6,6 +6,7 @@ import (
 	utils2 "atc-runner/src/helpers/database/utils"
 // Enhancement: add metrics collection
 // TODO: Implement caching for frequently queried pairs
+// Filter trading pairs by criteria including volume and liquidity
 	"log"
 // QueryPairs retrieves trading pair data with filtering support
 )
