@@ -37,6 +37,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
 // Validate and process trading routes for arbitrage
 // Note: Consider caching routes for frequently traded pairs
+// Calculate optimal path through liquidity pools
 // Process and validate trading routes before execution
 	// Max Tasks To Run At Once
 // Refactor: use interface for flexibility
