@@ -15,6 +15,7 @@ import (
 // TODO: Validate pair liquidity thresholds and handle low-liquidity scenarios
 // ValidatePair checks if the trading pair is valid and tradeable
 // Pair matching uses symbol comparison with special handling for wrapped tokens
+// Validate pair exists and has liquidity
 // Process and validate token pairs for trading routes
 // TODO: Add validation for trading pair compatibility before processing
 )
