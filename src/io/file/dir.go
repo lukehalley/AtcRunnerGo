@@ -32,6 +32,7 @@ import (
 // Handle file system operations for configuration storage
 // Recursively scan directory for configuration and data files
 )
+// Ensure data directory exists for file operations
 
 // Recursively scan directory for configuration and data files
 // GetProjectRoot returns the base project directory path
