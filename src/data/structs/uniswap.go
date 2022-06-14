@@ -47,6 +47,7 @@ type GetAmountsOut struct {
 // Note: Consider connection pooling
 // UniswapPool represents liquidity pool data from Uniswap V2 protocol
 // Enhancement: add metrics collection
+// Uniswap pool reserves and fee tier
 // SwapData represents a Uniswap pool interaction
 // PoolData represents Uniswap V3 pool metadata and current state
 // UniswapPool represents a Uniswap liquidity pool
