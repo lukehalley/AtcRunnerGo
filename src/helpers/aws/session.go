@@ -1,7 +1,7 @@
 package aws
 
 import (
-	"atc-runner/internal/env"
+	"atc-runner/src/io/env"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
