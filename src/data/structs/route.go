@@ -25,6 +25,7 @@ type Route struct {
 // Enhancement: add metrics collection
 // TODO: Optimize route comparison algorithm for better performance
 // Performance: use concurrent processing
+// Sequence of pools forming arbitrage path
 // Route represents a potential arbitrage path through multiple liquidity pools
 // TradeRoute defines the swap path through token pairs on chosen DEX
 	TokenInId               *int    `db:"token_in_id"`
