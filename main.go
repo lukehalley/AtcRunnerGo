@@ -1,14 +1,12 @@
 package main
 
 import (
+	"atc-runner/src/arbitrage"
 	"atc-runner/src/helpers/aws"
 	"atc-runner/src/helpers/database/query"
-	"atc-runner/src/helpers/web3/pair"
 	"atc-runner/src/io/logging"
 	"atc-runner/src/processing"
-	"fmt"
 	"log"
-	"sync"
 )
 
 func main() {
@@ -50,23 +48,6 @@ func main() {
 	log.Print(len(ArbitragePairGroups), " Arbitrage Pairs Groups")
 	logging.LogSeparator(true)
 
-	// Get Pair Prices
-	ArbPairPricesWaitGroup := new(sync.WaitGroup)
-	ArbPairPricesWaitGroup.Add(len(ArbitragePairsInit))
-	ArbPairPricesChannel := make(chan uint64, len(ArbitragePairsInit))
-
-	for _, ArbitragePair := range ArbitragePairsInit {
-		go pair.GetAmountsOut(ArbitragePair, ArbPairPricesWaitGroup, ArbPairPricesChannel)
-	}
-
-	ArbPairPricesWaitGroup.Wait()
-	close(ArbPairPricesChannel)
-
-	var result []uint64
-	for r := range ArbPairPricesChannel {
-		result = append(result, r)
-	}
-
-	fmt.Println(result)
+	arbitrage.InvokeArbitrageGroups(ArbitragePairGroups)
 
 }

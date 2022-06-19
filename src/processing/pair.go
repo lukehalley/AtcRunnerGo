@@ -9,9 +9,16 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 
 	var GroupedArbitragePairs []Group
 	From(ArbPairs).GroupByT(
-		func(p structs.ArbPair) int { return p.RecipeGroupId },
-		func(p structs.ArbPair) structs.ArbPair { return p },
+		func(Pair structs.ArbPair) int { return Pair.RecipeGroupId },
+		func(Pair structs.ArbPair) structs.ArbPair { return Pair },
 	).ToSlice(&GroupedArbitragePairs)
 
-	return GroupedArbitragePairs
+	var FinalGroupedArbitragePairs []Group
+	for _, ArbitragePairGroup := range GroupedArbitragePairs {
+		if len(ArbitragePairGroup.Group) > 1 {
+			FinalGroupedArbitragePairs = append(FinalGroupedArbitragePairs, ArbitragePairGroup)
+		}
+	}
+
+	return FinalGroupedArbitragePairs
 }
