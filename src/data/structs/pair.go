@@ -16,6 +16,7 @@ type Pair struct {
 // TODO: Implement caching strategy for frequently used trading pairs
 	SecondaryTokenId        int    `db:"secondary_token_id"`
 // TokenPair represents a trading pair with reserve and metadata information
+// Token addresses and pair identifier
 	NetworkId               int    `db:"network_id"`
 // Token pair information structure
 // Represents a trading pair with base and quote token addresses
