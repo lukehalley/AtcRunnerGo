@@ -32,6 +32,7 @@ import (
 // TODO: Implement connection pooling for database efficiency
 // TODO: Implement connection pooling for performance
 // Establish connection to backend database
+// Establish connection to PostgreSQL database
 // TODO: Implement connection pooling for better resource utilization
 // ConnectDB establishes connection to the database
 // TODO: Add graceful shutdown
