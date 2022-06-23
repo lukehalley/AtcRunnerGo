@@ -4,15 +4,13 @@ import (
 	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/web3/path"
 	"atc-runner/src/io/abi"
-	"fmt"
 	"github.com/chenzhijie/go-web3"
 	"log"
 	"math/big"
 	"sync"
-	"time"
 )
 
-func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup) {
+func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup) *big.Int {
 
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
 	defer ArbPairWaitGroup.Done()
@@ -34,24 +32,37 @@ func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGro
 		log.Fatal(RouterContractError)
 	}
 
+	// Create Out Swap Path
 	Path := path.NormalisePath(*ArbitragePair.PairRoutes[0].Route)
 
+	// Calculate The Amount In
 	AmountIn := &big.Int{}
 	AmountIn.SetInt64(1000000000)
 
-	deadline := &big.Int{}
-	deadline.SetInt64(time.Now().Add(10*time.Minute).Unix())
+	// Call 'getAmountsOut'
+	AmountsOutResult, AmountsOutCallError := RouterContract.Call("getAmountsOut", AmountIn, Path)
 
-	AmountsOut, AmountsOutError := RouterContract.Call("getAmountsOut", AmountIn, Path)
-	if AmountsOutError != nil {
-		log.Fatal(AmountsOutError)
+	// Catch Any Call Errors
+	if RouterContractError != nil {
+		log.Fatalf("Error Calling 'getAmountsOut': %v", AmountsOutCallError)
 	}
 
-	fmt.Printf("Total supply %v\n", AmountsOut)
+	// Cast The Result
+	AmountsOutCast, AmountsOutCastError := AmountsOutResult.([]*big.Int)
 
-	// Send Return Value Back In Channel
-	// ArbPairChannel <- BlockNumber
+	// Catch Any Call Errors
+	if RouterContractError != nil {
+		log.Fatalf("Error Casting 'getAmountsOut' Result: %v", AmountsOutCastError)
+	}
 
-	return
+	// Check If We Got Valid Results Back
+	if len(AmountsOutCast) > 1 {
+		FinalAmountOut := AmountsOutCast[len(AmountsOutCast)-1]
+		log.Printf("%v: %v", ArbitragePair.PairName, FinalAmountOut)
+		return FinalAmountOut
+	} else {
+		log.Printf("%v: Failed", ArbitragePair.PairName)
+		return nil
+	}
 
 }

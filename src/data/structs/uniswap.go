@@ -1,6 +1,8 @@
 package structs
 
+import "math/big"
+
 type GetAmountsOut struct {
-	AmountIn float64
-	Address  []string
+	IsNegative bool
+	Result big.Int
 }
