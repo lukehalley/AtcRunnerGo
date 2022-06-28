@@ -7,24 +7,23 @@ import (
 	"sync"
 )
 
-func InvokeArbitrageGroups(ArbitragePairGroups []Group) {
+func InvokeArbitrageGroups(ArbitragePairGroups []Group) []Group {
 
 	InvokeWaitGroup := new(sync.WaitGroup)
 	InvokeWaitGroup.Add(len(ArbitragePairGroups))
-	// InvokeChannel := make(chan structs.ArbPair, len(ArbitragePairGroups))
+	InvokeGroupChannel := make(chan Group, len(ArbitragePairGroups))
 
 	for _, ArbitragePairGroup := range ArbitragePairGroups {
-		go CompareArbitrageGroup(ArbitragePairGroup, InvokeWaitGroup)
+		go CompareArbitrageGroup(ArbitragePairGroup, InvokeWaitGroup, InvokeGroupChannel)
 	}
 
 	InvokeWaitGroup.Wait()
-	//close(InvokeChannel)
 
-	return
+	return ArbitragePairGroups
 
 }
 
-func CompareArbitrageGroup(ArbitragePairGroup Group, InvokeWaitGroup *sync.WaitGroup) {
+func CompareArbitrageGroup(ArbitragePairGroup Group, InvokeWaitGroup *sync.WaitGroup, InvokeGroupChannel chan Group) {
 
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
 	defer InvokeWaitGroup.Done()
@@ -32,25 +31,18 @@ func CompareArbitrageGroup(ArbitragePairGroup Group, InvokeWaitGroup *sync.WaitG
 	// Group Object
 	ArbitrageGroup := ArbitragePairGroup.Group
 
-	// Get Pair Prices
+	// Create Concurrency Objects
 	ArbPairPricesWaitGroup := new(sync.WaitGroup)
 	ArbPairPricesWaitGroup.Add(len(ArbitrageGroup))
-	// ArbPairPricesChannel := make(chan uint64, len(ArbitrageGroup))
+	ArbPairPricesChannel := make(chan structs.ArbPair, len(ArbitrageGroup))
 
+	// Get Pair Prices For Group
 	for _, ArbitragePair := range ArbitrageGroup {
-		go pair.GetAmountsOut(ArbitragePair.(structs.ArbPair), ArbPairPricesWaitGroup)
+		go pair.GetAmountsOut(ArbitragePair.(structs.ArbPair), ArbPairPricesWaitGroup, ArbPairPricesChannel)
 	}
 
 	ArbPairPricesWaitGroup.Wait()
-	// close(ArbPairPricesChannel)
 
-	//var result []uint64
-	//for r := range ArbPairPricesChannel {
-	//	result = append(result, r)
-	//}
-	//
-	//fmt.Println(result)
-
-	return
+	InvokeGroupChannel <- ArbitragePairGroup
 
 }

@@ -1,5 +1,7 @@
 package structs
 
+import "math/big"
+
 type Pair struct {
 	Id                      int    `db:"pair_id"`
 	PrimaryTokenId          int    `db:"primary_token_id"`
@@ -13,30 +15,45 @@ type Pair struct {
 }
 
 type ArbPair struct {
+
+	// Recipe Group Fields
 	RecipeGroupId           int     `db:"recipe_group_id"`
-	NetworkName             string  `db:"network_name"`
-	DexName                 string  `db:"dex_name"`
+
+	// Pair Fields
 	PairDbId                int     `db:"pair_db_id"`
 	PairName                string  `db:"pair_name"`
+	PairRoutes              []Route
+	PairLiquidity           int     `db:"pair_liquidity"`
+	PairVolume              int     `db:"pair_volume"`
+	PairFdv                 int     `db:"pair_fdv"`
+
+	// Price Fields
+	Price                   big.Int
+
+	// Primary Token Fields
 	PrimaryTokenDbId        int     `db:"primary_token_db_id"`
 	PrimaryTokenSymbol      string  `db:"primary_token_symbol"`
 	PrimaryTokenAddress     string  `db:"primary_token_address"`
 	PrimaryTokenDecimals    int     `db:"primary_token_decimals"`
+
+	// Secondary Token Fields
 	SecondaryTokenDbId      int     `db:"secondary_token_db_id"`
 	SecondaryTokenSymbol    string  `db:"secondary_token_symbol"`
 	SecondaryTokenAddress   string  `db:"secondary_token_address"`
 	SecondaryTokenDecimals  int     `db:"secondary_token_decimals"`
-	PairLiquidity           int     `db:"pair_liquidity"`
-	PairVolume              int     `db:"pair_volume"`
-	PairFdv                 int     `db:"pair_fdv"`
+
+	// Network Fields
 	NetworkDbId             int     `db:"network_db_id"`
+	NetworkName             string  `db:"network_name"`
 	NetworkChainNumber      int     `db:"network_chain_number"`
 	NetworkChainRpc         string  `db:"network_chain_rpc"`
 	NetworkChainExplorer    string  `db:"network_chain_explorer"`
+
+	// Dex Fields
+	DexName                 string  `db:"dex_name"`
 	DexDbId                 int     `db:"dex_db_id"`
 	DexFactoryAddress       string  `db:"dex_factory_address"`
 	DexFactoryAbi           string  `db:"dex_factory_abi"`
 	DexRouterAddress        string  `db:"dex_router_address"`
 	DexRouterAbi            string  `db:"dex_router_abi"`
-	PairRoutes              []Route
 }
