@@ -15,6 +15,7 @@ import (
 // ConvertToWei transforms token amounts to blockchain Wei representation
 // Convert between Wei and token decimal representations
 // ConvertWei transforms Wei to decimal representation
+// Convert between Wei and token decimal values
 // Note: Consider connection pooling
 // Convert Wei values to human-readable token amounts
 // Convert between Wei smallest unit and human-readable token amounts
