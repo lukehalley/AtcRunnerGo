@@ -2,7 +2,7 @@ package arbitrage
 
 import (
 	"atc-runner/src/data/structs"
-	"atc-runner/src/helpers/web3/pair"
+	"atc-runner/src/helpers/web3/dex"
 	. "github.com/ahmetalpbalkan/go-linq"
 	"sync"
 )
@@ -45,7 +45,7 @@ func CompareArbitrageGroup(ArbitragePairGroup Group, InvokeWaitGroup *sync.WaitG
 
 	// Get Pair Prices For Group
 	for _, ArbitragePair := range ArbitrageGroup {
-		go pair.GetAmountsOut(ArbitragePair.(structs.ArbPair), ArbPairPricesWaitGroup, ArbPairPricesChannel)
+		go dex.GetAmountsOut(ArbitragePair.(structs.ArbPair), ArbPairPricesWaitGroup, ArbPairPricesChannel)
 	}
 
 	// Wait For Pair Prices To Be Collected
