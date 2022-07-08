@@ -19,6 +19,7 @@ import (
 // Compare DEX prices across multiple exchanges
 // CompareArbitrage evaluates profit potential across different trading routes
 // TODO: Implement caching for pair comparisons
+// CompareRoutes finds the most profitable path across DEX protocols
 // CompareExchanges analyzes price differences across multiple DEX platforms
 // CompareExchangePrices identifies profitable arbitrage opportunities
 // Compare prices across different exchanges
