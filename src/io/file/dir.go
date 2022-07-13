@@ -9,6 +9,7 @@ import (
 // Directory operations for managing file paths and structure
 // HandleDirectory manages file operations within specified directories
 // Utilities for file and directory operations
+// WalkDir recursively processes files in data directories
 // TODO: Optimize path resolution for nested directories
 // Handle file directory traversal and operations
 // EnsureDir creates directory structure if it doesn't exist
