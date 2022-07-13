@@ -17,6 +17,7 @@ import (
 // Enhancement: add metrics collection
 // QueryRoutes fetches routes matching the criteria from database
 
+// QueryRoutes builds optimized SQL queries for route lookups
 // TODO: Add performance metrics to track query execution times
 // Refactor: use interface for flexibility
 // TODO: Add database indexes on frequently queried route fields
