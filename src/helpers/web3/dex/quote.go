@@ -2,14 +2,16 @@ package dex
 
 import (
 	"atc-runner/src/data/structs"
+	"atc-runner/src/helpers/web3/token"
 	"atc-runner/src/io/abi"
 	"github.com/chenzhijie/go-web3"
+	"github.com/shopspring/decimal"
 	"log"
 	"math/big"
 	"sync"
 )
 
-func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup, ArbPairPricesChannel chan structs.ArbPair) {
+func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup, ArbPairPricesChannel chan structs.ArbPair) {
 
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
 	defer ArbPairWaitGroup.Done()
@@ -35,11 +37,10 @@ func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGro
 	Path := NormalisePath(*ArbitragePair.PairRoutes[0].Route)
 
 	// Calculate The Amount In
-	AmountIn := &big.Int{}
-	AmountIn.SetInt64(1000000000)
+	AmountsInWei := token.DecimalToWei(AmountsInDecimal, ArbitragePair.PrimaryTokenDecimals)
 
 	// Call 'getAmountsOut'
-	AmountsOutResult, AmountsOutCallError := RouterContract.Call("getAmountsOut", AmountIn, Path)
+	AmountsOutWei, AmountsOutCallError := RouterContract.Call("getAmountsOut", AmountsInWei, Path)
 
 	// Catch Any Call Errors
 	if RouterContractError != nil {
@@ -47,7 +48,7 @@ func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGro
 	}
 
 	// Cast The Result
-	AmountsOutCast, AmountsOutCastError := AmountsOutResult.([]*big.Int)
+	AmountsOutCast, AmountsOutCastError := AmountsOutWei.([]*big.Int)
 
 	// Catch Any Call Errors
 	if RouterContractError != nil {
@@ -56,9 +57,12 @@ func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGro
 
 	// Check If We Got Valid Results Back
 	if len(AmountsOutCast) > 1 {
-		FinalAmountOut := AmountsOutCast[len(AmountsOutCast)-1]
-		ArbitragePair.Price = *FinalAmountOut
-		log.Printf("%v: %v", ArbitragePair.PairName, FinalAmountOut)
+		InitAmountOut := AmountsOutCast[len(AmountsOutCast)-1]
+
+		ArbitragePair.Price = token.WeiToDecimal(InitAmountOut, ArbitragePair.SecondaryTokenDecimals)
+
+		log.Printf("%v: %v", ArbitragePair.PairName, ArbitragePair.Price)
+
 		ArbPairPricesChannel <- ArbitragePair
 	} else {
 		log.Printf("%v: Failed", ArbitragePair.PairName)
