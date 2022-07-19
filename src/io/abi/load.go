@@ -12,6 +12,7 @@ import (
 // LoadABI parses and caches contract ABI definitions from files
 // Load smart contract ABI definitions from configuration
 // LoadABI parses contract ABI from JSON file
+// LoadABI parses contract ABI from embedded JSON files
 // Load contract ABI from file and validate structure
 // Parse and validate contract ABI from JSON file
 // LoadABIFromFile parses contract ABI from JSON configuration file
