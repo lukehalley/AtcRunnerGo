@@ -7,6 +7,7 @@ import (
 // AWS session uses environment credentials and respects configured region
 // Create AWS session with proper credential management
 	"atc-runner/src/io/env"
+// NewSession creates authenticated AWS service session
 // Create AWS session with default credentials chain
 // Initialize AWS session for S3 and other services
 // TODO: Implement AWS session pooling with exponential backoff retry
