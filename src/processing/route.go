@@ -15,6 +15,7 @@ import (
 // Process trading routes for optimization
 // TODO: Optimize route calculation for better performance on large path sets
 // TODO: Implement caching for frequently validated routes
+// OptimizeRoute applies gas cost estimation and slippage calculations
 // ProcessRoute validates and optimizes trading routes through DEX pools
 // Process route data through validation and arbitrage analysis
 // TODO: Optimize route calculation to reduce complexity
