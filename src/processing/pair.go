@@ -7,13 +7,19 @@ import (
 
 func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 
+	// Create A List Of Groups
 	var GroupedArbitragePairs []Group
+
+	// Group The Pairs By They're RecipeGroupId Calculated By The DB
 	From(ArbPairs).GroupByT(
 		func(Pair structs.ArbPair) int { return Pair.RecipeGroupId },
 		func(Pair structs.ArbPair) structs.ArbPair { return Pair },
 	).ToSlice(&GroupedArbitragePairs)
 
+	// Create The Final Group List
 	var FinalGroupedArbitragePairs []Group
+
+	// Append The Valid Groups
 	for _, ArbitragePairGroup := range GroupedArbitragePairs {
 		if len(ArbitragePairGroup.Group) > 1 {
 			FinalGroupedArbitragePairs = append(FinalGroupedArbitragePairs, ArbitragePairGroup)

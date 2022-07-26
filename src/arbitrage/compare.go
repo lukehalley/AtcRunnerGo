@@ -9,18 +9,22 @@ import (
 	"sync"
 )
 
-func InvokeArbitrageGroups(ArbitragePairGroups []Group) []Group {
+func CollectPairGroupsPrices(ArbitragePairGroups []Group) []Group {
 
 	// Create Concurrency Objects
 	InvokeWaitGroup := new(sync.WaitGroup)
 	InvokeWaitGroup.Add(len(ArbitragePairGroups))
 	InvokeGroupChannel := make(chan Group, len(ArbitragePairGroups))
 
+	// Kick Off The Function Which Gets The Prices For Each Group
 	for _, ArbitragePairGroup := range ArbitragePairGroups {
-		go CompareArbitrageGroup(ArbitragePairGroup, InvokeWaitGroup, InvokeGroupChannel)
+		go CollectPairGroupPrices(ArbitragePairGroup, InvokeWaitGroup, InvokeGroupChannel)
 	}
 
+	// Wait For All Groups To Come Back
 	InvokeWaitGroup.Wait()
+
+	// Close The Group Channel
 	close(InvokeGroupChannel)
 
 	// Get Results From Channel
@@ -33,7 +37,7 @@ func InvokeArbitrageGroups(ArbitragePairGroups []Group) []Group {
 
 }
 
-func CompareArbitrageGroup(ArbitragePairGroup Group, InvokeWaitGroup *sync.WaitGroup, InvokeGroupChannel chan Group) {
+func CollectPairGroupPrices(ArbitragePairGroup Group, InvokeWaitGroup *sync.WaitGroup, InvokeGroupChannel chan Group) {
 
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
 	defer InvokeWaitGroup.Done()
@@ -52,6 +56,7 @@ func CompareArbitrageGroup(ArbitragePairGroup Group, InvokeWaitGroup *sync.WaitG
 		log.Fatal(DecimalError)
 	}
 
+	// Call GetAmountsOut For The Pair
 	for _, ArbitragePair := range ArbitrageGroup {
 		go dex.GetAmountsOut(AmountInDecimal, ArbitragePair.(structs.ArbPair), ArbPairPricesWaitGroup, ArbPairPricesChannel)
 	}

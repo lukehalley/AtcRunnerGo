@@ -8,12 +8,15 @@ import (
 
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
+	// Max Tasks To Run At Once
 	var Semaphore = make(chan int, 50)
 
+	// Create Concurrency Objects
 	ArbPairRoutesWaitGroup := new(sync.WaitGroup)
 	ArbPairRoutesWaitGroup.Add(len(ArbPairs))
 	ArbPairRoutesChannel := make(chan structs.ArbPair, len(ArbPairs))
 
+	// Kick Off Co-Routines With Semaphore Limit
 	for _, ArbitragePair := range ArbPairs {
 		Semaphore <- 1
 		ArbitragePair := ArbitragePair
@@ -23,9 +26,13 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 		}()
 	}
 
+	// Wait For Tasks To Finish
 	ArbPairRoutesWaitGroup.Wait()
+
+	// Close Channel
 	close(ArbPairRoutesChannel)
 
+	// Get Non-Null Pairs
 	var FilteredPairs []structs.ArbPair
 	for ArbPair := range ArbPairRoutesChannel {
 		if ArbPair.PairRoutes != nil {

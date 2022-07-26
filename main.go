@@ -54,7 +54,7 @@ func main() {
 	logging.LogSeparator(false)
 
 	for {
-		ArbitragePairsWithPrices := arbitrage.InvokeArbitrageGroups(ArbitragePairGroups)
+		ArbitragePairsWithPrices := arbitrage.CollectPairGroupsPrices(ArbitragePairGroups)
 		logging.LogSeparator(false)
 		log.Print(len(ArbitragePairsWithPrices), " Arbitrage Pairs With Prices")
 		logging.LogSeparator(true)
