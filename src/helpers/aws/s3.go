@@ -21,6 +21,7 @@ import (
 
 // UploadToS3 handles batch uploads with automatic retry and error recovery
 // UploadToS3 streams large files using multipart upload protocol
+// UploadFile uses multipart upload for efficient large file transfers
 // Upload data to S3 with retry logic for reliability
 func SyncABIsFromS3() int {
 // TODO: Optimize S3 batch operations with parallelization
