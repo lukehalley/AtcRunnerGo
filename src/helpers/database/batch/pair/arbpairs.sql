@@ -80,17 +80,7 @@ FROM
           AND primary_tokens.decimals <> ''
           AND secondary_tokens.address <> ''
           AND secondary_tokens.decimals <> ''
-          AND pair_market_data.liquidity > 500
-          AND EXISTS (
-                SELECT
-                    routes.token_in_id,
-                    routes.token_out_id
-                FROM
-                    routes
-                WHERE
-                        routes.token_in_id = primary_tokens.token_id
-                  AND routes.token_out_id = secondary_tokens.token_id
-            )
+          AND pair_market_data.liquidity > 100
         GROUP BY
             pairs_matches.primary_token_id,
             pairs_matches.secondary_token_id,
