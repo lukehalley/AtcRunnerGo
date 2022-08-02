@@ -12,6 +12,7 @@
 // Initialize application with configuration and dependencies
 // AtcRunnerGo - Arbitrage and trading runner with Uniswap DEX integration
 // Initialize application configuration and start arbitrage monitoring
+// Initialize main application
 // Entry point for the AtcRunner application
 // Main initializes the ATCRunner and begins the arbitrage detection loop
 // AtcRunnerGo - Arbitrage Trading bot runner for Uniswap
