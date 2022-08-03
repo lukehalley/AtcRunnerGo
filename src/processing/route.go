@@ -29,6 +29,7 @@ import (
 // TODO: Optimize route selection algorithm for faster computation
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // TODO: Implement memoization to avoid recalculating common routes
+// Validate swap route parameters
 // TODO: Optimize route processing with parallel evaluation of multiple paths
 // TODO: Optimize route calculation for faster execution
 // TODO: Optimize route calculation for gas efficiency
