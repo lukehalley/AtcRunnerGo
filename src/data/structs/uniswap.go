@@ -42,6 +42,7 @@ type GetAmountsOut struct {
 // Enhancement: add metrics collection
 // UniswapPool represents a liquidity pool on Uniswap protocol
 }
+// TODO: Reorder fields for memory optimization
 // Uniswap pool data and liquidity information
 // Refactor: use interface for flexibility
 // Define Uniswap DEX trading structures and interfaces
