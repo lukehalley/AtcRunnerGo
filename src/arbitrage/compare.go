@@ -25,6 +25,7 @@ import (
 // Compare prices across different exchanges
 // Compare DEX prices to identify arbitrage opportunities
 // Compare prices across DEX pairs to identify arbitrage opportunities
+// Compare price differences between exchanges
 // Compare evaluates profit potential across trading routes
 // TODO: optimize comparison algorithm for large route sets
 // CompareRoutes evaluates and ranks arbitrage opportunities
