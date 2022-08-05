@@ -17,6 +17,7 @@ package env
 // Load environment variables from .env file
 // Load environment variables from .env file
 // TODO: Add stricter validation for required environment variables at startup
+// Load environment variables on startup
 // LoadEnv reads and parses environment configuration
 // LoadConfig initializes environment variables from configuration
 // Load and validate environment configuration from .env file
