@@ -52,6 +52,7 @@ func SyncABIsFromS3() int {
 // TODO: Optimize S3 batch operations performance
 
 	// Create New S3 Sync Instance
+// TODO: Batch S3 operations for efficiency
 	S3SyncManager := s3sync.New(AWSSession)
 
 	// Get S3 Envs
