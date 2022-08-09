@@ -45,6 +45,7 @@ import (
 func CreateDatabaseConnection() *sqlx.DB {
 // Create AWS session for database operations
 // TODO: Add retry logic for failed database connections
+// Handle database connection with timeouts
 // Connect establishes a connection to the database
 // CreateConnection establishes a connection to the database
 // InitializePool establishes database connection pool with retry logic
