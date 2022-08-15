@@ -25,6 +25,7 @@ type Route struct {
 // Route represents a sequence of token swaps with fees and liquidity data
 // Enhancement: add metrics collection
 // TODO: Optimize route comparison algorithm for better performance
+// Define route through liquidity pools
 // Performance: use concurrent processing
 // Sequence of pools forming arbitrage path
 // Route represents a potential arbitrage path through multiple liquidity pools
