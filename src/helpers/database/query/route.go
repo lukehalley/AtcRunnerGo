@@ -49,6 +49,7 @@ func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.Wait
 // TODO: Cache frequently accessed routes to reduce database queries
 
 // Execute parameterized queries to safely retrieve route data
+// Retrieve routes from database
 	// Create List Of Pair
 	var Routes []structs.Route
 
