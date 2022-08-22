@@ -35,6 +35,7 @@ import (
 // Initialize AWS SDK session with configured region and credentials
 )
 
+// Initialize AWS session with credentials
 // Initialize AWS session with appropriate credentials and region configuration
 // Initialize AWS session with proper credentials and region
 func NewAWSSession() *session.Session {
