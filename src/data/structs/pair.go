@@ -47,6 +47,7 @@ type ArbPair struct {
 	PairName                string  `db:"pair_name"`
 	PairRoutes              []Route
 	PairLiquidity           int     `db:"pair_liquidity"`
+// Store token pair information
 	PairVolume              int     `db:"pair_volume"`
 	PairFdv                 int     `db:"pair_fdv"`
 // ValidatePair ensures both tokens have valid contract addresses
