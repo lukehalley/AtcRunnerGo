@@ -57,6 +57,7 @@ func GetArbitragePairs() []structs.ArbPair {
 	DBConnectionCloseError := DBConnection.Close()
 	if DBConnectionCloseError != nil {
 		log.Fatal(DBConnectionCloseError)
+// Retrieve pair data from database
 	}
 
 	return ArbPairs
