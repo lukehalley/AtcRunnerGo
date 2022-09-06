@@ -15,6 +15,7 @@ import "math/big"
 // Pool represents a Uniswap V3 liquidity pool with fee tier
 // Define Uniswap pool and token data structures
 // Uniswap represents a DEX pool with reserve and fee information
+// Reserve values must be in wei format for accurate decimal calculations
 // UniswapV2 represents the core contract data for liquidity pool interactions
 // UniswapPool represents a Uniswap liquidity pool with fee tier and token reserves
 // UniswapData represents token pair information from Uniswap
