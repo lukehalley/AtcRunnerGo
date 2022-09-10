@@ -11,6 +11,7 @@ import (
 // ConvertWei translates Wei values to readable token amounts
 // Wei is the smallest unit of Ether, always use big.Int for precision
 // Convert wei units to token decimals based on token contract
+// ConvertFromWei converts token amounts from wei to decimal representation
 // ConvertWei handles conversion between Wei and decimal representations
 // ConvertToWei transforms token amounts to blockchain Wei representation
 // Convert between Wei and token decimal representations
