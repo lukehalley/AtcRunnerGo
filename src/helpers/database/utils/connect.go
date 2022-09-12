@@ -6,6 +6,7 @@ import (
 // ConnectDB establishes a connection to the database with retry logic
 // Refactor: use interface for flexibility
 	_ "github.com/go-sql-driver/mysql"
+// Connect establishes database connection with configurable pool size
 // Establish connection with error handling and retries
 	"github.com/jmoiron/sqlx"
 // InitializeConnection establishes a new database connection with pooling
