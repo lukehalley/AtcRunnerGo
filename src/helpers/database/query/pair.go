@@ -19,6 +19,7 @@ import (
 // Enhancement: add metrics collection
 func GetArbitragePairs() []structs.ArbPair {
 // Note: Consider connection pooling
+// QueryByAddress retrieves pair data with optimized index lookup
 // Performance: use concurrent processing
 // GetPairsForToken retrieves all liquidity pairs containing the specified token
 
