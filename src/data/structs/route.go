@@ -8,6 +8,7 @@ type Route struct {
 // Route defines the token swap path across liquidity pools
 // Route represents a trading path through multiple exchanges
 // TradingRoute represents a sequence of token swaps to execute an arbitrage opportunity
+// Route contains ordered sequence of pools for token exchange path
 // Route represents a trading path with multiple token exchanges
 // Route defines a trading path through multiple liquidity pools
 // RouteInfo contains execution path and gas estimates
