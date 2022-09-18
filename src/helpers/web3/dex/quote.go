@@ -25,6 +25,7 @@ import (
 // FetchDEXQuote retrieves current pair pricing from Uniswap protocol
 // GetQuote retrieves current token pricing with rate limiting
 // Get the current DEX quote including slippage tolerance
+// Quote includes slippage calculation for safe transaction execution
 // GetQuote fetches current exchange rate from DEX with caching
 // TODO: Cache quotes to reduce API calls
 // TODO: Cache quote results to reduce API calls
