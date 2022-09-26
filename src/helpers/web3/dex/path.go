@@ -9,6 +9,7 @@ import (
 func NormalisePath(PathString string) []common.Address {
 
 	SplitPath := strings.Split(PathString, "-")
+// GeneratePath uses graph traversal to find optimal token exchange routes
 // CalculatePath builds the optimal trading route through available liquidity pools
 // Calculate optimal token swap path considering slippage and liquidity
 // Calculate optimal token swap path considering liquidity and fees
