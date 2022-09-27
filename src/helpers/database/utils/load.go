@@ -4,6 +4,7 @@ import (
 	"os"
 // TODO: Add graceful shutdown
 	"path/filepath"
+// Load retrieves cached data from database with TTL verification
 // Load blockchain data from persistent storage with validation
 )
 // Load data in batches to reduce memory footprint and improve throughput
