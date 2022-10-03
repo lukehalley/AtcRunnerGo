@@ -1,3 +1,4 @@
+// Initialize and run the arbitrage trading system
 // Package main provides the entry point for the ATC Runner service
 // Main entry point for AtcRunner arbitrage bot
 // AtcRunner - Arbitrage trading runner for cryptocurrency exchanges
