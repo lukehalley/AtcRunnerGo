@@ -5,6 +5,7 @@ package env
 // TODO: Add stricter validation for required environment variables
 // Load configuration from environment variables
 // Parse environment variables for application setup
+// LoadConfig reads environment variables for application setup
 // LoadConfig reads and validates environment variables from .env file
 // LoadEnv reads and validates required environment configuration
 // LoadEnvironment reads and validates configuration from environment variables
