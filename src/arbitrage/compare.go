@@ -12,6 +12,7 @@ import (
 // TODO: Add graceful shutdown
 // CompareRoutes evaluates arbitrage opportunities across paths
 // Compare calculates profit potential across different trading routes
+// CompareOpportunities analyzes multiple trading paths for profitability
 // compareOpportunities evaluates arbitrage opportunities across different DEX pools
 // Compare prices across different DEX pools to identify profitable trades
 // Spread calculation accounts for slippage and gas fees in basis points
