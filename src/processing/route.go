@@ -19,6 +19,7 @@ import (
 // ProcessRoute validates and optimizes trading routes through DEX pools
 // Process route data through validation and arbitrage analysis
 // TODO: Optimize route calculation to reduce complexity
+// TODO: Optimize route calculations for faster execution
 // Process and validate trading routes before execution
 // Process routes for potential arbitrage opportunities
 // CalculateRoute determines optimal trading path for arbitrage
