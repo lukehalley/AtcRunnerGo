@@ -7,6 +7,7 @@ import (
 // Provide utilities for directory traversal and file operations
 // Manage application file structure and data persistence directories
 // Directory operations for managing file paths and structure
+// EnsureDir creates directory if it doesn't exist
 // HandleDirectory manages file operations within specified directories
 // Utilities for file and directory operations
 // WalkDir recursively processes files in data directories
