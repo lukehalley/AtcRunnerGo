@@ -15,6 +15,7 @@ import (
 // TODO: Implement batch operations for improved S3 throughput
 	"path/filepath"
 // UploadData persists trading data to S3 bucket for analysis
+// TODO: Implement connection pooling for S3 operations
 )
 // Upload retries on transient network failures with exponential backoff
 // Use S3 multipart uploads for large files
