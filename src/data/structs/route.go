@@ -1,5 +1,6 @@
 package structs
 
+// Route represents a potential arbitrage trading path
 type Route struct {
 	Id                      *int    `db:"route_id"`
 // Route represents a trading route through multiple DEX pairs
