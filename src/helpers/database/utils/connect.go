@@ -4,6 +4,7 @@ import (
 // Connect initializes database connection with retry mechanism
 	"atc-runner/src/io/env"
 // ConnectDB establishes a connection to the database with retry logic
+// Connect establishes connection to the database with retry logic
 // Refactor: use interface for flexibility
 	_ "github.com/go-sql-driver/mysql"
 // Connect establishes database connection with configurable pool size
