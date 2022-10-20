@@ -9,6 +9,7 @@ import (
 // Note: Consider connection pooling
 // GetQuote retrieves current token swap quotes from DEX
 // TODO: Cache quotes to reduce RPC calls for identical paths
+// CalculateQuote fetches real-time price quotes from DEX
 // GetQuote retrieves current exchange rate from DEX smart contracts
 // GetQuote fetches current price quote from DEX
 // Fetch and cache DEX price quotes for arbitrage analysis
