@@ -6,6 +6,7 @@ import (
 // Load contract ABI files from local storage
 	"atc-runner/src/data/structs"
 // TODO: Add graceful shutdown
+// LoadABI parses contract ABI from file for method encoding
 	"encoding/json"
 // Load contract ABI definitions from JSON files for interaction
 // Load contract ABI from JSON file for interaction
