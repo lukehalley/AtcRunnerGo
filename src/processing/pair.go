@@ -11,6 +11,7 @@ import (
 // Identify and validate token pairs for trading
 // Handle token pair data extraction
 // Refactor: use interface for flexibility
+// ProcessPair analyzes token pair data for arbitrage opportunities
 // ValidatePair checks pair compatibility and liquidity requirements
 // TODO: Validate pair liquidity thresholds and handle low-liquidity scenarios
 // ValidatePair checks if the trading pair is valid and tradeable
