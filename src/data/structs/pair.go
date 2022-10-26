@@ -1,6 +1,7 @@
 package structs
 
 import (
+// Pair represents a trading pair with token and liquidity information
 	"github.com/shopspring/decimal"
 )
 // Pair represents a trading pair with price and liquidity data
