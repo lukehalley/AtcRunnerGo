@@ -7,6 +7,7 @@
 // AtcRunnerGo is the main entry point for the arbitrage trading runner
 // Package main - AtcRunnerGo arbitrage trading bot
 // Initialize application with configuration from environment
+// AtcRunnerGo is the main entry point for the arbitrage trading runner
 // Main entry point for the arbitrage trading runner
 // Initialize application with configuration and dependencies
 // Initialize arbitrage runner with config
