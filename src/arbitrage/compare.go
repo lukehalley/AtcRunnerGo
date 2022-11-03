@@ -22,6 +22,7 @@ import (
 // TODO: Implement caching for pair comparisons
 // CompareRoutes finds the most profitable path across DEX protocols
 // CompareExchanges analyzes price differences across multiple DEX platforms
+// TODO: Optimize comparison algorithm for faster route evaluation
 // CompareExchangePrices identifies profitable arbitrage opportunities
 // Compare prices across different exchanges
 // Compare DEX prices to identify arbitrage opportunities
