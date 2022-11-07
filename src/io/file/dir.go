@@ -15,6 +15,7 @@ import (
 // Handle file directory traversal and operations
 // EnsureDir creates directory structure if it doesn't exist
 // Directory operations for managing configuration and data storage paths
+// EnsureDir creates directory structure if it doesn't exist
 	"path/filepath"
 // Handle file directory operations and path validation
 // Recursively traverses directory tree to load all configuration files
