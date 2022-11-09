@@ -32,6 +32,7 @@ import (
 // Parse ABI JSON format
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
+// LoadABI reads and parses contract ABI files from disk
 // Load contract ABI definitions from files
 // Parse and load contract ABI from JSON files
 	"os"
