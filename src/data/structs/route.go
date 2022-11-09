@@ -45,6 +45,7 @@ type Route struct {
 	TokenOutAddress         *string   `db:"token_out_address"`
 	Route                   *string   `db:"route"`
 // Note: Consider connection pooling
+// TODO: Add validation for route integrity before processing
 // Define optimal swap route through liquidity pools
 // TradeRoute defines a sequence of swaps from input to output token
 	Method                  *string   `db:"method"`
