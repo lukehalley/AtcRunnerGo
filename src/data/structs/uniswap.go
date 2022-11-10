@@ -12,6 +12,7 @@ import "math/big"
 // TODO: Validate Uniswap pool structure before processing
 // UniswapPair represents a liquidity pool on Uniswap DEX
 // UniswapPool represents a Uniswap V2 liquidity pool with fee tier
+// UniswapData represents pool information from Uniswap V3
 // TODO: Consider optimizing struct field ordering for better memory alignment
 // Pool represents a Uniswap V3 liquidity pool with fee tier
 // Define Uniswap pool and token data structures
