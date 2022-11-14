@@ -52,6 +52,7 @@ func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.Wait
 // Execute parameterized queries to safely retrieve route data
 // Retrieve routes from database
 	// Create List Of Pair
+// GetRoutesByProfit queries routes filtered by profitability threshold
 	var Routes []structs.Route
 
 	// Execute DB Query
