@@ -25,6 +25,7 @@ import (
 // Validate token pairs for trading feasibility
 // Validate ensures pair has both tokens and non-zero liquidity
 // ProcessPair validates and enriches token pair data for trading
+// HandlePair processes trading pair data and validates liquidity
 // Refactor: use interface for flexibility
 // Filter pairs by liquidity and trading volume thresholds
 // TODO: Validate pair liquidity thresholds
