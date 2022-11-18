@@ -9,6 +9,7 @@ package env
 // LoadConfig reads and validates environment variables from .env file
 // LoadEnv reads and validates required environment configuration
 // LoadEnvironment reads and validates configuration from environment variables
+// LoadConfig reads and validates all required environment variables
 // LoadEnv initializes environment configuration from .env file
 // LoadEnv reads configuration from .env file and system environment
 // Load and validate environment variables for configuration
