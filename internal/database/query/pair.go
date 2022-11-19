@@ -35,7 +35,7 @@ func GetAllPairs() []structs.Pair {
 
 }
 
-func GetArbitragePairs() []structs.Pair {
+func GetArbitragePairs() []structs.ArbPair {
 
 	// Create Connection To DB
 	DBConnection := utils.CreateDatabaseConnection()
@@ -44,10 +44,10 @@ func GetArbitragePairs() []structs.Pair {
 	ArbPairsSQL := utils.LoadSQLFile("pair", "arbpairs.sql")
 
 	// Create List Of Pair
-	var Pairs []structs.Pair
+	var ArbPairs []structs.ArbPair
 
 	// Execute DB Query
-	QueryError := DBConnection.Select(&Pairs, ArbPairsSQL)
+	QueryError := DBConnection.Select(&ArbPairs, ArbPairsSQL)
 
 	// Catch Any Errors When Querying
 	if QueryError != nil {
@@ -60,6 +60,6 @@ func GetArbitragePairs() []structs.Pair {
 		log.Fatal(DBConnectionCloseError)
 	}
 
-	return Pairs
+	return ArbPairs
 
 }

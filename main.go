@@ -1,16 +1,11 @@
 package main
 
 import (
-	"atc-runner/internal/database/query"
-	"fmt"
+	"atc-runner/internal/aws"
 )
 
 func main() {
 
-	ArbPairs := query.GetArbitragePairs()
-
-	for _, v := range ArbPairs {
-		fmt.Println(v)
-	}
+	aws.SyncABIsFromS3()
 
 }
