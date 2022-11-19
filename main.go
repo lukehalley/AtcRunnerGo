@@ -7,9 +7,9 @@ import (
 
 func main() {
 
-	Pairs := query.GetAllPairs()
+	ArbPairs := query.GetArbitragePairs()
 
-	for _, v := range Pairs {
+	for _, v := range ArbPairs {
 		fmt.Println(v)
 	}
 
