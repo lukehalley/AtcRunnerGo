@@ -30,7 +30,7 @@ func main() {
 	ArbitragePairGroups, ArbitragePairIndividual := query.GetArbitragePairs()
 	logging.LogSeparator(false)
 	log.Print("Retrieved:")
-	log.Print("- ", ArbitragePairIndividual, " Arbitrage Pairs")
+	log.Print("- ", len(ArbitragePairIndividual), " Arbitrage Pairs")
 	log.Print("- ", len(ArbitragePairGroups), " Arbitrage Pair Groups")
 	logging.LogSeparator(true)
 
