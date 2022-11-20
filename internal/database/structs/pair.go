@@ -13,6 +13,7 @@ type Pair struct {
 }
 
 type ArbPair struct {
+	RecipeGroupId           int    `db:"recipe_group_id"`
 	NetworkName             string `db:"network_name"`
 	DexName                 string `db:"dex_name"`
 	PairDbId                int    `db:"pair_db_id"`

@@ -3,6 +3,7 @@ package query
 import (
 	"atc-runner/internal/database/structs"
 	"atc-runner/internal/database/utils"
+	. "github.com/ahmetalpbalkan/go-linq"
 	"log"
 )
 
@@ -35,13 +36,13 @@ func GetAllPairs() []structs.Pair {
 
 }
 
-func GetArbitragePairs() []structs.ArbPair {
+func GetArbitragePairs() ([]Group, int) {
 
 	// Create Connection To DB
 	DBConnection := utils.CreateDatabaseConnection()
 
 	// Load Query From File
-	ArbPairsSQL := utils.LoadSQLFile("pair", "arbpairs.sql")
+	ArbPairsSQL := utils.LoadSQLFile("pair", "arbpairsroutes.sql")
 
 	// Create List Of Pair
 	var ArbPairs []structs.ArbPair
@@ -60,6 +61,13 @@ func GetArbitragePairs() []structs.ArbPair {
 		log.Fatal(DBConnectionCloseError)
 	}
 
-	return ArbPairs
+	// Group Arbitrage Pairs
+	var GroupedArbitragePairs []Group
+	From(ArbPairs).GroupByT(
+		func(p structs.ArbPair) int { return p.RecipeGroupId },
+		func(p structs.ArbPair) structs.ArbPair { return p },
+	).ToSlice(&GroupedArbitragePairs)
+
+	return GroupedArbitragePairs, len(ArbPairs)
 
 }

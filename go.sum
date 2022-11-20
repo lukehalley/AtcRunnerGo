@@ -1,3 +1,5 @@
+github.com/ahmetalpbalkan/go-linq v3.0.0+incompatible h1:dIwn5yUE6BoMAytLGn3pz/WoRhOj2gepls7iyNRN4yY=
+github.com/ahmetalpbalkan/go-linq v3.0.0+incompatible/go.mod h1:IBvGwXyZVvXuN8KIbGCK53k+fzCKOmAdYhobMdJXOck=
 github.com/aws/aws-sdk-go v1.44.19/go.mod h1:y4AeaBuwd2Lk+GepC1E9v0qOiTws0MIWAX4oIKwKHZo=
 github.com/aws/aws-sdk-go v1.44.142 h1:KZ1/FDwCSft1DuNllFaBtWpcG0CW2NgQjvOrE1TdlXE=
 github.com/aws/aws-sdk-go v1.44.142/go.mod h1:aVsgQcEevwlmQ7qHE9I3h+dtQgpqhFB+i8Phjh7fkwI=

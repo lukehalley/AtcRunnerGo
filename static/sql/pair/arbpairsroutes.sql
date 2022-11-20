@@ -51,6 +51,7 @@ FROM
     FROM
     pairs AS pairs_max_liquidity
     INNER JOIN pair_market_data AS pair_market_data_max_liquidity ON pairs_max_liquidity.pair_id = pair_market_data_max_liquidity.pair_id
+    INNER JOIN routes AS routes_join ON pairs_max_liquidity.pair_id = routes_join.pair_id
     GROUP BY
     pairs_max_liquidity.primary_token_id,
     pairs_max_liquidity.secondary_token_id,
