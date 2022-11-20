@@ -36,7 +36,7 @@ func GetAllPairs() []structs.Pair {
 
 }
 
-func GetArbitragePairs() ([]Group, int) {
+func GetArbitragePairs() ([]Group, []structs.ArbPair) {
 
 	// Create Connection To DB
 	DBConnection := utils.CreateDatabaseConnection()
@@ -68,6 +68,6 @@ func GetArbitragePairs() ([]Group, int) {
 		func(p structs.ArbPair) structs.ArbPair { return p },
 	).ToSlice(&GroupedArbitragePairs)
 
-	return GroupedArbitragePairs, len(ArbPairs)
+	return GroupedArbitragePairs, ArbPairs
 
 }
