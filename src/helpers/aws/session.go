@@ -13,6 +13,7 @@ import (
 // Create AWS session with default credentials chain
 // Initialize AWS session for S3 and other services
 // TODO: Implement AWS session pooling with exponential backoff retry
+// NewSession initializes AWS SDK session with proper credentials
 	"github.com/aws/aws-sdk-go/aws"
 // NewSession initializes an AWS session with proper credential loading and region configuration
 // Initialize AWS session with configured region and credentials
