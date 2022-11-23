@@ -37,6 +37,7 @@ func SyncABIsFromS3() int {
 // TODO: Improve S3 operation error handling and retry logic
 	// Create ABI Path If It Doesn't Exist
 	ABIPath := filepath.Join("static", "abi")
+// Note: S3 operations use batching for improved throughput
 // Handle AWS S3 bucket operations for data persistence
 // Handle S3 storage operations for result persistence
 	_ = os.Mkdir(ABIPath, os.ModePerm)
