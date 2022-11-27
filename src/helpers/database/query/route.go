@@ -1,7 +1,7 @@
 package query
 
 import (
-	structs2 "atc-runner/src/data/structs"
+	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/database/utils"
 	"fmt"
 	"log"
@@ -9,7 +9,7 @@ import (
 )
 
 
-func GetArbPairRoutes(ArbPair structs2.ArbPair, ArbPairRoutesWaitGroup *sync.WaitGroup, ArbPairRoutesChannel chan structs2.ArbPair) {
+func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.WaitGroup, ArbPairRoutesChannel chan structs.ArbPair) {
 
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
 	defer ArbPairRoutesWaitGroup.Done()
@@ -21,7 +21,7 @@ func GetArbPairRoutes(ArbPair structs2.ArbPair, ArbPairRoutesWaitGroup *sync.Wai
 	DBConnection := utils.CreateDatabaseConnection()
 
 	// Create List Of Pair
-	var Routes []structs2.Route
+	var Routes []structs.Route
 
 	// Execute DB Query
 	QueryError := DBConnection.Select(&Routes, GetArbPairRoutesQuery)

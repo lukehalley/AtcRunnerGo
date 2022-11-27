@@ -2,14 +2,17 @@ package pair
 
 import (
 	"atc-runner/src/data/structs"
+	"atc-runner/src/helpers/web3/path"
 	"atc-runner/src/io/abi"
 	"fmt"
 	"github.com/chenzhijie/go-web3"
 	"log"
+	"math/big"
 	"sync"
+	"time"
 )
 
-func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup, ArbPairChannel chan uint64) {
+func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup) {
 
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
 	defer ArbPairWaitGroup.Done()
@@ -22,14 +25,6 @@ func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGro
 		log.Fatal(Web3Error)
 	}
 
-	// Get Block Number
-	BlockNumber, BlockNumberError := Web3.Eth.GetBlockNumber()
-
-	// Catch Getting Block Number
-	if BlockNumberError != nil {
-		log.Fatal(BlockNumberError)
-	}
-
 	// Load Router ABI
 	DexRouterAbi := abi.LoadAbi(ArbitragePair.DexRouterAbi)
 
@@ -39,7 +34,15 @@ func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGro
 		log.Fatal(RouterContractError)
 	}
 
-	AmountsOut, AmountsOutError := RouterContract.Call("getAmountsOut", 1000000000)
+	Path := path.NormalisePath(*ArbitragePair.PairRoutes[0].Route)
+
+	AmountIn := &big.Int{}
+	AmountIn.SetInt64(1000000000)
+
+	deadline := &big.Int{}
+	deadline.SetInt64(time.Now().Add(10*time.Minute).Unix())
+
+	AmountsOut, AmountsOutError := RouterContract.Call("getAmountsOut", AmountIn, Path)
 	if AmountsOutError != nil {
 		log.Fatal(AmountsOutError)
 	}
@@ -47,6 +50,8 @@ func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGro
 	fmt.Printf("Total supply %v\n", AmountsOut)
 
 	// Send Return Value Back In Channel
-	ArbPairChannel <- BlockNumber
+	// ArbPairChannel <- BlockNumber
+
+	return
 
 }
