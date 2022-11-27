@@ -1,8 +1,8 @@
 package aws
 
 import (
-	"atc-runner/internal/env"
-	"atc-runner/internal/file"
+	"atc-runner/src/io/env"
+	"atc-runner/src/io/file"
 	"github.com/seqsense/s3sync"
 	"log"
 	"os"

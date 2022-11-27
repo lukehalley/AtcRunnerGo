@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY main.go go.mod go.sum ./
 
-ADD internal ./internal
+ADD src ./src
 
 RUN go mod download
 

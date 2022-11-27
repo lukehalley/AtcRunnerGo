@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"atc-runner/internal/env"
+	"atc-runner/src/io/env"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
 	"log"
