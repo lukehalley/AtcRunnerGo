@@ -10,7 +10,7 @@ import (
 	"sync"
 )
 
-func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup) *big.Int {
+func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup, ArbPairPricesChannel chan structs.ArbPair) {
 
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
 	defer ArbPairWaitGroup.Done()
@@ -58,11 +58,11 @@ func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGro
 	// Check If We Got Valid Results Back
 	if len(AmountsOutCast) > 1 {
 		FinalAmountOut := AmountsOutCast[len(AmountsOutCast)-1]
+		ArbitragePair.Price = *FinalAmountOut
 		log.Printf("%v: %v", ArbitragePair.PairName, FinalAmountOut)
-		return FinalAmountOut
+		ArbPairPricesChannel <- ArbitragePair
 	} else {
 		log.Printf("%v: Failed", ArbitragePair.PairName)
-		return nil
 	}
 
 }
