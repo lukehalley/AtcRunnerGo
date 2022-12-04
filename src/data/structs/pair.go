@@ -1,6 +1,8 @@
 package structs
 
-import "math/big"
+import (
+	"github.com/shopspring/decimal"
+)
 
 type Pair struct {
 	Id                      int    `db:"pair_id"`
@@ -28,7 +30,7 @@ type ArbPair struct {
 	PairFdv                 int     `db:"pair_fdv"`
 
 	// Price Fields
-	Price                   big.Int
+	Price                   decimal.Decimal
 
 	// Primary Token Fields
 	PrimaryTokenDbId        int     `db:"primary_token_db_id"`

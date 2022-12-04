@@ -4,28 +4,12 @@ import (
 	"atc-runner/src/arbitrage"
 	"atc-runner/src/helpers/aws"
 	"atc-runner/src/helpers/database/query"
-	"atc-runner/src/helpers/web3/token"
 	"atc-runner/src/io/logging"
 	"atc-runner/src/processing"
-	"fmt"
-	"github.com/shopspring/decimal"
 	"log"
 )
 
 func main() {
-
-	Start, _ := decimal.NewFromString("0.000000000001")
-	Places := 18
-
-	Wei := token.DecimalToWei(Start, Places)
-	fmt.Printf("DecimalToWei: %v \n", Wei)
-
-	Decimal := token.WeiToDecimal(Wei, Places)
-	fmt.Printf("DecimalToWei: %v \n", Decimal)
-
-	Eq := Decimal.Equals(Start)
-
-	fmt.Printf("Is Eq: ", Eq)
 
 	// ATC Go Runner Header
 	logging.LogSeparator(false)

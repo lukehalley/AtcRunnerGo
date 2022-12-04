@@ -4,11 +4,14 @@ import (
 	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/web3/dex"
 	. "github.com/ahmetalpbalkan/go-linq"
+	"github.com/shopspring/decimal"
+	"log"
 	"sync"
 )
 
 func InvokeArbitrageGroups(ArbitragePairGroups []Group) []Group {
 
+	// Create Concurrency Objects
 	InvokeWaitGroup := new(sync.WaitGroup)
 	InvokeWaitGroup.Add(len(ArbitragePairGroups))
 	InvokeGroupChannel := make(chan Group, len(ArbitragePairGroups))
@@ -44,8 +47,13 @@ func CompareArbitrageGroup(ArbitragePairGroup Group, InvokeWaitGroup *sync.WaitG
 	ArbPairPricesChannel := make(chan structs.ArbPair, len(ArbitrageGroup))
 
 	// Get Pair Prices For Group
+	AmountInDecimal, DecimalError := decimal.NewFromString("1.0")
+	if DecimalError != nil {
+		log.Fatal(DecimalError)
+	}
+
 	for _, ArbitragePair := range ArbitrageGroup {
-		go dex.GetAmountsOut(ArbitragePair.(structs.ArbPair), ArbPairPricesWaitGroup, ArbPairPricesChannel)
+		go dex.GetAmountsOut(AmountInDecimal, ArbitragePair.(structs.ArbPair), ArbPairPricesWaitGroup, ArbPairPricesChannel)
 	}
 
 	// Wait For Pair Prices To Be Collected
