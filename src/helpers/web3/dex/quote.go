@@ -61,11 +61,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 
 		ArbitragePair.Price = token.WeiToDecimal(InitAmountOut, ArbitragePair.SecondaryTokenDecimals)
 
-		log.Printf("%v: %v", ArbitragePair.PairName, ArbitragePair.Price)
-
 		ArbPairPricesChannel <- ArbitragePair
-	} else {
-		log.Printf("%v: Failed", ArbitragePair.PairName)
 	}
 
 }
