@@ -18,8 +18,15 @@ func InvokeArbitrageGroups(ArbitragePairGroups []Group) []Group {
 	}
 
 	InvokeWaitGroup.Wait()
+	close(InvokeGroupChannel)
 
-	return ArbitragePairGroups
+	// Get Results From Channel
+	var ArbitragePairGroupsWithPrice []Group
+	for ArbPairWithPrice := range InvokeGroupChannel {
+		ArbitragePairGroupsWithPrice = append(ArbitragePairGroupsWithPrice, ArbPairWithPrice)
+	}
+
+	return ArbitragePairGroupsWithPrice
 
 }
 
@@ -41,8 +48,26 @@ func CompareArbitrageGroup(ArbitragePairGroup Group, InvokeWaitGroup *sync.WaitG
 		go pair.GetAmountsOut(ArbitragePair.(structs.ArbPair), ArbPairPricesWaitGroup, ArbPairPricesChannel)
 	}
 
+	// Wait For Pair Prices To Be Collected
 	ArbPairPricesWaitGroup.Wait()
 
-	InvokeGroupChannel <- ArbitragePairGroup
+	// Close Channel
+	close(ArbPairPricesChannel)
+
+	// Get Results From Channel
+	var ArbPairPriceResults []structs.ArbPair
+	for ArbPair := range ArbPairPricesChannel {
+		ArbPairPriceResults = append(ArbPairPriceResults, ArbPair)
+	}
+
+	// Regroup The Pairs
+	var GroupedArbitragePairs []Group
+	From(ArbPairPriceResults).GroupByT(
+		func(Pair structs.ArbPair) int { return Pair.RecipeGroupId },
+		func(Pair structs.ArbPair) structs.ArbPair { return Pair },
+	).ToSlice(&GroupedArbitragePairs)
+
+	// Return Value To Channel
+	InvokeGroupChannel <- GroupedArbitragePairs[0]
 
 }
