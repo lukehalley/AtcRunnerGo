@@ -22,17 +22,3 @@ func WeiToDecimal(Amount *big.Int, DecimalPlaces int) decimal.Decimal {
 
 }
 
-
-//# Get the wei amount of a value from int value
-//def getTokenDecimalValue(amount, decimalPlaces=18):
-//safeAmount = Decimal(amount)
-//family = getWeiFamily(decimalPlaces)
-//return int(Web3.toWei(safeAmount, family))
-//
-//
-//# Get the int amount of a value from wei value
-//def getTokenNormalValue(amount, decimalPlaces=18):
-//safeAmount = int(amount)
-//family = getWeiFamily(decimalPlaces)
-//return Decimal(Web3.fromWei(safeAmount, family))
-
