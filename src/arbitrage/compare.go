@@ -3,6 +3,7 @@ package arbitrage
 import (
 	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/web3/dex"
+	"atc-runner/src/io/logging"
 	. "github.com/ahmetalpbalkan/go-linq"
 	"github.com/shopspring/decimal"
 	"log"
@@ -31,6 +32,20 @@ func CollectPairGroupsPrices(ArbitragePairGroups []Group) []Group {
 	var ArbitragePairGroupsWithPrice []Group
 	for ArbPairWithPrice := range InvokeGroupChannel {
 		ArbitragePairGroupsWithPrice = append(ArbitragePairGroupsWithPrice, ArbPairWithPrice)
+	}
+
+	// Kick Off The Function Which Gets The Prices For Each Group
+	for _, ArbitragePairGroupWithPrice := range ArbitragePairGroupsWithPrice {
+
+		InitCastPair := ArbitragePairGroupWithPrice.Group[0].(structs.ArbPair)
+
+		log.Printf("[%v On %v]", InitCastPair.NetworkName, InitCastPair.PairName)
+
+		for _, ArbitragePairGroup := range ArbitragePairGroupWithPrice.Group {
+			CastPair := ArbitragePairGroup.(structs.ArbPair)
+			log.Printf("- %v: %v", CastPair.DexName, CastPair.Price)
+		}
+		logging.LogSeparator(false)
 	}
 
 	return ArbitragePairGroupsWithPrice
@@ -80,7 +95,9 @@ func CollectPairGroupPrices(ArbitragePairGroup Group, InvokeWaitGroup *sync.Wait
 		func(Pair structs.ArbPair) structs.ArbPair { return Pair },
 	).ToSlice(&GroupedArbitragePairs)
 
-	// Return Value To Channel
-	InvokeGroupChannel <- GroupedArbitragePairs[0]
+	if len(GroupedArbitragePairs) > 0 {
+		// Return Value To Channel
+		InvokeGroupChannel <- GroupedArbitragePairs[0]
+	}
 
 }
