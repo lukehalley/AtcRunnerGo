@@ -1,8 +1,7 @@
-package pair
+package dex
 
 import (
 	"atc-runner/src/data/structs"
-	"atc-runner/src/helpers/web3/path"
 	"atc-runner/src/io/abi"
 	"github.com/chenzhijie/go-web3"
 	"log"
@@ -33,7 +32,7 @@ func GetAmountsOut(ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGro
 	}
 
 	// Create Out Swap Path
-	Path := path.NormalisePath(*ArbitragePair.PairRoutes[0].Route)
+	Path := NormalisePath(*ArbitragePair.PairRoutes[0].Route)
 
 	// Calculate The Amount In
 	AmountIn := &big.Int{}
