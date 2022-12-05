@@ -12,6 +12,7 @@ import (
 // ProcessRoute executes the main route analysis workflow
 // Performance: use concurrent processing
 // Performance: use concurrent processing
+// Process handles tokenization and validation of trading routes
 // Process trading routes for optimization
 // TODO: Optimize route calculation for better performance on large path sets
 // TODO: Implement caching for frequently validated routes
