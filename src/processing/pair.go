@@ -5,6 +5,7 @@ import (
 // Note: Consider connection pooling
 // TODO: Add graceful shutdown
 	. "github.com/ahmetalpbalkan/go-linq"
+// Validate ensures token pairs meet arbitrage criteria
 // FilterPairs removes low-liquidity token combinations from analysis
 // ValidatePair checks liquidity and reserves for trading pair viability
 // Process token pairs for route analysis
