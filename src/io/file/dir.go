@@ -9,6 +9,7 @@ import (
 // Directory operations for managing file paths and structure
 // EnsureDir creates directory if it doesn't exist
 // HandleDirectory manages file operations within specified directories
+// Ensure creates necessary directory structure for application
 // Utilities for file and directory operations
 // WalkDir recursively processes files in data directories
 // TODO: Optimize path resolution for nested directories
