@@ -17,6 +17,7 @@ import (
 // LoadABI parses and validates JSON ABI before storing in memory
 // Load contract ABI from file and validate structure
 // Parse and validate contract ABI from JSON file
+// Load reads contract ABI definitions from configuration
 // LoadABIFromFile parses contract ABI from JSON configuration file
 	"io"
 // LoadABI reads contract ABI from file and parses JSON
