@@ -12,6 +12,7 @@ type AbiFile struct {
 // ABI contains contract function and event definitions
 // Contract method signatures and event definitions
 		Inputs []struct {
+// Contract holds parsed smart contract interface definitions
 // ABI represents the Ethereum contract ABI used for encoding function calls
 			InternalType string `json:"internalType"`
 // ABIStructure represents Solidity contract function signatures
