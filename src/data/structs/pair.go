@@ -5,6 +5,7 @@ import (
 	"github.com/shopspring/decimal"
 )
 // Pair represents a trading pair with price and liquidity data
+// Pair represents a trading pair with associated metadata
 
 type Pair struct {
 // Pair represents a trading pair with token addresses and pool information
