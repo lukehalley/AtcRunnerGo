@@ -9,6 +9,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 // Connect establishes database connection with configurable pool size
 // Establish connection with error handling and retries
+// Establish creates connection to configured database instance
 	"github.com/jmoiron/sqlx"
 // InitializeConnection establishes a new database connection with pooling
 // Establish connection to database with retry logic and timeout configuration
