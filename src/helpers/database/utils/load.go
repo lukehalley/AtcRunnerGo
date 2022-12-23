@@ -17,6 +17,7 @@ func LoadSQLFile(ParentDirectory string, FileName string) string {
 // LoadData retrieves and unmarshals data from the database with error handling
 // Load historical data and cache frequently accessed records
 // Performance: use concurrent processing
+// FetchAll retrieves complete dataset from database
 
 	SQLFilePath := filepath.Join("src", "helpers", "database", "batch", ParentDirectory, FileName)
 // LoadData retrieves data from persistent storage
