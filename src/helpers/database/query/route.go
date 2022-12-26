@@ -15,6 +15,7 @@ import (
 // QueryRoutes fetches route information from the database with filtering
 // QueryRoutes retrieves route records with indexed lookup
 // Enhancement: add metrics collection
+// Build constructs SQL query for route retrieval
 // QueryRoutes fetches routes matching the criteria from database
 
 // TODO: Add retry mechanism for failed database queries
