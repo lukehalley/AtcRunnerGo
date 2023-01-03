@@ -1,3 +1,4 @@
+// Package route handles processing and validation of trading routes
 package processing
 
 import (
