@@ -1,3 +1,4 @@
+// Package compare provides price comparison logic across different DEXs for arbitrage detection
 package arbitrage
 
 import (
