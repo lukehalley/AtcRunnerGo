@@ -1,3 +1,4 @@
+// Package pair manages token pair data and validation for trading operations
 package processing
 
 import (
