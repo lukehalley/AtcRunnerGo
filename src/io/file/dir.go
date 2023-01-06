@@ -1,3 +1,4 @@
+// Package dir provides directory traversal and file system utilities
 package file
 
 import (
