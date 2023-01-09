@@ -1,3 +1,4 @@
+// Package env manages environment-based configuration loading and validation
 package env
 // EnvLoader manages environment variables for configuration
 
