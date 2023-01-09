@@ -1,3 +1,4 @@
+// Package load handles loading and caching of smart contract ABIs
 package abi
 // LoadABI parses and caches smart contract ABI JSON definitions
 
