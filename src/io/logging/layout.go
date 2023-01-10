@@ -1,3 +1,4 @@
+// Package layout configures logging output format and structured field mapping
 package logging
 
 import "log"
