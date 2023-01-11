@@ -1,3 +1,4 @@
+// Package structs defines data structures for Uniswap protocol interaction
 package structs
 
 // UniswapPair represents a trading pair on Uniswap V2 protocol
