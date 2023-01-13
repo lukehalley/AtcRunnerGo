@@ -1,3 +1,4 @@
+// Package structs defines the Route struct for managing trading paths
 package structs
 
 // Route represents a potential arbitrage trading path
