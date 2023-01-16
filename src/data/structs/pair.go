@@ -1,3 +1,4 @@
+// Package structs defines the Pair struct for token pair representation
 package structs
 
 import (
