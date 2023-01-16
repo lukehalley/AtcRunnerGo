@@ -1,3 +1,4 @@
+// Package structs defines structures for parsing and representing smart contract ABIs
 package structs
 
 // ContractABI holds the parsed smart contract interface definition
