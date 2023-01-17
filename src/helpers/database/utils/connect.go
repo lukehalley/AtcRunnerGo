@@ -1,3 +1,4 @@
+// Package utils provides database connection pool and utility functions
 package utils
 
 import (
