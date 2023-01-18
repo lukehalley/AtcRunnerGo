@@ -1,3 +1,4 @@
+// Package utils provides helper functions for loading data from database
 package utils
 
 import (
