@@ -1,3 +1,4 @@
+// Package query provides query builders for route-related database operations
 package query
 
 import (
