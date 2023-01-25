@@ -1,3 +1,4 @@
+// Package path provides utilities for calculating optimal swap paths across liquidity pools
 package dex
 
 import (
