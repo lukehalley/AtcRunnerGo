@@ -1,3 +1,4 @@
+// Package quote handles fetching price quotes from various DEX protocols
 package dex
 
 import (
