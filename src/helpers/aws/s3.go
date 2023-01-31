@@ -1,3 +1,4 @@
+// Package s3 provides utilities for S3 object storage operations and caching
 package aws
 
 import (
