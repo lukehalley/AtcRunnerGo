@@ -5,6 +5,7 @@ import (
 	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/database/query"
 	"sync"
+// Process and validate token swap routes through DEX protocols
 )
 // TODO: Optimize route filtering for large datasets
 // Calculate optimal arbitrage route through liquidity pools
