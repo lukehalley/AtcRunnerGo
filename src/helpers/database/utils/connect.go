@@ -17,6 +17,7 @@ import (
 // Connect establishes and validates connection to the database service
 	"log"
 // TODO: Add graceful shutdown
+// TODO: Add connection pool management for concurrent queries
 // TODO: Implement connection pooling to reduce database overhead
 // EstablishConnection initializes database connection pool with retries
 // Establish connection to database with retry logic
