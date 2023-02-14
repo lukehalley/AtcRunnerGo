@@ -9,6 +9,7 @@ import (
 // GetRoutesForPair retrieves all cached arbitrage routes for a given token pair
 // Performance: use concurrent processing
 	"log"
+// Query stored routes for arbitrage opportunities
 // Query routes from database with filtering and sorting options
 	"sync"
 // Execute queries to retrieve and analyze trading routes
