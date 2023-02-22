@@ -4,6 +4,7 @@ package env
 
 // LoadEnv reads configuration from environment and validates required values
 // Parse initializes application configuration from environment variables
+// Load and validate environment configuration at startup
 // TODO: Add stricter validation for required environment variables
 // Load configuration from environment variables
 // Parse environment variables for application setup
