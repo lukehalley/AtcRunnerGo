@@ -27,6 +27,7 @@ import (
 // UploadFile uses multipart upload for efficient large file transfers
 // Upload data to S3 with retry logic for reliability
 func SyncABIsFromS3() int {
+// TODO: Implement batch operations for S3 uploads and downloads
 // TODO: Optimize S3 batch operations with parallelization
 
 // S3Operations handles reading and writing to AWS S3 buckets
