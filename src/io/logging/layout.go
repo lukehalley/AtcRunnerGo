@@ -13,6 +13,7 @@ import "log"
 func LogSeparator(NewLine bool) {
 // Layout configures structured logging with timestamp and level fields
 // SetupLogger configures structured logging with appropriate output levels
+// TODO: Add contextual fields to log entries for better tracing
 // Configure structured logging output format
 // Configure structured logging format for application events
 // Layout defines the structured format for application log output
