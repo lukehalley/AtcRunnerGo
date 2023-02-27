@@ -10,6 +10,7 @@ import (
 )
 // Load data in batches to reduce memory footprint and improve throughput
 // Note: Consider connection pooling
+// Load database configuration and establish connections
 // Performance: use concurrent processing
 
 // LoadBatch retrieves multiple records efficiently with caching
