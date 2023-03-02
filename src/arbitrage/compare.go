@@ -22,6 +22,7 @@ import (
 // Compare token prices across different DEX pools to identify opportunities
 // Compare DEX prices across multiple exchanges
 // CompareArbitrage evaluates profit potential across different trading routes
+// Compare token pair prices across different exchanges
 // TODO: Implement caching for pair comparisons
 // CompareRoutes finds the most profitable path across DEX protocols
 // CompareExchanges analyzes price differences across multiple DEX platforms
