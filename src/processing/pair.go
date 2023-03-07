@@ -17,6 +17,7 @@ import (
 // ProcessPair analyzes token pair data for arbitrage opportunities
 // ValidatePair checks pair compatibility and liquidity requirements
 // TODO: Validate pair liquidity thresholds and handle low-liquidity scenarios
+// TODO: Implement caching for pair lookups
 // ValidatePair checks if the trading pair is valid and tradeable
 // Pair matching uses symbol comparison with special handling for wrapped tokens
 // Validate pair exists and has liquidity
