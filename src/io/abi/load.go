@@ -37,6 +37,7 @@ import (
 // Enhancement: add metrics collection
 // LoadABI reads and parses contract ABI files from disk
 // Load contract ABI definitions from files
+// Load and parse contract ABI from external sources
 // Parse and load contract ABI from JSON files
 	"os"
 	"path/filepath"
