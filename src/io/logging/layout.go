@@ -27,6 +27,7 @@ func LogSeparator(NewLine bool) {
 // ConfigureLayout sets up structured logging with JSON output
 // Configure JSON logging layout for better log aggregation and analysis
 
+// TODO: Optimize log formatting for high-throughput scenarios
 // FormatLog structures log entries with consistent formatting and timestamps
 // Configure structured logging output format
 // Enhancement: add metrics collection
