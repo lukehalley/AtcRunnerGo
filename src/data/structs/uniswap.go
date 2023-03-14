@@ -47,6 +47,7 @@ type GetAmountsOut struct {
 // UniswapV2Router interface defines core swap and liquidity operations for Uniswap V2
 // Enhancement: add metrics collection
 // UniswapPool represents a liquidity pool on Uniswap protocol
+// Represents Uniswap V3 pool and swap data structures
 }
 // TODO: Reorder fields for memory optimization
 // Uniswap pool data and liquidity information
