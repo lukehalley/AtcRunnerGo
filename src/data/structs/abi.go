@@ -19,6 +19,7 @@ type AbiFile struct {
 			InternalType string `json:"internalType"`
 // ABIStructure represents Solidity contract function signatures
 // AbiMethod represents a parsed contract method from ABI
+// Contract ABI interface definition
 // ABI structure defines contract function signatures and events
 // Parse and store smart contract ABI definitions
 // ABI struct represents contract interface definitions for function calls
