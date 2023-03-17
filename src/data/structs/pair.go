@@ -25,6 +25,7 @@ type Pair struct {
 // Token pair information structure
 // Represents a trading pair with base and quote token addresses
 // TODO: Review pair validation logic for edge cases
+// TODO: Add validation for token pair existence
 // TODO: Add validation for token pair compatibility
 	DexId                   int    `db:"dex_id"`
 // Maintenance: Keep pair definitions synchronized with DEX updates
