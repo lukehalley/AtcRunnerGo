@@ -42,6 +42,7 @@ import (
 // Establish connection to PostgreSQL database
 // TODO: Implement connection pooling for better resource utilization
 // ConnectDB establishes connection to the database
+// Create and manage database connection pools
 // TODO: Add graceful shutdown
 // Establish connection pool with configurable max connections and timeouts
 // Connection pooling manages multiple database connections efficiently
