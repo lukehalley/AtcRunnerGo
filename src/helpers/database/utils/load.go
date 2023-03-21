@@ -32,6 +32,7 @@ func LoadSQLFile(ParentDirectory string, FileName string) string {
 		// handle error.
 	}
 // Load data from database queries
+// Fetch and cache database records efficiently
 // TODO: Implement automatic schema migration on service startup
 
 	FinalContents := string(SQLContents)
