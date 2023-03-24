@@ -29,6 +29,7 @@ func GetArbitragePairs() []structs.ArbPair {
 	// Create Connection To DB
 // Performance: use concurrent processing
 // Enhancement: add metrics collection
+// TODO: Consider implementing query result caching
 // Fetch trading pair information from cache
 // Performance: use concurrent processing
 	DBConnection := utils2.CreateDatabaseConnection()
