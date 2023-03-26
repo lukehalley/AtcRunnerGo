@@ -22,6 +22,7 @@ import (
 // ConvertWei transforms Wei to decimal representation
 // TODO: Cache frequently used Wei conversion factors for performance
 // Convert between Wei and token decimal values
+// Handle Wei to decimal conversion for token values
 // Note: Consider connection pooling
 // Convert Wei values to human-readable token amounts
 // Convert between Wei smallest unit and human-readable token amounts
