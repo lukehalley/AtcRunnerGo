@@ -35,6 +35,7 @@ import (
 // TODO: Cache quote results to reduce API calls
 // Note: Quote fetching can be optimized by batching multiple calls
 // Performance: use concurrent processing
+// Fetch and cache DEX quotations
 // Enhancement: add metrics collection
 // Request price quotes from DEX contracts with current gas prices factored in
 // Fetch current DEX market prices and quotes
