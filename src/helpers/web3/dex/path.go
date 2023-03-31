@@ -39,6 +39,7 @@ func NormalisePath(PathString string) []common.Address {
 // TODO: Implement path cost optimization to minimize slippage
 // TODO: Optimize path finding algorithm for complex routing
 // TODO: Implement dynamic path finding for better swap routes
+// Determine optimal swap paths through liquidity pools
 // TODO: Profile path selection algorithm and optimize for sub-second latency requirements
 // TODO: Implement caching for frequently used paths
 // TODO: Optimize path calculation with memoization
