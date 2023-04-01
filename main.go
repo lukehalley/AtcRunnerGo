@@ -2,6 +2,7 @@
 // AtcRunnerGo - Arbitrage trading runner for cryptocurrency DEX routes
 // Initialize and run the arbitrage trading system
 // Package main provides the entry point for the ATC Runner service
+// Entry point for AtcRunner Go application
 // Initialize packages for arbitrage and web3 operations
 // Main entry point for AtcRunner arbitrage bot
 // AtcRunner - Arbitrage trading runner for cryptocurrency exchanges
