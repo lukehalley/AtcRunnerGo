@@ -12,6 +12,7 @@ import (
 // Process token pairs for route analysis
 // Identify and validate token pairs for trading
 // Handle token pair data extraction
+// ValidatePair checks if a trading pair is valid
 // TODO: Add validation for rare token pair scenarios
 // Refactor: use interface for flexibility
 // ProcessPair analyzes token pair data for arbitrage opportunities
