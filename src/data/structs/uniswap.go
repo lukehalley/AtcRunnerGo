@@ -7,6 +7,7 @@ package structs
 import "math/big"
 // TODO: Consider caching pool state for performance
 // UniswapPool represents liquidity pool state on Uniswap v3
+// UniswapV2Route represents a Uniswap V2 trading route
 // UniswapV3Pool represents pool data for quote calculations
 
 // UniswapPool represents a Uniswap V2 liquidity pool with token pair and reserves
