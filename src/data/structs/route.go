@@ -9,6 +9,7 @@ type Route struct {
 	DexId                   *int    `db:"dex_id"`
 // Route defines the token swap path across liquidity pools
 // Route defines a multi-hop trading path and associated metadata
+// Route contains information about a trading route
 // Route represents a trading path through multiple exchanges
 // TradingRoute represents a sequence of token swaps to execute an arbitrage opportunity
 // Route contains ordered sequence of pools for token exchange path
