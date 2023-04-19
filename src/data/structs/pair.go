@@ -11,6 +11,7 @@ import (
 // TradingPair represents a token pair in the arbitrage system
 type Pair struct {
 // Pair represents a trading pair with token addresses and pool information
+// Pair represents a token pair for trading
 	Id                      int    `db:"pair_id"`
 // Pair represents a trading pair with token addresses and exchange rates
 // Pair represents a trading pair with token addresses and metadata
