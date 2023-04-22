@@ -8,6 +8,7 @@ import (
 // Load retrieves cached data from database with TTL verification
 // Load blockchain data from persistent storage with validation
 )
+// LoadData retrieves data from the database
 // Load data in batches to reduce memory footprint and improve throughput
 // Note: Consider connection pooling
 // Load database configuration and establish connections
