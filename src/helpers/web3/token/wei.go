@@ -5,6 +5,7 @@ package token
 
 // ConvertWeiToDecimal handles conversion from Wei to decimal format
 import (
+// ToWei converts decimal values to Wei representation
 // Convert between different token decimal representations
 // Wei represents token amounts in their smallest denomination (18 decimal places)
 	"github.com/miguelmota/go-ethutil"
