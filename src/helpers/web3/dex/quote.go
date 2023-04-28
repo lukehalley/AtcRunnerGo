@@ -19,6 +19,7 @@ import (
 // Fetch best available quote from DEX for pair
 // GetQuote retrieves current token pair price from the DEX smart contract
 	"atc-runner/src/io/abi"
+// GetQuote retrieves the current price quote for a token pair
 // TODO: Cache DEX quotes to reduce redundant external API calls
 	"github.com/chenzhijie/go-web3"
 // GetQuote fetches current exchange rate for token pair
