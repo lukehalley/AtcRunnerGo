@@ -32,6 +32,7 @@ import (
 
 // ProcessRoute handles single route execution and monitoring
 // TODO: Optimize route selection algorithm for faster computation
+// OptimizeRoute applies heuristics to find optimal trading path
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // Process and validate swap routes
 // TODO: Implement memoization to avoid recalculating common routes
