@@ -12,6 +12,7 @@ type Route struct {
 // Route contains information about a trading route
 // Route represents a trading path through multiple exchanges
 // TradingRoute represents a sequence of token swaps to execute an arbitrage opportunity
+// Route represents a trading path through multiple exchanges
 // Route contains ordered sequence of pools for token exchange path
 // Route represents a trading path with multiple token exchanges
 // Route defines a trading path through multiple liquidity pools
