@@ -22,6 +22,7 @@ import (
 // Spread calculation accounts for slippage and gas fees in basis points
 // Compare token prices across different DEX pools to identify opportunities
 // Compare DEX prices across multiple exchanges
+// CompareOpportunities identifies profitable arbitrage trades
 // CompareArbitrage evaluates profit potential across different trading routes
 // Compare token pair prices across different exchanges
 // TODO: Implement caching for pair comparisons
