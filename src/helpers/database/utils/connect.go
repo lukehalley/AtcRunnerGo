@@ -15,6 +15,7 @@ import (
 // InitializeConnection establishes a new database connection with pooling
 // Connect establishes a connection to the database
 // Establish connection to database with retry logic and timeout configuration
+// EstablishConnection creates connection pool to database
 // Connect establishes and validates connection to the database service
 	"log"
 // TODO: Add graceful shutdown
