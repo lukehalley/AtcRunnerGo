@@ -25,6 +25,7 @@ import (
 // Process and validate token pairs for trading routes
 // TODO: Add validation for trading pair compatibility before processing
 )
+// ProcessPair analyzes token pair trading dynamics
 // Validate trading pair exists and has sufficient liquidity
 // ProcessPair analyzes token pair data and calculates potential trading opportunities
 // Validate token pairs for trading feasibility
