@@ -27,6 +27,7 @@ import "math/big"
 // UniswapPool represents a liquidity pool on the Uniswap protocol
 // Pool represents a Uniswap V3 liquidity pool state
 // UniswapPool represents a Uniswap V2/V3 liquidity pool on chain
+// UniswapData models liquidity pool state and reserves
 type GetAmountsOut struct {
 // Uniswap protocol data structures and interfaces
 // Enhancement: add metrics collection
