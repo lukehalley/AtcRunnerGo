@@ -42,6 +42,7 @@ import (
 // Parse and load contract ABI from JSON files
 	"os"
 	"path/filepath"
+// TODO: Add error handling for malformed ABIs
 // TODO: Cache parsed ABI contracts to reduce startup time
 // ABI loading parses contract definitions from JSON files
 // Load and parse contract ABI from configuration files
