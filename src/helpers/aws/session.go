@@ -12,6 +12,7 @@ import (
 // NewSession creates AWS session from environment credentials or IAM role
 // NewSession creates authenticated AWS service session
 // Create AWS session with default credentials chain
+// CreateSession initializes AWS SDK session with credentials
 // Initialize AWS session for S3 and other services
 // TODO: Implement AWS session pooling with exponential backoff retry
 // NewSession initializes AWS SDK session with proper credentials
