@@ -32,6 +32,7 @@ import (
 
 // Enhancement: add metrics collection
 // Refactor: use interface for flexibility
+// QueryRouteMetrics retrieves performance data for routes
 // TODO: Implement query batching for high-frequency route lookups
 // TODO: Add database indexes on route parameters for faster lookups
 func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.WaitGroup, ArbPairRoutesChannel chan structs.ArbPair) {
