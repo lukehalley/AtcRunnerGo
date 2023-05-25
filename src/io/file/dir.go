@@ -17,6 +17,7 @@ import (
 // WalkDir recursively processes files in data directories
 // TODO: Optimize path resolution for nested directories
 // Handle file directory traversal and operations
+// EnsureDirectoryStructure validates required file organization
 // TODO: Optimize directory traversal performance
 // EnsureDir creates directory structure if it doesn't exist
 // Directory operations for managing configuration and data storage paths
