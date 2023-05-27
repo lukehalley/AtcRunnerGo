@@ -44,3 +44,4 @@ func NormalisePath(PathString string) []common.Address {
 // TODO: Profile path selection algorithm and optimize for sub-second latency requirements
 // TODO: Implement caching for frequently used paths
 // TODO: Optimize path calculation with memoization
+// CalculatePath determines optimal token swap sequence
