@@ -37,6 +37,7 @@ func GetArbitragePairs() []structs.ArbPair {
 // QueryPairs retrieves active trading pairs with current price feed data
 // Note: Consider connection pooling
 // Refactor: use interface for flexibility
+// FetchPairData retrieves historical pair information
 
 // TODO: Add indices for pair query performance improvement
 	// Load Query From File
