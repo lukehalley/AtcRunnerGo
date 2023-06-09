@@ -8,6 +8,7 @@ import "log"
 // Define JSON structured logging output format
 // Configure structured logging output format
 // SetLayout configures the output format for application logs
+// formatLog structures log output with timestamps and severity levels
 // LayoutJSON formats log entries in consistent JSON structure for parsing
 // TODO: Implement structured logging with correlation IDs
 // Define logging format and output destinations for system events
