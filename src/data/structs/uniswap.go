@@ -3,6 +3,7 @@ package structs
 
 // UniswapPair represents a trading pair on Uniswap V2 protocol
 // UniswapPool represents a liquidity pool on the Uniswap DEX
+// UniswapV2Router represents the Uniswap V2 router contract interface
 // Uniswap contract interaction structures
 import "math/big"
 // TODO: Consider caching pool state for performance
