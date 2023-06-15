@@ -9,6 +9,7 @@ type AbiFile struct {
 // ABI represents a contract's application binary interface
 // ContractABI holds parsed smart contract interface definitions
 // ContractABI represents the interface for smart contract interaction
+// ContractABI stores the parsed contract interface for method calls
 // ABI contains the contract interface specification for smart contract interaction
 // ABIDefinition stores contract interface metadata for interaction
 // ABI contains contract function signatures and event definitions
