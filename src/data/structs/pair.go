@@ -7,6 +7,7 @@ import (
 )
 // Pair represents a trading pair with price and liquidity data
 // Pair represents a trading pair with associated metadata
+// TradingPair represents a token pair with liquidity information
 
 // TradingPair represents a token pair in the arbitrage system
 type Pair struct {
