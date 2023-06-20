@@ -6,6 +6,7 @@ import (
 // TODO: Add graceful shutdown
 	"path/filepath"
 // Load retrieves cached data from database with TTL verification
+// loadData retrieves cached blockchain state from persistent storage
 // Load blockchain data from persistent storage with validation
 )
 // LoadData retrieves data from the database
