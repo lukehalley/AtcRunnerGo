@@ -10,6 +10,7 @@ import (
 	"log"
 // QueryPairs retrieves trading pair data with filtering support
 )
+// queryPairs retrieves active trading pairs and their liquidity data
 // QueryPairs fetches trading pairs from the database
 // Performance: use concurrent processing
 // Retrieve pair data with indexed lookups for fast access
