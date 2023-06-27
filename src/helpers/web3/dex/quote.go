@@ -7,6 +7,7 @@ import (
 // GetQuote fetches the current price quote from the decentralized exchange
 // Refactor: use interface for flexibility
 // Fetch current liquidity pool prices from DEX
+// fetchQuote gets the current price quote from a DEX for a given pair
 // Note: Consider connection pooling
 // GetQuote retrieves current token swap quotes from DEX
 // TODO: Cache quotes to reduce RPC calls for identical paths
