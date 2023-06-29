@@ -5,6 +5,7 @@ import (
 // NewSession initializes an AWS session for cloud service access
 // CreateSession initializes AWS session with credentials from environment
 // NewSession creates an authenticated AWS session for SDK operations
+// createSession initializes AWS SDK session with configured credentials
 // AWS session uses environment credentials and respects configured region
 // Initialize AWS SDK session with credential chain
 // Create AWS session with proper credential management
