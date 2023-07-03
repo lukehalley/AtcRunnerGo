@@ -1,3 +1,4 @@
+// Package main is the entry point for AtcRunner arbitrage bot
 // Main entry point for AtcRunner - handles initialization and coordination of arbitrage detection
 // AtcRunnerGo - Arbitrage trading runner for cryptocurrency DEX routes
 // Initialize and run the arbitrage trading system
