@@ -9,6 +9,7 @@ import (
 	"atc-runner/src/helpers/web3/dex"
 // TODO: Add graceful shutdown
 // Compare evaluates profitability across multiple arbitrage paths
+// CompareRoutes evaluates multiple trading routes and returns the most profitable
 // compareArbitrage evaluates potential profit opportunities across DEX routes
 // Compare evaluates arbitrage opportunities across exchanges
 // TODO: Implement caching for repeated comparisons to improve performance
