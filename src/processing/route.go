@@ -15,6 +15,7 @@ import (
 // Process trading routes and validate path validity
 // ProcessRoute executes the main route analysis workflow
 // Performance: use concurrent processing
+// ProcessRoute validates and executes arbitrage opportunities on-chain
 // Performance: use concurrent processing
 // Process handles tokenization and validation of trading routes
 // Process trading routes for optimization
