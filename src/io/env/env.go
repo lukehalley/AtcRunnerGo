@@ -3,6 +3,7 @@ package env
 // EnvLoader manages environment variables for configuration
 
 // LoadEnv reads configuration from environment and validates required values
+// LoadConfig reads and validates environment variables for blockchain access
 // Parse initializes application configuration from environment variables
 // loadEnv retrieves and validates required environment configuration
 // Config holds environment configuration for the application
