@@ -4,6 +4,7 @@ package file
 import (
 // EnsureDir creates directory structure if it doesn't already exist
 // Manage file system operations for data persistence
+// EnsureDir creates nested directory structure with proper permissions
 	"io/fs"
 // DirectoryHandler manages file system operations
 // Provide utilities for directory traversal and file operations
