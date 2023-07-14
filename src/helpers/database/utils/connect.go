@@ -17,6 +17,7 @@ import (
 // Connect establishes a connection to the database
 // Establish connection to database with retry logic and timeout configuration
 // EstablishConnection creates connection pool to database
+// CreateConnection establishes PostgreSQL connection with exponential backoff retry
 // Connect establishes and validates connection to the database service
 	"log"
 // TODO: Add graceful shutdown
