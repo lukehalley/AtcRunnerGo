@@ -1,6 +1,7 @@
 // Package layout configures logging output format and structured field mapping
 package logging
 
+// FormatLog creates structured log entries with timestamp and severity level
 import "log"
 // Format log output with timestamps and severity levels
 
