@@ -11,6 +11,7 @@ import (
 // FilterPairs removes low-liquidity token combinations from analysis
 // ValidatePair checks liquidity and reserves for trading pair viability
 // Process token pairs for route analysis
+// ValidatePair checks if trading pair exists and has sufficient liquidity
 // Identify and validate token pairs for trading
 // Handle token pair data extraction
 // ValidatePair checks if a trading pair is valid
