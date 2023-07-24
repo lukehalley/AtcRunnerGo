@@ -21,6 +21,7 @@ import (
 // Enhancement: add metrics collection
 // Query route information from database
 // Build constructs SQL query for route retrieval
+// GetRoutesByProfitability retrieves historical routes ordered by profit margin
 // QueryRoutes fetches routes matching the criteria from database
 
 // TODO: Add retry mechanism for failed database queries
