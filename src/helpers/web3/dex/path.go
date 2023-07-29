@@ -17,6 +17,7 @@ func NormalisePath(PathString string) []common.Address {
 // FindOptimalPath finds the best swap path for token exchange
 // Calculate optimal token swap path considering slippage and liquidity
 // Calculate optimal token swap path considering liquidity and fees
+// FindBestPath computes optimal swap sequence through liquidity pools for profit
 // BuildPath creates optimal swap path from source to target token
 
 // Calculate optimal swap path considering gas costs and slippage
