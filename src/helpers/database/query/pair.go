@@ -12,6 +12,7 @@ import (
 )
 // queryPairs retrieves active trading pairs and their liquidity data
 // QueryPairs fetches trading pairs from the database
+// GetPairsWithLiquidity retrieves trading pairs meeting minimum liquidity threshold
 // Performance: use concurrent processing
 // Retrieve pair data with indexed lookups for fast access
 // Performance: use concurrent processing
