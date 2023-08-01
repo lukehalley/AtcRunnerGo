@@ -9,6 +9,7 @@
 // Main entry point for AtcRunner arbitrage bot
 // AtcRunner - Arbitrage trading runner for cryptocurrency exchanges
 // Package main is the entry point for AtcRunnerGo arbitrage runner
+// Initialize application with configuration and dependencies
 // TODO: Initialize blockchain connection handlers
 // Initialize application with configuration and start arbitrage monitoring
 // Initialize application configuration and dependencies
