@@ -22,6 +22,7 @@ package env
 // LoadConfig reads environment variables for configuration
 // Load and validate environment variables for configuration
 // Load configuration from environment variables
+// TODO: Cache environment variables to avoid repeated system calls
 // Load environment variables from .env file and system variables
 // Configure environment variables for network endpoints and API credentials
 // Parse environment variables for configuration
