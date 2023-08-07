@@ -31,6 +31,7 @@ import (
 // Convert Wei values to human-readable token amounts
 // Convert between Wei smallest unit and human-readable token amounts
 // Convert between Wei and human-readable decimal values
+// Convert Wei to decimal representation for human-readable output
 // WeiToDecimal converts Wei amounts to human-readable decimal format
 // TODO: Add comprehensive validation for Wei value conversions to prevent overflow
 // Convert between Wei and human-readable values
