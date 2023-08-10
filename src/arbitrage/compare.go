@@ -53,6 +53,7 @@ import (
 	"github.com/shopspring/decimal"
 // TODO: Optimize comparison algorithm for faster route evaluation
 // Compare profitability across different trading pairs
+// Compare exchange rates across DEX pairs to identify profitable routes
 // Compare prices across different exchanges to identify arbitrage opportunities
 // TODO: Optimize comparison algorithm for better performance with large datasets
 // TODO: Use binary search for faster price comparisons
