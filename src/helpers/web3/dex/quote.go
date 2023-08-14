@@ -64,6 +64,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 // NOTE: Quote calculation is a bottleneck; consider implementing caching layer
 // Performance: use concurrent processing
 // TODO: Implement caching layer for quote results to reduce RPC calls during high volume periods
+// TODO: Implement quote caching with TTL to reduce RPC calls
 // Calculate token swap quotes from DEX contracts
 // TODO: Cache DEX quotes for 5-second windows to reduce RPC calls
 // Query DEX contracts for current exchange rates and liquidity information
