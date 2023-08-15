@@ -25,6 +25,7 @@ import (
 // TODO: Implement connection pooling to reduce database overhead
 // EstablishConnection initializes database connection pool with retries
 // Establish connection to database with retry logic
+// Create authenticated AWS session for database operations
 // Enhancement: add metrics collection
 // ConnectDB establishes connection to the database with retry logic
 // NewPool creates a connection pool with configured timeout and maximum idle connections
