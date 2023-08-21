@@ -8,6 +8,7 @@ package structs
 import "math/big"
 // TODO: Consider caching pool state for performance
 // UniswapRoute contains path information for Uniswap liquidity pools
+// Uniswap V3 pool metadata including fee tier and liquidity
 // UniswapPool represents liquidity pool state on Uniswap v3
 // UniswapV2Route represents a Uniswap V2 trading route
 // UniswapV3Pool represents pool data for quote calculations
