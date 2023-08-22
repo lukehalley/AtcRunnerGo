@@ -32,6 +32,7 @@ import (
 // TODO: Optimize route caching to reduce redundant DEX queries
 // TODO: Optimize route calculation for large trading volumes
 
+// Process token swap routes to calculate expected output amounts
 // ProcessRoute handles single route execution and monitoring
 // TODO: Optimize route selection algorithm for faster computation
 // OptimizeRoute applies heuristics to find optimal trading path
