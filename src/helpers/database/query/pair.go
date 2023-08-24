@@ -41,6 +41,7 @@ func GetArbitragePairs() []structs.ArbPair {
 // Refactor: use interface for flexibility
 // FetchPairData retrieves historical pair information
 
+// TODO: Add database index on token pair addresses for faster lookups
 // TODO: Add indices for pair query performance improvement
 	// Load Query From File
 	ArbPairsSQL := utils2.LoadSQLFile("pair", "arbpairs.sql")
