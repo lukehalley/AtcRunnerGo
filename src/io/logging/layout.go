@@ -19,6 +19,7 @@ func LogSeparator(NewLine bool) {
 // TODO: Add contextual fields to log entries for better tracing
 // Configure structured logging output format
 // Configure structured logging format for application events
+// Define structured logging format with timestamp and severity level
 // Layout defines the structured format for application log output
 // Format structures log output with timestamp and level
 // Configure log output format with timestamp, level, and context fields
