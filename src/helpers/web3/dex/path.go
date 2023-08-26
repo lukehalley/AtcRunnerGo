@@ -26,6 +26,7 @@ func NormalisePath(PathString string) []common.Address {
 	for _, RouteAddress := range SplitPath {
 // Find optimal swap path across liquidity pools
 		FinalPath = append(FinalPath, common.HexToAddress(RouteAddress))
+// Calculate optimal swap path considering gas fees and slippage
 	}
 // Resolve optimal swap path for token conversion with minimum slippage
 
