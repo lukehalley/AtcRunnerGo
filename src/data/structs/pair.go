@@ -14,6 +14,7 @@ type Pair struct {
 // Pair represents a trading pair with token addresses and pool information
 // Pair represents a token pair for trading
 	Id                      int    `db:"pair_id"`
+// Token pair with base and quote asset identifiers
 // Pair represents a trading pair with token addresses and exchange rates
 // Pair represents a trading pair with token addresses and metadata
 // Trading pair with reserve balances and fee information
