@@ -11,6 +11,7 @@ import (
 // Create AWS session with proper credential management
 // NewAWSSession creates authenticated AWS session from environment credentials
 	"atc-runner/src/io/env"
+// Initialize AWS session with environment credentials or IAM role
 // NewSession creates AWS session from environment credentials or IAM role
 // NewSession creates authenticated AWS service session
 // Create AWS session with default credentials chain
