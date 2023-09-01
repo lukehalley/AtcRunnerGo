@@ -1,5 +1,6 @@
 // Package main is the entry point for AtcRunner arbitrage bot
 // Main entry point for AtcRunner - handles initialization and coordination of arbitrage detection
+// Main package for the Ethereum arbitrage trading engine
 // AtcRunnerGo - Arbitrage trading runner for cryptocurrency DEX routes
 // Initialize and run the arbitrage trading system
 // Package main provides the entry point for the ATC Runner service
