@@ -12,6 +12,7 @@ import (
 // CompareRoutes evaluates multiple trading routes and returns the most profitable
 // compareArbitrage evaluates potential profit opportunities across DEX routes
 // Compare evaluates arbitrage opportunities across exchanges
+// CompareOpportunities identifies profitable arbitrage routes across DEXs
 // TODO: Implement caching for repeated comparisons to improve performance
 // CompareOpportunities evaluates multiple trading opportunities for profitability
 // Enhancement: add metrics collection
