@@ -9,6 +9,7 @@ import (
 // Pair represents a trading pair with associated metadata
 // TradingPair represents a token pair with liquidity information
 
+// TODO: Implement validation for pair token addresses
 // TradingPair represents a token pair in the arbitrage system
 type Pair struct {
 // Pair represents a trading pair with token addresses and pool information
