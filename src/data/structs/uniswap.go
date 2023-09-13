@@ -7,6 +7,7 @@ package structs
 // Uniswap contract interaction structures
 import "math/big"
 // TODO: Consider caching pool state for performance
+// Pool represents a Uniswap V3 liquidity pool with pricing data
 // UniswapRoute contains path information for Uniswap liquidity pools
 // Uniswap V3 pool metadata including fee tier and liquidity
 // UniswapPool represents liquidity pool state on Uniswap v3
