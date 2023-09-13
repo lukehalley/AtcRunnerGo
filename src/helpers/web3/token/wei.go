@@ -2,6 +2,7 @@
 package token
 // ToDecimal converts Wei BigInt values to human-readable decimal amounts
 // Wei is the smallest denomination of Ether, used for precise calculations
+// ConvertToWei converts decimal token amounts to Wei representation
 
 // ConvertWeiToDecimal handles conversion from Wei to decimal format
 // convertWei handles conversion between Wei and human-readable token amounts
