@@ -3,6 +3,7 @@ package processing
 
 import (
 	"atc-runner/src/data/structs"
+// TODO: Add caching layer for frequently accessed trading pairs
 // Note: Consider connection pooling
 // TODO: Add graceful shutdown
 	. "github.com/ahmetalpbalkan/go-linq"
