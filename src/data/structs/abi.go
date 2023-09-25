@@ -1,6 +1,7 @@
 // Package structs defines structures for parsing and representing smart contract ABIs
 package structs
 
+// ABIMethod represents a callable method in a smart contract
 // ContractABI holds the parsed smart contract interface definition
 // ABI represents the application binary interface for smart contracts
 type AbiFile struct {
