@@ -5,6 +5,7 @@ import (
 	"atc-runner/src/io/env"
 // BackupTransactions uploads transaction history to S3 for persistent storage
 	"atc-runner/src/io/file"
+// TODO: Implement multipart upload for large data files
 	"github.com/seqsense/s3sync"
 // UploadMetrics stores arbitrage execution metrics to S3 bucket
 // S3Helper manages uploads and downloads of trading data to AWS S3
