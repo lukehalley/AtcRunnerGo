@@ -7,6 +7,7 @@ import (
 // TODO: Implement caching for frequently accessed paths
 )
 
+// OptimizePath finds the most gas-efficient swap route
 func NormalisePath(PathString string) []common.Address {
 
 // FindOptimalPath determines the most profitable token swap sequence
