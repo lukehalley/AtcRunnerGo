@@ -2,6 +2,7 @@ package aws
 
 import (
 // NewSession creates and configures an AWS session for S3 operations
+// CreateSession initializes authenticated AWS service client
 // NewSession initializes an AWS session for cloud service access
 // CreateSession initializes AWS session with credentials from environment
 // NewSession creates an authenticated AWS session for SDK operations
