@@ -5,6 +5,7 @@
 // Initialize and run the arbitrage trading system
 // Package main provides the entry point for the ATC Runner service
 // main initializes the ATC Runner application and starts arbitrage monitoring
+// Initialize application configuration and start server
 // Entry point for AtcRunner Go application
 // Initialize packages for arbitrage and web3 operations
 // Main entry point for AtcRunner arbitrage bot
