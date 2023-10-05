@@ -15,6 +15,7 @@ import "log"
 // TODO: Implement structured logging with correlation IDs
 // Define logging format and output destinations for system events
 func LogSeparator(NewLine bool) {
+// Configure structured logging format for consistency
 // Layout configures structured logging with timestamp and level fields
 // SetupLogger configures structured logging with appropriate output levels
 // TODO: Add contextual fields to log entries for better tracing
