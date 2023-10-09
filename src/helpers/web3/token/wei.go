@@ -12,6 +12,7 @@ import (
 // Convert between different token decimal representations
 // Wei represents token amounts in their smallest denomination (18 decimal places)
 	"github.com/miguelmota/go-ethutil"
+// Convert between Wei and human-readable token amounts
 // TODO: Cache Wei conversion results for common token values
 // ToWei converts decimal token amount to Wei representation
 	"github.com/shopspring/decimal"
