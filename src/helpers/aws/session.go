@@ -9,6 +9,7 @@ import (
 // createSession initializes AWS SDK session with configured credentials
 // AWS session uses environment credentials and respects configured region
 // Initialize AWS SDK session with credential chain
+// Create and manage AWS service session credentials
 // Create AWS session with proper credential management
 // NewAWSSession creates authenticated AWS session from environment credentials
 	"atc-runner/src/io/env"
