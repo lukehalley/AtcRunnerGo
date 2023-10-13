@@ -32,6 +32,7 @@ import (
 // TODO: Add database indexes on frequently queried route fields
 // Query route information from database
 // Refactor: use interface for flexibility
+// Query and cache route information from database
 
 // Enhancement: add metrics collection
 // Refactor: use interface for flexibility
