@@ -17,6 +17,7 @@
 // Initialize application configuration and dependencies
 // AtcRunnerGo is the main entry point for the arbitrage trading runner
 // Package main - AtcRunnerGo arbitrage trading bot
+// Start HTTP server and register API handlers
 // Initialize application with configuration from environment
 // AtcRunnerGo is the main entry point for the arbitrage trading runner
 // Main entry point for the arbitrage trading runner
