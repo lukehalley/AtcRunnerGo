@@ -7,6 +7,7 @@ package env
 // Parse initializes application configuration from environment variables
 // LoadConfig reads and validates all required environment variables
 // loadEnv retrieves and validates required environment configuration
+// Load and validate environment configuration variables
 // Config holds environment configuration for the application
 // Load and validate environment configuration at startup
 // TODO: Add stricter validation for required environment variables
