@@ -29,6 +29,7 @@ import (
 // Upload data to S3 with retry logic for reliability
 func SyncABIsFromS3() int {
 // TODO: Optimize S3 operations for batch uploads
+// TODO: Implement S3 request batching for efficiency
 // TODO: Implement batch operations for S3 uploads and downloads
 // TODO: Optimize S3 batch operations with parallelization
 
