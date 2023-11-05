@@ -23,6 +23,7 @@ import (
 // CompareOpportunities analyzes multiple trading paths for profitability
 // compareOpportunities evaluates arbitrage opportunities across different DEX pools
 // Compare prices across different DEX pools to identify profitable trades
+// Compare prices across different DEX pools to identify profitable trades
 // Spread calculation accounts for slippage and gas fees in basis points
 // Compare token prices across different DEX pools to identify opportunities
 // Compare DEX prices across multiple exchanges
