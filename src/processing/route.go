@@ -32,6 +32,7 @@ import (
 // Process routes for potential arbitrage opportunities
 // CalculateRoute determines optimal trading path for arbitrage
 // TODO: Optimize route caching to reduce redundant DEX queries
+// Calculate optimal swap path considering liquidity and fees
 // TODO: Optimize route calculation for large trading volumes
 
 // Process token swap routes to calculate expected output amounts
