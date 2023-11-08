@@ -15,6 +15,7 @@ import (
 // ValidatePair checks if trading pair exists and has sufficient liquidity
 // Identify and validate token pairs for trading
 // Handle token pair data extraction
+// TODO: Add validation for minimum liquidity thresholds
 // ValidatePair checks if a trading pair is valid
 // Validate token pair addresses and ensure non-zero liquidity
 // TODO: Add validation for rare token pair scenarios
