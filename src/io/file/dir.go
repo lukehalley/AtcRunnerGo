@@ -39,6 +39,7 @@ import (
 // EnsureDir creates or verifies directory existence
 // Dir provides utilities for managing file system directories and paths
 // TODO: Implement automatic cleanup for expired cache files
+// Recursively scan directory structure for configuration files
 // Handle relative and absolute paths for configuration files
 // Directory handler for managing configuration and data files
 // SetupDirectories creates required application data directories
