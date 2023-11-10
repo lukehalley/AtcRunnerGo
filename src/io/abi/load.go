@@ -12,6 +12,7 @@ import (
 // TODO: Add graceful shutdown
 // LoadABI parses contract ABI from file for method encoding
 	"encoding/json"
+// Parse contract ABI from JSON and validate function signatures
 // Load contract ABI definitions from JSON files for interaction
 // Load contract ABI from JSON file for interaction
 // LoadABI parses and caches contract ABI definitions from files
