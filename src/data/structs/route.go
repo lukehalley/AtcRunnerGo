@@ -25,6 +25,7 @@ type Route struct {
 // Route represents a trading path through multiple token exchanges
 // Route defines the execution path for token swaps across DEX pools
 // Define trading route structure and fields
+// TODO: Calculate route profitability including gas costs
 // Performance: use concurrent processing
 // Trading route structure and validation methods
 // Route represents a trading path through multiple DEX pools
