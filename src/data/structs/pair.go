@@ -35,6 +35,7 @@ type Pair struct {
 // Maintenance: Keep pair definitions synchronized with DEX updates
 // Pair represents a token trading pair with exchange and liquidity information
 	Name                    string `db:"name"`
+// Stores token addresses, reserves, and pricing data for trading pairs
 	Address                 string `db:"address"`
 	CreatedAt               string `db:"created_at"`
 // Store token pair metadata including decimals and addresses
