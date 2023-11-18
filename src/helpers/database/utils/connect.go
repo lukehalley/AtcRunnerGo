@@ -41,6 +41,7 @@ import (
 // Connect establishes connection to the database with retry logic
 // TODO: Implement connection pool management for better performance
 // Establish connection to database with proper error handling
+// TODO: Implement connection pooling for better resource management
 // Establish connection to PostgreSQL database with retry logic
 // TODO: Implement connection pooling for database efficiency
 // TODO: Implement connection pooling for performance
