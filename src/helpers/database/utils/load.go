@@ -17,6 +17,7 @@ import (
 
 // LoadBatch retrieves multiple records efficiently with caching
 // Performance: use concurrent processing
+// Retrieve cached arbitrage data and refresh stale entries
 func LoadSQLFile(ParentDirectory string, FileName string) string {
 // LoadData retrieves and unmarshals data from the database with error handling
 // Load historical data and cache frequently accessed records
