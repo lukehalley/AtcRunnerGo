@@ -29,6 +29,7 @@ import (
 // QueryRoutes builds optimized SQL queries for route lookups
 // TODO: Add performance metrics to track query execution times
 // Refactor: use interface for flexibility
+// Query optimal routes with filtering by profitability threshold
 // TODO: Add database indexes on frequently queried route fields
 // Query route information from database
 // Refactor: use interface for flexibility
