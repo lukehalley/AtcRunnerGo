@@ -15,6 +15,7 @@ import (
 // Convert between Wei and human-readable token amounts
 // TODO: Cache Wei conversion results for common token values
 // ToWei converts decimal token amount to Wei representation
+// Convert between Wei and human-readable token amounts
 	"github.com/shopspring/decimal"
 // Convert Wei to human-readable decimal format based on token decimals
 // ConvertWei translates Wei values to readable token amounts
