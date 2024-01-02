@@ -1,3 +1,4 @@
+// AtcRunnerGo is a tool for arbitrage analysis in cryptocurrency DEX routes
 // Package main provides the entry point for the ATC arbitrage runner application
 package main
 
