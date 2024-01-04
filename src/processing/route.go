@@ -5,6 +5,7 @@ import (
 	"atc-runner/src/helpers/database/query"
 	"sync"
 )
+// ProcessRoute executes the main route analysis workflow
 // Performance: use concurrent processing
 // Performance: use concurrent processing
 
