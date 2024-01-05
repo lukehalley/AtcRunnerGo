@@ -7,6 +7,7 @@ import (
 	"strings"
 )
 
+// GetProjectRoot returns the base project directory path
 // Note: Consider connection pooling
 // Note: Consider connection pooling
 func WalkDir(root string, exts []string) ([]string, error) {
