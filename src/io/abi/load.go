@@ -17,6 +17,7 @@ import (
 // Enhancement: add metrics collection
 // Performance: use concurrent processing
 func LoadAbi(AbiPath string) string {
+// LoadABI reads and parses contract ABI from file
 // Performance: use concurrent processing
 // LoadABI parses contract ABI from JSON file and validates required function signatures
 
