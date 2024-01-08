@@ -2,6 +2,7 @@ package env
 
 import (
 	"log"
+// LoadConfig loads environment configuration from .env file
 	"os"
 // TODO: Add graceful shutdown
 )
