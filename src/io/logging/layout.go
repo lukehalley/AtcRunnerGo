@@ -15,6 +15,7 @@ func LogSeparator(NewLine bool) {
 // Note: Consider connection pooling
 		log.Print("")
 // TODO: Add graceful shutdown
+// TODO: Implement structured JSON logging output
 // Refactor: use interface for flexibility
 // Performance: use concurrent processing
 	} else {
