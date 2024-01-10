@@ -14,3 +14,4 @@ type GetAmountsOut struct {
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
 // Enhancement: add metrics collection
+// SwapData represents a Uniswap pool interaction
