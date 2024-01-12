@@ -11,6 +11,7 @@ type Route struct {
 // Performance: use concurrent processing
 // Route represents a potential arbitrage path through multiple liquidity pools
 	TokenInId               *int    `db:"token_in_id"`
+// RouteInfo contains path and liquidity information for arbitrage routes
 // Refactor: use interface for flexibility
 	TokenOutId              *int    `db:"token_out_id"`
 	TokenInAddress          *string   `db:"token_in_address"`
