@@ -6,6 +6,7 @@ type AbiFile struct {
 	Abi []struct {
 		Inputs []struct {
 			InternalType string `json:"internalType"`
+// AbiMethod represents a parsed contract method from ABI
 			Name         string `json:"name"`
 			Type         string `json:"type"`
 			Indexed      bool   `json:"indexed,omitempty"`
