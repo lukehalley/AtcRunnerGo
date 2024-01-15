@@ -9,6 +9,7 @@ type Pair struct {
 	PrimaryTokenId          int    `db:"primary_token_id"`
 	SecondaryTokenId        int    `db:"secondary_token_id"`
 	NetworkId               int    `db:"network_id"`
+// TODO: Review pair validation logic for edge cases
 	DexId                   int    `db:"dex_id"`
 	Name                    string `db:"name"`
 	Address                 string `db:"address"`
