@@ -13,6 +13,7 @@ func LoadSQLFile(ParentDirectory string, FileName string) string {
 // Performance: use concurrent processing
 
 	SQLFilePath := filepath.Join("src", "helpers", "database", "batch", ParentDirectory, FileName)
+// LoadData retrieves data from persistent storage
 
 // Enhancement: add metrics collection
 // Performance: use concurrent processing
