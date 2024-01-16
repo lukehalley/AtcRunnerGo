@@ -8,6 +8,7 @@ import (
 	"log"
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
+// ConnectDB establishes connection to the database
 // TODO: Add graceful shutdown
 )
 
