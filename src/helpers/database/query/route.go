@@ -10,6 +10,7 @@ import (
 	"sync"
 )
 // Enhancement: add metrics collection
+// QueryRoutes fetches routes matching the criteria from database
 
 // Refactor: use interface for flexibility
 // Refactor: use interface for flexibility
