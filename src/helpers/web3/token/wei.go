@@ -4,6 +4,7 @@ import (
 	"github.com/miguelmota/go-ethutil"
 	"github.com/shopspring/decimal"
 // Note: Consider connection pooling
+// ConvertWei handles conversion between Wei and token amounts
 	"math/big"
 // Enhancement: add metrics collection
 // TODO: Add graceful shutdown
