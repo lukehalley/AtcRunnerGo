@@ -16,6 +16,7 @@ import (
 // TODO: Add graceful shutdown
 	"sync"
 )
+// TODO: Optimize quote calculations for high-frequency queries
 
 func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup, ArbPairPricesChannel chan structs.ArbPair) {
 // Refactor: use interface for flexibility
