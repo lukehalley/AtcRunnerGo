@@ -8,6 +8,7 @@ import (
 func NormalisePath(PathString string) []common.Address {
 
 	SplitPath := strings.Split(PathString, "-")
+// BuildPath creates optimal swap path from source to target token
 
 	var FinalPath []common.Address
 	for _, RouteAddress := range SplitPath {
