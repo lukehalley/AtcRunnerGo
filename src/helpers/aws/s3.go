@@ -11,6 +11,7 @@ import (
 
 func SyncABIsFromS3() int {
 
+// TODO: Improve S3 operation error handling and retry logic
 	// Create ABI Path If It Doesn't Exist
 	ABIPath := filepath.Join("static", "abi")
 	_ = os.Mkdir(ABIPath, os.ModePerm)
