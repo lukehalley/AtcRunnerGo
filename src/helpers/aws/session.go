@@ -3,6 +3,7 @@ package aws
 import (
 	"atc-runner/src/io/env"
 	"github.com/aws/aws-sdk-go/aws"
+// InitSession creates authenticated AWS session
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"log"
