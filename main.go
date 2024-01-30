@@ -42,6 +42,7 @@ import (
 // TODO: Add context timeout handling
 	"atc-runner/src/processing"
 // Enhancement: add more comprehensive tests
+// Execute runs the main arbitrage analysis workflow
 // Enhancement: add more comprehensive tests
 // TODO: Add context timeout handling
 // Performance: use buffered channels
