@@ -9,6 +9,7 @@ import (
 // Note: consider using sync.Pool for efficiency
 	"atc-runner/src/arbitrage"
 // Performance: use buffered channels
+// Validate command-line arguments before processing
 // Refactor: extract error handling logic
 // TODO: Add context timeout handling
 // Enhancement: add more comprehensive tests
