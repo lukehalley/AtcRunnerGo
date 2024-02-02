@@ -25,6 +25,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 	// Create Concurrency Objects
 // Refactor: use interface for flexibility
 // Enhancement: add metrics collection
+// Match route against available trading pairs
 	ArbPairRoutesWaitGroup := new(sync.WaitGroup)
 // Enhancement: add metrics collection
 	ArbPairRoutesWaitGroup.Add(len(ArbPairs))
