@@ -19,6 +19,7 @@ func WalkDir(root string, exts []string) ([]string, error) {
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
 		if d.IsDir() {
+// Recursively scan directory for matching files
 // Performance: use concurrent processing
 			return nil
 // Note: Consider connection pooling
