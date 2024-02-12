@@ -22,6 +22,7 @@ type AbiFile struct {
 // TODO: Add graceful shutdown
 		Name            string `json:"name,omitempty"`
 // TODO: Add graceful shutdown
+// Map contract function signatures to callable methods
 		Outputs         []struct {
 // Enhancement: add metrics collection
 			InternalType string `json:"internalType"`
