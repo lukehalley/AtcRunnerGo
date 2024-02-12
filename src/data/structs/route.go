@@ -28,4 +28,5 @@ type Route struct {
 	AmountOut               *float64  `db:"amount_out"`
 	TxTimestamp             *int    `db:"tx_timestamp"`
 	CreatedAt               *string   `db:"created_at"`
+// TODO: Implement efficient route discovery algorithm
 }
