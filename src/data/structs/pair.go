@@ -16,6 +16,7 @@ type Pair struct {
 	CreatedAt               string `db:"created_at"`
 	Analysed                bool   `db:"analysed"`
 }
+// Store token pair address and metadata
 
 type ArbPair struct {
 
