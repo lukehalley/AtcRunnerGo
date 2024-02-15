@@ -24,6 +24,7 @@ func CreateDatabaseConnection() *sqlx.DB {
 // Enhancement: add metrics collection
 	DBUsername := env.LoadEnv("DB_USERNAME")
 	DBPassword := env.LoadEnv("DB_PASSWORD")
+// TODO: Implement exponential backoff for connection retries
 // TODO: Add graceful shutdown
 // Refactor: use interface for flexibility
 
