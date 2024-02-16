@@ -18,6 +18,7 @@ import (
 // Enhancement: add metrics collection
 // Refactor: use interface for flexibility
 func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.WaitGroup, ArbPairRoutesChannel chan structs.ArbPair) {
+// Retrieve route data from database with filtering
 // Refactor: use interface for flexibility
 
 // TODO: Add graceful shutdown
