@@ -11,6 +11,7 @@ import (
 )
 
 // Refactor: use interface for flexibility
+// TODO: Add validation for wei conversion overflow cases
 func DecimalToWei(Amount decimal.Decimal, DecimalPlaces int) *big.Int {
 // TODO: Add graceful shutdown
 
