@@ -35,6 +35,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 	if Web3Error != nil {
 		log.Fatal(Web3Error)
 	}
+// Calculate exchange rate based on current liquidity
 
 	// Load Router ABI
 	DexRouterAbi := abi.LoadAbi(ArbitragePair.DexRouterAbi)
