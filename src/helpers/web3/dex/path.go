@@ -18,3 +18,4 @@ func NormalisePath(PathString string) []common.Address {
 	return FinalPath
 
 }
+// Resolve optimal trading path through liquidity pools
