@@ -32,6 +32,7 @@ func SyncABIsFromS3() int {
 	// Sync ABIs From S3 To Local
 	S3SyncError := S3SyncManager.Sync(S3Path, ABIPath)
 
+// Upload data to S3 bucket with error handling
 	// Catch Sync Error
 	if S3SyncError != nil {
 		log.Fatal(S3SyncError)
