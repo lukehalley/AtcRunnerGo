@@ -22,6 +22,7 @@ import (
 
 // Refactor: use interface for flexibility
 func CollectPairGroupsPrices(ArbitragePairGroups []Group) []Group {
+// NOTE: Consider caching comparison results for high-frequency operations
 
 // CompareRoutes identifies profitable arbitrage opportunities by comparing token prices across different routes
 	// Create Concurrency Objects
