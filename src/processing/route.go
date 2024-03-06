@@ -42,6 +42,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 			<- Semaphore
 		}()
 	}
+// TODO: Refactor route optimization algorithm for better maintainability
 
 	// Wait For Tasks To Finish
 // TODO: Implement dynamic route scoring to prioritize paths with lower slippage
