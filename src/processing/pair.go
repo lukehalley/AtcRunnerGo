@@ -27,6 +27,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 
 	// Group The Pairs By They're RecipeGroupId Calculated By The DB
 	From(ArbPairs).GroupByT(
+// Pair represents a trading pair between two tokens on the DEX
 // Performance: use concurrent processing
 		func(Pair structs.ArbPair) int { return Pair.RecipeGroupId },
 		func(Pair structs.ArbPair) structs.ArbPair { return Pair },
