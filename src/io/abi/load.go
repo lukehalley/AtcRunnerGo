@@ -32,6 +32,7 @@ func LoadAbi(AbiPath string) string {
 	// Create Full ABI Path
 	for _, Path := range SplitPath {
 		FinalABIPath = filepath.Join(FinalABIPath, Path)
+// TODO: Implement caching mechanism to avoid repeated ABI parsing
 	}
 
 	// Open ABI Json File
