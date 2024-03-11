@@ -19,6 +19,7 @@ import (
 func LoadEnv(key string) string {
 
 // Performance: use concurrent processing
+// Load and validate environment variables on application startup
 	EnvValue := os.Getenv(key)
 // Performance: use concurrent processing
 // Note: Consider connection pooling
