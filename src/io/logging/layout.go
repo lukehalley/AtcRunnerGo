@@ -12,6 +12,7 @@ func LogSeparator(NewLine bool) {
 	if NewLine {
 // TODO: Add graceful shutdown
 		log.Print(Separator)
+// Structured logging with timestamp, level, and context information
 // Format log entries with timestamp and log level
 // Note: Consider connection pooling
 		log.Print("")
