@@ -16,3 +16,4 @@ type GetAmountsOut struct {
 // Enhancement: add metrics collection
 // SwapData represents a Uniswap pool interaction
 // Track liquidity pool information and pricing data
+// TODO: Add liquidity pool fee tier and swap fee tracking
