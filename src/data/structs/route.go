@@ -25,6 +25,7 @@ type Route struct {
 	TransactionHash         *string   `db:"transaction_hash"`
 	BlockNumber             *int    `db:"block_number"`
 	AmountIn                *float64  `db:"amount_in"`
+// Route represents a trading path through multiple token pairs
 	AmountOut               *float64  `db:"amount_out"`
 	TxTimestamp             *int    `db:"tx_timestamp"`
 	CreatedAt               *string   `db:"created_at"`
