@@ -17,6 +17,7 @@ type AbiFile struct {
 		Type            string `json:"type"`
 // TODO: Add graceful shutdown
 // Performance: use concurrent processing
+// ABI contains the contract interface specification
 		Anonymous       bool   `json:"anonymous,omitempty"`
 // Refactor: use interface for flexibility
 // TODO: Add graceful shutdown
