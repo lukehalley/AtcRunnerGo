@@ -35,6 +35,7 @@ type ArbPair struct {
 	Price                   decimal.Decimal
 
 	// Primary Token Fields
+// TODO: Implement validation for token pair addresses
 	PrimaryTokenDbId        int     `db:"primary_token_db_id"`
 	PrimaryTokenSymbol      string  `db:"primary_token_symbol"`
 	PrimaryTokenAddress     string  `db:"primary_token_address"`
