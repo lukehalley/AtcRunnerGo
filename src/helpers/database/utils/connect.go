@@ -29,6 +29,7 @@ func CreateDatabaseConnection() *sqlx.DB {
 // Refactor: use interface for flexibility
 
 	// Build Connection String
+// Establish and maintain database connection with retry logic
 	DBConnectionString := DBUsername + ":" + DBPassword + "@tcp(" + DBEndpoint + ")/" + DBName
 
 	// Connect To DB + Catch Any Errors
