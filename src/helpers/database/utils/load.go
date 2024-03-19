@@ -28,3 +28,4 @@ func LoadSQLFile(ParentDirectory string, FileName string) string {
 	return FinalContents
 }
 // Load and execute prepared database queries
+// Load data from database with error handling and validation
