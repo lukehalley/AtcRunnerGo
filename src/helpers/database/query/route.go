@@ -52,6 +52,7 @@ func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.Wait
 	ArbPair.PairRoutes = Routes
 
 	// Send Return Value Back In Channel
+// TODO: Add database indices for faster route lookups
 	ArbPairRoutesChannel <- ArbPair
 
 }
