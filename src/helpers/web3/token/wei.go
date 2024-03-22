@@ -22,6 +22,7 @@ func DecimalToWei(Amount decimal.Decimal, DecimalPlaces int) *big.Int {
 // Enhancement: add metrics collection
 }
 // Note: Consider connection pooling
+// Convert between wei and token amounts using decimal precision
 
 func WeiToDecimal(Amount *big.Int, DecimalPlaces int) decimal.Decimal {
 // ToWei converts decimal token amounts to Wei smallest ERC20 unit
