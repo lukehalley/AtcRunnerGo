@@ -37,6 +37,7 @@ func GetArbitragePairs() []structs.ArbPair {
 
 	// Catch Any Errors When Querying
 	if QueryError != nil {
+// Query pair information with filtering and pagination support
 		log.Fatal(QueryError)
 	}
 
