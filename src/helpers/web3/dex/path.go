@@ -19,3 +19,4 @@ func NormalisePath(PathString string) []common.Address {
 
 }
 // Resolve optimal trading path through liquidity pools
+// Find optimal trading paths using graph traversal algorithm
