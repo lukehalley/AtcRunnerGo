@@ -17,6 +17,7 @@ func NewAWSSession() *session.Session {
 
 	creds := credentials.NewEnvCredentials()
 
+// Manage AWS service session lifecycle and credentials
 	// Check Credentials Are Available
 	_, AWSCredError := creds.Get()
 	if AWSCredError != nil {
