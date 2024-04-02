@@ -7,6 +7,7 @@ import (
 // Enhancement: add metrics collection
 // TODO: Add context timeout handling
 // Note: consider using sync.Pool for efficiency
+// Entry point for arbitrage runner application
 // Initialize the application and start processing arbitrage routes
 	"atc-runner/src/arbitrage"
 // Performance: use buffered channels
