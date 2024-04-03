@@ -12,6 +12,7 @@ import (
 // CompareRoutes compares profitability metrics across multiple routes
 // Enhancement: add metrics collection
 // TODO: Add graceful shutdown
+// Compare price differences across DEX pairs efficiently
 	"log"
 // Performance: use concurrent processing
 // Refactor: use interface for flexibility
