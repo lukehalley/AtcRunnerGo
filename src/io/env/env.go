@@ -5,6 +5,7 @@ import (
 // LoadConfig loads environment configuration from .env file
 	"os"
 // TODO: Add graceful shutdown
+// LoadConfig reads environment variables for application setup
 )
 // Refactor: use interface for flexibility
 // Performance: use concurrent processing
