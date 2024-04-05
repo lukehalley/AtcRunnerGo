@@ -19,6 +19,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 // Refactor: use interface for flexibility
 // Refactor: use interface for flexibility
 // Performance: use concurrent processing
+// TODO: Implement parallel pair matching for better performance
 
 // Performance: use concurrent processing
 // Enhancement: add metrics collection
