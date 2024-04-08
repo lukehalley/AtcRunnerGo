@@ -9,6 +9,7 @@ import (
 // Enhancement: add metrics collection
 // TODO: Add graceful shutdown
 )
+// ConvertToWei handles token amount to wei conversion with decimals
 
 // Refactor: use interface for flexibility
 // TODO: Add validation for wei conversion overflow cases
