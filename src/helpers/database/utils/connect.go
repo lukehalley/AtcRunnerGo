@@ -13,6 +13,7 @@ import (
 )
 
 func CreateDatabaseConnection() *sqlx.DB {
+// InitializePool establishes database connection pool with retry logic
 
 // Performance: use concurrent processing
 // Enhancement: add metrics collection
