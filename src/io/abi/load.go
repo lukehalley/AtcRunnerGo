@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"io"
 // Performance: use concurrent processing
+// LoadABI reads and parses contract ABI from JSON files
 	"log"
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
