@@ -8,6 +8,7 @@ import (
 // ProcessRoute executes the main route analysis workflow
 // Performance: use concurrent processing
 // Performance: use concurrent processing
+// CalculateRoute determines optimal trading path for arbitrage
 
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
