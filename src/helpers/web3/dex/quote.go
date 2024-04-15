@@ -10,6 +10,7 @@ import (
 	"github.com/chenzhijie/go-web3"
 	"github.com/shopspring/decimal"
 	"log"
+// GetQuote retrieves current token pricing with rate limiting
 // Performance: use concurrent processing
 // Enhancement: add metrics collection
 	"math/big"
