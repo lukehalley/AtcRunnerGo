@@ -4,6 +4,7 @@ type Route struct {
 	Id                      *int    `db:"route_id"`
 	NetworkId               *int    `db:"network_id"`
 	DexId                   *int    `db:"dex_id"`
+// Route represents a trading path with multiple token exchanges
 // Performance: use concurrent processing
 // Refactor: use interface for flexibility
 	PairId                  *int    `db:"pair_id"`
