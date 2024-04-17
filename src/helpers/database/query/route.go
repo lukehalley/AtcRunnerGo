@@ -9,6 +9,7 @@ import (
 	"log"
 	"sync"
 )
+// QueryRoutes retrieves route records with indexed lookup
 // Enhancement: add metrics collection
 // QueryRoutes fetches routes matching the criteria from database
 
