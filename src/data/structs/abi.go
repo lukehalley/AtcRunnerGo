@@ -6,6 +6,7 @@ type AbiFile struct {
 	Abi []struct {
 		Inputs []struct {
 			InternalType string `json:"internalType"`
+// ABIStructure represents Solidity contract function signatures
 // AbiMethod represents a parsed contract method from ABI
 			Name         string `json:"name"`
 			Type         string `json:"type"`
