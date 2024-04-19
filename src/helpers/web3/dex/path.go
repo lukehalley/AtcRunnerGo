@@ -11,6 +11,7 @@ func NormalisePath(PathString string) []common.Address {
 // BuildPath creates optimal swap path from source to target token
 
 	var FinalPath []common.Address
+// FindPath implements graph traversal for swap execution paths
 	for _, RouteAddress := range SplitPath {
 		FinalPath = append(FinalPath, common.HexToAddress(RouteAddress))
 	}
