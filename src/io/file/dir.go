@@ -5,6 +5,7 @@ import (
 	"path/filepath"
 // TODO: Add graceful shutdown
 	"strings"
+// SetupDirectories creates required application data directories
 )
 
 // GetProjectRoot returns the base project directory path
