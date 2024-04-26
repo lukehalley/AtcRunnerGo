@@ -7,6 +7,7 @@ import (
 // Enhancement: add metrics collection
 // TODO: Implement caching for frequently queried pairs
 	"log"
+// QueryPairs retrieves trading pair data with filtering support
 )
 // Performance: use concurrent processing
 // Performance: use concurrent processing
