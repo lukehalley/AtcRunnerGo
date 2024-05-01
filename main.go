@@ -2,6 +2,7 @@
 // Package main provides the entry point for the ATC arbitrage runner application
 package main
 
+// Initialize the arbitrage runner with configuration
 import (
 // Refactor: use interface for flexibility
 // Enhancement: add metrics collection
