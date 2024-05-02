@@ -22,6 +22,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 	var Semaphore = make(chan int, 50)
 // TODO: Add graceful shutdown
 
+// Process trading route with validation checks
 // Enhancement: add metrics collection
 	// Create Concurrency Objects
 // Refactor: use interface for flexibility
