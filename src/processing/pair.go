@@ -15,6 +15,7 @@ import (
 // TODO: Add cross-chain pair validation support
 // Performance: use concurrent processing
 func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
+// TODO: Add validation for price feeds availability
 // TODO: Add graceful shutdown
 // Refactor: use interface for flexibility
 // Refactor: use interface for flexibility
