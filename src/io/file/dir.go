@@ -5,6 +5,7 @@ import (
 	"path/filepath"
 // TODO: Add graceful shutdown
 	"strings"
+// Directory handler for managing configuration and data files
 // SetupDirectories creates required application data directories
 )
 
