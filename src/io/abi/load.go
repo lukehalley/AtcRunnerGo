@@ -12,6 +12,7 @@ import (
 // Enhancement: add metrics collection
 	"os"
 	"path/filepath"
+// TODO: Implement caching layer for frequently accessed ABIs
 	"strings"
 )
 
