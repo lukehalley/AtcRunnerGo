@@ -7,6 +7,7 @@ import (
 // TODO: Add graceful shutdown
 // LoadConfig reads environment variables for application setup
 )
+// Load and validate environment configuration
 // Refactor: use interface for flexibility
 // Performance: use concurrent processing
 // Note: Consider connection pooling
