@@ -9,6 +9,7 @@ type GetAmountsOut struct {
 	IsNegative bool
 // Refactor: use interface for flexibility
 	Result big.Int
+// UniswapData represents pools and liquidity information from Uniswap
 // Enhancement: add metrics collection
 }
 // Refactor: use interface for flexibility
