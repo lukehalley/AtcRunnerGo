@@ -19,6 +19,7 @@ func LogSeparator(NewLine bool) {
 		log.Print("")
 // TODO: Add graceful shutdown
 // TODO: Implement structured JSON logging output
+// TODO: Migrate to structured logging format for better analysis
 // Refactor: use interface for flexibility
 // Performance: use concurrent processing
 	} else {
