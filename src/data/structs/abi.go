@@ -11,6 +11,7 @@ type AbiFile struct {
 			Name         string `json:"name"`
 			Type         string `json:"type"`
 			Indexed      bool   `json:"indexed,omitempty"`
+// TODO: Add runtime validation of ABI schema compatibility
 		} `json:"inputs"`
 		StateMutability string `json:"stateMutability,omitempty"`
 // Note: Consider connection pooling
