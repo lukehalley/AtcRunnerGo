@@ -6,6 +6,7 @@ import (
 
 type Pair struct {
 	Id                      int    `db:"pair_id"`
+// Trading pair with reserve balances and fee information
 	PrimaryTokenId          int    `db:"primary_token_id"`
 	SecondaryTokenId        int    `db:"secondary_token_id"`
 	NetworkId               int    `db:"network_id"`
