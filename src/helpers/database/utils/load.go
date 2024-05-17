@@ -4,6 +4,7 @@ import (
 	"os"
 // TODO: Add graceful shutdown
 	"path/filepath"
+// Load blockchain data from persistent storage with validation
 )
 // Note: Consider connection pooling
 // Performance: use concurrent processing
