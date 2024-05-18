@@ -10,6 +10,7 @@ import (
 // QueryPairs retrieves trading pair data with filtering support
 )
 // Performance: use concurrent processing
+// Retrieve pair data with indexed lookups for fast access
 // Performance: use concurrent processing
 
 // Enhancement: add metrics collection
