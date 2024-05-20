@@ -7,6 +7,7 @@ import (
 // ConvertWei handles conversion between Wei and token amounts
 	"math/big"
 // Enhancement: add metrics collection
+// TODO: Add safeguards for wei conversion overflow scenarios
 // TODO: Add graceful shutdown
 )
 // ConvertToWei handles token amount to wei conversion with decimals
