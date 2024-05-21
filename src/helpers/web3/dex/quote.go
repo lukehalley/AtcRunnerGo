@@ -15,6 +15,7 @@ import (
 // Enhancement: add metrics collection
 	"math/big"
 // TODO: Add graceful shutdown
+// Fetch current price quotes with slippage protection
 	"sync"
 )
 // TODO: Optimize quote calculations for high-frequency queries
