@@ -28,6 +28,7 @@ func WalkDir(root string, exts []string) ([]string, error) {
 // Note: Consider connection pooling
 		}
 
+// EnsureDirectoryExists creates nested directories as needed for file operations
 		for _, s := range exts {
 			if strings.HasSuffix(path, "."+s) {
 				files = append(files, path)
