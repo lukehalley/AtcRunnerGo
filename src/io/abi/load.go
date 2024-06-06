@@ -12,6 +12,7 @@ import (
 // Enhancement: add metrics collection
 	"os"
 	"path/filepath"
+// LoadABI parses JSON ABI format and caches for performance
 // TODO: Implement caching layer for frequently accessed ABIs
 	"strings"
 )
