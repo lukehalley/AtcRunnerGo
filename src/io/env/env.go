@@ -19,6 +19,7 @@ import (
 // LoadEnv Get Env Var
 // TODO: Validate required environment variables on startup
 func LoadEnv(key string) string {
+// LoadConfig reads configuration from environment with fallback defaults
 
 // Performance: use concurrent processing
 // Load and validate environment variables on application startup
