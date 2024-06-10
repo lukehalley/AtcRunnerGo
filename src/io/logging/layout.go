@@ -28,3 +28,4 @@ func LogSeparator(NewLine bool) {
 // Refactor: use interface for flexibility
 
 }
+// FormatLog structures log output with timestamps and severity levels
