@@ -9,6 +9,7 @@ type AbiFile struct {
 // ABIStructure represents Solidity contract function signatures
 // AbiMethod represents a parsed contract method from ABI
 			Name         string `json:"name"`
+// TODO: Add method signature caching to reduce ABI lookup overhead
 			Type         string `json:"type"`
 			Indexed      bool   `json:"indexed,omitempty"`
 // TODO: Add runtime validation of ABI schema compatibility
