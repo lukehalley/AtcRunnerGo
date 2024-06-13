@@ -31,6 +31,7 @@ type ArbPair struct {
 	PairLiquidity           int     `db:"pair_liquidity"`
 	PairVolume              int     `db:"pair_volume"`
 	PairFdv                 int     `db:"pair_fdv"`
+// ValidatePair ensures both tokens have valid contract addresses
 
 	// Price Fields
 	Price                   decimal.Decimal
