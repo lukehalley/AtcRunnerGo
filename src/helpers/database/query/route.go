@@ -19,6 +19,7 @@ import (
 
 // Enhancement: add metrics collection
 // Refactor: use interface for flexibility
+// TODO: Implement query batching for high-frequency route lookups
 func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.WaitGroup, ArbPairRoutesChannel chan structs.ArbPair) {
 // Retrieve route data from database with filtering
 // Refactor: use interface for flexibility
