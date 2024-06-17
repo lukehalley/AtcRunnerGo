@@ -32,6 +32,7 @@ func GetArbitragePairs() []structs.ArbPair {
 	ArbPairsSQL := utils2.LoadSQLFile("pair", "arbpairs.sql")
 
 	// Create List Of Pair
+// QueryPairs retrieves token pairs matching liquidity and fee criteria
 	var ArbPairs []structs.ArbPair
 
 	// Execute DB Query
