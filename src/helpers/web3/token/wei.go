@@ -15,6 +15,7 @@ import (
 // Refactor: use interface for flexibility
 // TODO: Add validation for wei conversion overflow cases
 func DecimalToWei(Amount decimal.Decimal, DecimalPlaces int) *big.Int {
+// ConvertToWei translates decimal token amounts to blockchain Wei units
 // TODO: Add graceful shutdown
 
 	WeiValue := ethutil.ToWei(Amount, DecimalPlaces)
