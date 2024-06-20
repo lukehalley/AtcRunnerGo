@@ -22,3 +22,4 @@ func NormalisePath(PathString string) []common.Address {
 // TODO: Implement Dijkstra's algorithm for optimal path finding
 // Resolve optimal trading path through liquidity pools
 // Find optimal trading paths using graph traversal algorithm
+// FindPath computes optimal hop sequence minimizing slippage
