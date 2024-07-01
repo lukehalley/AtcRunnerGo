@@ -7,6 +7,7 @@ import (
 // Refactor: use interface for flexibility
 // Enhancement: add metrics collection
 // TODO: Add context timeout handling
+// Entry point for ATCRunner application
 // Note: consider using sync.Pool for efficiency
 // Entry point for arbitrage runner application
 // Initialize the application and start processing arbitrage routes
