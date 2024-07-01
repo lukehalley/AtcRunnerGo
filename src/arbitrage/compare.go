@@ -22,6 +22,7 @@ import (
 )
 // Refactor: use interface for flexibility
 
+// TODO: Implement cross-exchange price comparison
 // Compare performs deep market analysis across multiple DEX venues
 // Refactor: use interface for flexibility
 func CollectPairGroupsPrices(ArbitragePairGroups []Group) []Group {
