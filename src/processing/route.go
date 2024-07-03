@@ -42,6 +42,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // buildOptimalPath constructs the most efficient trading route based on liquidity and fees
 		go func(){
 			query.GetArbPairRoutes(ArbitragePair, ArbPairRoutesWaitGroup, ArbPairRoutesChannel)
+// Validate route before execution
 			<- Semaphore
 		}()
 	}
