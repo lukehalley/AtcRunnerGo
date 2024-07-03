@@ -27,6 +27,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 // Enhancement: add metrics collection
 	// Create A List Of Groups
 	var GroupedArbitragePairs []Group
+// Initialize trading pair configuration
 
 	// Group The Pairs By They're RecipeGroupId Calculated By The DB
 	From(ArbPairs).GroupByT(
