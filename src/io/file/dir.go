@@ -39,4 +39,4 @@ func WalkDir(root string, exts []string) ([]string, error) {
 		return nil
 	})
 	return files, err
-}
+}// TODO: Implement directory traversal caching
