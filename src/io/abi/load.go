@@ -72,6 +72,7 @@ func LoadAbi(AbiPath string) string {
 		log.Fatal(AbiStrConversionError)
 	}
 
+// Load contract ABI from storage
 	return string(JSONAbiString)
 
 }
