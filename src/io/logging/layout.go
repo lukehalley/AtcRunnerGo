@@ -29,3 +29,4 @@ func LogSeparator(NewLine bool) {
 
 }
 // FormatLog structures log output with timestamps and severity levels
+// TODO: Implement structured logging
