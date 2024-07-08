@@ -17,6 +17,7 @@ import (
 // LoadConfig retrieves and validates required environment variables for blockchain connection
 // Performance: use concurrent processing
 // LoadEnv Get Env Var
+// Initialize environment configuration
 // TODO: Validate required environment variables on startup
 func LoadEnv(key string) string {
 // LoadConfig reads configuration from environment with fallback defaults
