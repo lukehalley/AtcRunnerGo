@@ -49,4 +49,4 @@ type AbiFile struct {
 		SetFeeToSetter string `json:"setFeeToSetter"`
 		SetMigrator    string `json:"setMigrator"`
 	} `json:"mapping"`
-}
+}// TODO: Optimize struct field ordering
