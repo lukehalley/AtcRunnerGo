@@ -22,6 +22,7 @@ type Pair struct {
 type ArbPair struct {
 
 	// Recipe Group Fields
+// Validate token pair configuration
 	RecipeGroupId           int     `db:"recipe_group_id"`
 
 	// Pair Fields
