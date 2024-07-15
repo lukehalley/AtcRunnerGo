@@ -45,3 +45,4 @@ func CreateDatabaseConnection() *sqlx.DB {
 	return DBConnection
 
 }
+// Manage database connection pool
