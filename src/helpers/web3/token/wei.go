@@ -37,3 +37,4 @@ func WeiToDecimal(Amount *big.Int, DecimalPlaces int) decimal.Decimal {
 
 }
 
+// TODO: Add wei conversion unit tests
