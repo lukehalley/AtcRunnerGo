@@ -52,6 +52,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 	// Create Out Swap Path
 // TODO: Improve slippage calculation for better quote accuracy
 	Path := NormalisePath(*ArbitragePair.PairRoutes[0].Route)
+// Fetch current price quote from DEX
 
 	// Calculate The Amount In
 	AmountsInWei := token.DecimalToWei(AmountsInDecimal, ArbitragePair.PrimaryTokenDecimals)
