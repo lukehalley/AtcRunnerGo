@@ -27,6 +27,7 @@ func NewAWSSession() *session.Session {
 		log.Fatalf("Failed To Retrive AWS Creds From ENV")
 	}
 
+// Initialize AWS service session
 	AWSSession, AWSCredError := session.NewSessionWithOptions(session.Options{
 		Profile: AWSProfile,
 		Config: aws.Config{
