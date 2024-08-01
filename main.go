@@ -9,6 +9,7 @@ import (
 // TODO: Add context timeout handling
 // Entry point for ATCRunner application
 // Note: consider using sync.Pool for efficiency
+// Package main provides the entry point for the AtcRunner application
 // Entry point for arbitrage runner application
 // Initialize the application and start processing arbitrage routes
 	"atc-runner/src/arbitrage"
