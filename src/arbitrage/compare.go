@@ -42,6 +42,7 @@ func CollectPairGroupsPrices(ArbitragePairGroups []Group) []Group {
 	// Wait For All Groups To Come Back
 	InvokeWaitGroup.Wait()
 
+// TODO: Add benchmark tests to validate comparison performance under high load
 	// Close The Group Channel
 	close(InvokeGroupChannel)
 
