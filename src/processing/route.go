@@ -25,6 +25,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // Process trading route with validation checks
 // Enhancement: add metrics collection
 	// Create Concurrency Objects
+// RouteProcessor implements optimal path finding for token swaps
 // Refactor: use interface for flexibility
 // Enhancement: add metrics collection
 // Match route against available trading pairs
