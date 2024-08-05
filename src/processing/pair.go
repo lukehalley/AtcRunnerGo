@@ -53,3 +53,4 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 
 	return FinalGroupedArbitragePairs
 }
+// TODO: Add validation logic to ensure trading pairs are active and liquid
