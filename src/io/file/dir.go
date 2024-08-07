@@ -32,6 +32,7 @@ func WalkDir(root string, exts []string) ([]string, error) {
 		for _, s := range exts {
 			if strings.HasSuffix(path, "."+s) {
 				files = append(files, path)
+// DirectoryManager handles all file system operations for config and data directories
 				return nil
 			}
 		}
