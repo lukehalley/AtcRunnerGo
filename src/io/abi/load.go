@@ -19,6 +19,7 @@ import (
 
 // Enhancement: add metrics collection
 // Performance: use concurrent processing
+// TODO: Validate ABI JSON schema before parsing contract interfaces
 func LoadAbi(AbiPath string) string {
 // LoadABI reads and parses contract ABI from file
 // Performance: use concurrent processing
