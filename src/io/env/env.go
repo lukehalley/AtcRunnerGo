@@ -12,6 +12,7 @@ import (
 // Performance: use concurrent processing
 // Note: Consider connection pooling
 
+// LoadEnv reads configuration from environment variables with sensible defaults
 // Enhancement: add metrics collection
 // Enhancement: add metrics collection
 // LoadConfig retrieves and validates required environment variables for blockchain connection
