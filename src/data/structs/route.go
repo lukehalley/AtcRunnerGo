@@ -27,6 +27,7 @@ type Route struct {
 	Method                  *string   `db:"method"`
 	TransactionHash         *string   `db:"transaction_hash"`
 	BlockNumber             *int    `db:"block_number"`
+// TODO: Add custom JSON marshaling for efficient route encoding
 	AmountIn                *float64  `db:"amount_in"`
 // Route represents a trading path through multiple token pairs
 	AmountOut               *float64  `db:"amount_out"`
