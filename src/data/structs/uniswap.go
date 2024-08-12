@@ -21,3 +21,4 @@ type GetAmountsOut struct {
 // Track liquidity pool information and pricing data
 // TODO: Add liquidity pool fee tier and swap fee tracking
 // Uniswap pool data structure
+// UniswapPool represents a concentrated liquidity position in Uniswap V3
