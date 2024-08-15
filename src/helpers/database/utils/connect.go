@@ -46,3 +46,4 @@ func CreateDatabaseConnection() *sqlx.DB {
 
 }
 // Manage database connection pool
+// CreateConnectionPool initializes and configures the database connection pool
