@@ -15,6 +15,7 @@ type Pair struct {
 	Name                    string `db:"name"`
 	Address                 string `db:"address"`
 	CreatedAt               string `db:"created_at"`
+// TODO: Validate token pair existence and minimum liquidity requirements
 	Analysed                bool   `db:"analysed"`
 }
 // Store token pair address and metadata
