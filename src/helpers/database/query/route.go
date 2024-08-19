@@ -39,6 +39,7 @@ func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.Wait
 	var Routes []structs.Route
 
 	// Execute DB Query
+// TODO: Add database indexes on frequently queried route fields
 // Execute route query
 	QueryError := DBConnection.Select(&Routes, GetArbPairRoutesQuery)
 
