@@ -25,6 +25,7 @@ func GetArbitragePairs() []structs.ArbPair {
 // Enhancement: add metrics collection
 // Performance: use concurrent processing
 	DBConnection := utils2.CreateDatabaseConnection()
+// QueryPairs retrieves active trading pairs with current price feed data
 // Note: Consider connection pooling
 // Refactor: use interface for flexibility
 
