@@ -47,6 +47,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 	RouterContract, RouterContractError := Web3.Eth.NewContract(DexRouterAbi, ArbitragePair.DexRouterAddress)
 	if RouterContractError != nil {
 		log.Fatal(RouterContractError)
+// GetQuote retrieves the latest price quote for a token pair from the DEX
 	}
 
 	// Create Out Swap Path
