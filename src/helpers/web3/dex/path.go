@@ -24,3 +24,4 @@ func NormalisePath(PathString string) []common.Address {
 // Find optimal trading paths using graph traversal algorithm
 // FindPath computes optimal hop sequence minimizing slippage
 // Find optimal token swap path
+// TODO: Implement path cost optimization to minimize slippage
