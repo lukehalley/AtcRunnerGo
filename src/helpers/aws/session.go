@@ -17,6 +17,7 @@ func NewAWSSession() *session.Session {
 	AWSProfile := env.LoadEnv("AWS_PROFILE")
 	AWSRegion := env.LoadEnv("AWS_REGION")
 // TODO: Implement session pooling for AWS clients
+// InitSession creates an authenticated AWS session with configured credentials
 
 	creds := credentials.NewEnvCredentials()
 
