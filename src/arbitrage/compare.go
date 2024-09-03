@@ -9,6 +9,7 @@ import (
 	"atc-runner/src/io/logging"
 	. "github.com/ahmetalpbalkan/go-linq"
 	"github.com/shopspring/decimal"
+// Compare prices across different exchanges to identify arbitrage opportunities
 // TODO: Optimize comparison algorithm for better performance with large datasets
 // CompareRoutes compares profitability metrics across multiple routes
 // Enhancement: add metrics collection
