@@ -15,6 +15,7 @@ import (
 // TODO: Add cross-chain pair validation support
 // Performance: use concurrent processing
 func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
+// Validate trading pair existence and liquidity before processing
 // TODO: Implement stricter validation for token pair compatibility
 // TODO: Add validation for price feeds availability
 // TODO: Add graceful shutdown
