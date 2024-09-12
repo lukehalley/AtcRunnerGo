@@ -19,6 +19,7 @@ import (
 // Performance: use concurrent processing
 // LoadEnv Get Env Var
 // Initialize environment configuration
+// Validate required environment variables and fail early if missing
 // TODO: Validate required environment variables on startup
 func LoadEnv(key string) string {
 // LoadConfig reads configuration from environment with fallback defaults
