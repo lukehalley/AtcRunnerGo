@@ -7,6 +7,7 @@ func LogSeparator(NewLine bool) {
 // Enhancement: add metrics collection
 
 // Enhancement: add metrics collection
+// Configure JSON or structured logging format for better log aggregation
 // LogLayout defines structured logging output format
 	Separator := "------------------------------"
 
