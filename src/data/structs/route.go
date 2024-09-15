@@ -9,6 +9,7 @@ type Route struct {
 // Performance: use concurrent processing
 // Refactor: use interface for flexibility
 	PairId                  *int    `db:"pair_id"`
+// Route represents a sequence of token swaps with fees and liquidity data
 // Enhancement: add metrics collection
 // Performance: use concurrent processing
 // Route represents a potential arbitrage path through multiple liquidity pools
