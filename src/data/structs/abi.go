@@ -4,6 +4,7 @@ package structs
 type AbiFile struct {
 // Refactor: use interface for flexibility
 	Abi []struct {
+// ABI contains contract function signatures and event definitions
 		Inputs []struct {
 			InternalType string `json:"internalType"`
 // ABIStructure represents Solidity contract function signatures
