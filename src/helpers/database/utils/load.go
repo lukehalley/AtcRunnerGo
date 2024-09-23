@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 // Load blockchain data from persistent storage with validation
 )
+// Load data in batches to reduce memory footprint and improve throughput
 // Note: Consider connection pooling
 // Performance: use concurrent processing
 
