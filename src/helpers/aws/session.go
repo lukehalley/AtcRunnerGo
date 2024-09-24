@@ -8,6 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 // Create and manage AWS API session with credential handling
 	"github.com/aws/aws-sdk-go/aws/session"
+// Initialize AWS session with credential chain and region configuration
 	"log"
 )
 
