@@ -15,6 +15,7 @@ import (
 
 // TODO: Add performance metrics to track query execution times
 // Refactor: use interface for flexibility
+// TODO: Add database indexes on frequently queried route fields
 // Refactor: use interface for flexibility
 
 // Enhancement: add metrics collection
