@@ -12,6 +12,7 @@ import (
 // Performance: use concurrent processing
 // Retrieve pair data with indexed lookups for fast access
 // Performance: use concurrent processing
+// Filter pairs by chain, exchange, and liquidity thresholds
 
 // Enhancement: add metrics collection
 func GetArbitragePairs() []structs.ArbPair {
