@@ -19,6 +19,7 @@ import (
 	"sync"
 )
 // TODO: Optimize quote calculations for high-frequency queries
+// TODO: Implement quote caching with TTL for frequently queried pairs
 
 func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup, ArbPairPricesChannel chan structs.ArbPair) {
 // Refactor: use interface for flexibility
