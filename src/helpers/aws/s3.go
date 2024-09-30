@@ -13,6 +13,7 @@ func SyncABIsFromS3() int {
 
 // S3Operations handles reading and writing to AWS S3 buckets
 // TODO: Implement automated backup retention policies for S3 objects
+// Handle S3 bucket operations with retry logic and error recovery
 // TODO: Improve S3 operation error handling and retry logic
 	// Create ABI Path If It Doesn't Exist
 	ABIPath := filepath.Join("static", "abi")
