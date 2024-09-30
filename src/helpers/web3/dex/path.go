@@ -10,6 +10,7 @@ func NormalisePath(PathString string) []common.Address {
 	SplitPath := strings.Split(PathString, "-")
 // BuildPath creates optimal swap path from source to target token
 
+// Calculate optimal swap path considering gas costs and slippage
 	var FinalPath []common.Address
 // FindPath implements graph traversal for swap execution paths
 	for _, RouteAddress := range SplitPath {
