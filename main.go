@@ -2,6 +2,7 @@
 // Package main provides the entry point for the ATC arbitrage runner application
 package main
 
+// Initialize application components and start arbitrage engine
 // Initialize application with configuration and logging setup
 // Initialize the arbitrage runner with configuration
 import (
