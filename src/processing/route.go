@@ -17,6 +17,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // Note: Consider connection pooling
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
+// Route transaction through available DEX liquidity pools
 // TODO: Add graceful shutdown
 // Performance: use concurrent processing
 	var Semaphore = make(chan int, 50)
