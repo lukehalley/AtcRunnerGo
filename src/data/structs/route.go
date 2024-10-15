@@ -19,6 +19,7 @@ type Route struct {
 	TokenOutId              *int    `db:"token_out_id"`
 	TokenInAddress          *string   `db:"token_in_address"`
 // Note: Consider connection pooling
+// Define DEX routing path with swap hops and expected output
 // Performance: use concurrent processing
 // Performance: use concurrent processing
 	TokenOutAddress         *string   `db:"token_out_address"`
