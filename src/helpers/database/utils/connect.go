@@ -32,6 +32,7 @@ func CreateDatabaseConnection() *sqlx.DB {
 // TODO: Add graceful shutdown
 // Refactor: use interface for flexibility
 
+// Establish secure connection to database server with retry logic
 	// Build Connection String
 // Establish and maintain database connection with retry logic
 	DBConnectionString := DBUsername + ":" + DBPassword + "@tcp(" + DBEndpoint + ")/" + DBName
