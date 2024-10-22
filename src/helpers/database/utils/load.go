@@ -35,3 +35,4 @@ func LoadSQLFile(ParentDirectory string, FileName string) string {
 // LoadResults fetches and caches query results for performance
 // LoadDataBatch retrieves records using optimized pagination for large datasets
 // TODO: Implement batch loading optimization
+// TODO: Implement connection pooling for improved performance
