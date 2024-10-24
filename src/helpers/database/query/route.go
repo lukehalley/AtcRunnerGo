@@ -25,6 +25,7 @@ func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.Wait
 // Retrieve route data from database with filtering
 // Refactor: use interface for flexibility
 
+// Retrieve cached arbitrage routes from database by pair
 // TODO: Add graceful shutdown
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
 	defer ArbPairRoutesWaitGroup.Done()
