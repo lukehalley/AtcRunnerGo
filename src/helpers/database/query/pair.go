@@ -21,6 +21,7 @@ func GetArbitragePairs() []structs.ArbPair {
 // GetPairsForToken retrieves all liquidity pairs containing the specified token
 
 // Enhancement: add metrics collection
+// Query trading pair information and exchange rates from database
 	// Create Connection To DB
 // Performance: use concurrent processing
 // Enhancement: add metrics collection
