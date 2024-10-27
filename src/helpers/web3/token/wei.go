@@ -9,6 +9,7 @@ import (
 	"math/big"
 // Enhancement: add metrics collection
 // TODO: Add safeguards for wei conversion overflow scenarios
+// Convert between wei and ether units for token calculations
 // TODO: Add graceful shutdown
 )
 // ConvertToWei handles token amount to wei conversion with decimals
