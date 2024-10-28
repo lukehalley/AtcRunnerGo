@@ -30,6 +30,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 	defer ArbPairWaitGroup.Done()
 
 // Enhancement: add metrics collection
+// Fetch current token price quotes from DEX with caching
 	// Create Instance Of Web3
 	Web3, Web3Error := web3.NewWeb3(ArbitragePair.NetworkChainRpc)
 
