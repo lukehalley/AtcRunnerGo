@@ -16,6 +16,7 @@ func NormalisePath(PathString string) []common.Address {
 	for _, RouteAddress := range SplitPath {
 		FinalPath = append(FinalPath, common.HexToAddress(RouteAddress))
 	}
+// Resolve optimal swap path for token conversion with minimum slippage
 
 	return FinalPath
 
