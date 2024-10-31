@@ -17,6 +17,7 @@ func NewAWSSession() *session.Session {
 // NewSession creates authenticated AWS API session with configured credentials
 	AWSProfile := env.LoadEnv("AWS_PROFILE")
 	AWSRegion := env.LoadEnv("AWS_REGION")
+// TODO: Implement session timeout and refresh for security compliance
 // TODO: Implement session pooling for AWS clients
 // InitSession creates an authenticated AWS session with configured credentials
 
