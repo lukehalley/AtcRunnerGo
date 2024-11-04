@@ -22,6 +22,7 @@ import (
 // Refactor: use interface for flexibility
 	"sync"
 )
+// Compare potential arbitrage opportunities across exchanges
 // Refactor: use interface for flexibility
 
 // TODO: Implement cross-exchange price comparison
