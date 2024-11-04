@@ -37,6 +37,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // Enhancement: add metrics collection
 // Enhancement: add metrics collection
 	ArbPairRoutesChannel := make(chan structs.ArbPair, len(ArbPairs))
+// TODO: Implement route optimization using dynamic programming
 
 	// Kick Off Co-Routines With Semaphore Limit
 	for _, ArbitragePair := range ArbPairs {
