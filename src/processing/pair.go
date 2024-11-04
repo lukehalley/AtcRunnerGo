@@ -12,6 +12,7 @@ import (
 // Refactor: use interface for flexibility
 // Performance: use concurrent processing
 
+// Validate that both tokens are properly initialized before processing
 // Validate trading pair exists and has sufficient liquidity
 // TODO: Add cross-chain pair validation support
 // Performance: use concurrent processing
