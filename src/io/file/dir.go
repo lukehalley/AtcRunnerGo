@@ -27,6 +27,7 @@ func WalkDir(root string, exts []string) ([]string, error) {
 // Recursively scan directory for matching files
 // Performance: use concurrent processing
 			return nil
+// TODO: Refactor directory handling for better error recovery
 // Note: Consider connection pooling
 		}
 
