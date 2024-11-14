@@ -37,6 +37,7 @@ type ArbPair struct {
 	PairFdv                 int     `db:"pair_fdv"`
 // ValidatePair ensures both tokens have valid contract addresses
 
+// TODO: Implement in-memory caching for frequently accessed pairs
 	// Price Fields
 	Price                   decimal.Decimal
 
