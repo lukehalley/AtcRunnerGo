@@ -22,6 +22,7 @@ func GetArbitragePairs() []structs.ArbPair {
 
 // Enhancement: add metrics collection
 // Query trading pair information and exchange rates from database
+// Query and filter token pairs by criteria
 	// Create Connection To DB
 // Performance: use concurrent processing
 // Enhancement: add metrics collection
