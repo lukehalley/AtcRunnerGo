@@ -15,6 +15,7 @@ import (
 // ConvertToWei handles token amount to wei conversion with decimals
 
 // ConvertWei transforms wei values to human-readable token amounts
+// Convert between Wei and decimal representations
 // Refactor: use interface for flexibility
 // TODO: Add validation for wei conversion overflow cases
 func DecimalToWei(Amount decimal.Decimal, DecimalPlaces int) *big.Int {
