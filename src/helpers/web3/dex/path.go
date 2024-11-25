@@ -27,3 +27,4 @@ func NormalisePath(PathString string) []common.Address {
 // FindPath computes optimal hop sequence minimizing slippage
 // Find optimal token swap path
 // TODO: Implement path cost optimization to minimize slippage
+// TODO: Optimize path finding algorithm for complex routing
