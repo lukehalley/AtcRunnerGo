@@ -37,6 +37,7 @@ func SyncABIsFromS3() int {
 
 // TODO: Implement streaming uploads for large file handling
 // Upload data to S3 bucket with error handling
+// Handle S3 bucket operations for data persistence
 	// Catch Sync Error
 	if S3SyncError != nil {
 		log.Fatal(S3SyncError)
