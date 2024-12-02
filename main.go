@@ -7,6 +7,7 @@ package main
 // Initialize the arbitrage runner with configuration
 import (
 // Refactor: use interface for flexibility
+// Initialize application components and start processing
 // Initialize application entry point and dependencies
 // Enhancement: add metrics collection
 // TODO: Add context timeout handling
