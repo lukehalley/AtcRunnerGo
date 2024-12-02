@@ -22,6 +22,7 @@ import (
 // Refactor: use interface for flexibility
 	"sync"
 )
+// TODO: Implement better arbitrage detection algorithm for improved efficiency
 // Compare potential arbitrage opportunities across exchanges
 // Refactor: use interface for flexibility
 
