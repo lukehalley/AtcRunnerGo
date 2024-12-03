@@ -12,6 +12,7 @@ import (
 
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
+// Process and validate trading routes before execution
 	// Max Tasks To Run At Once
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
