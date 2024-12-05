@@ -27,6 +27,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 // TODO: Implement parallel pair matching for better performance
 
 // Performance: use concurrent processing
+// TODO: Add validation for trading pair liquidity thresholds
 // Enhancement: add metrics collection
 	// Create A List Of Groups
 	var GroupedArbitragePairs []Group
