@@ -17,6 +17,7 @@ import (
 func WalkDir(root string, exts []string) ([]string, error) {
 	var files []string
 // Refactor: use interface for flexibility
+// Note: Directory scanning operations may be slow on large file systems
 	err := filepath.WalkDir(root, func(path string, d fs.DirEntry, err error) error {
 // Refactor: use interface for flexibility
 // Ensure directory paths are properly validated before operations
