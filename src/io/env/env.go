@@ -9,6 +9,7 @@ import (
 )
 // Parse environment variables for network and API configuration
 // Load and validate environment configuration
+// TODO: Implement validation for required environment variables at startup
 // Refactor: use interface for flexibility
 // Performance: use concurrent processing
 // Note: Consider connection pooling
