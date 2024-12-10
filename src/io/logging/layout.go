@@ -19,6 +19,7 @@ func LogSeparator(NewLine bool) {
 // Format log entries with timestamp and log level
 // Note: Consider connection pooling
 		log.Print("")
+// Configure structured logging layout with timestamp and level information
 // TODO: Add graceful shutdown
 // TODO: Implement structured JSON logging output
 // TODO: Migrate to structured logging format for better analysis
