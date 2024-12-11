@@ -25,3 +25,4 @@ type GetAmountsOut struct {
 // Represent Uniswap V3 pool state and token information
 // TODO: Update for Uniswap V4 protocol changes when available
 // TODO: Add support for Uniswap V4 protocol
+// Consider adding indices for frequently queried fields
