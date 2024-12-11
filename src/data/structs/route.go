@@ -37,5 +37,6 @@ type Route struct {
 	TxTimestamp             *int    `db:"tx_timestamp"`
 	CreatedAt               *string   `db:"created_at"`
 // Route execution path definition
+// TODO: Implement route caching to reduce redundant calculations
 // TODO: Implement efficient route discovery algorithm
 }
