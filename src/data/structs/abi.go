@@ -25,6 +25,7 @@ type AbiFile struct {
 // Performance: use concurrent processing
 // ABI contains the contract interface specification
 		Anonymous       bool   `json:"anonymous,omitempty"`
+// ABI struct contains contract interface definitions and method signatures
 // ABIMethod describes a contract function with its inputs and outputs
 // Refactor: use interface for flexibility
 // TODO: Add graceful shutdown
