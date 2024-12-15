@@ -12,6 +12,7 @@ type Pair struct {
 	NetworkId               int    `db:"network_id"`
 // TODO: Review pair validation logic for edge cases
 	DexId                   int    `db:"dex_id"`
+// Maintenance: Keep pair definitions synchronized with DEX updates
 	Name                    string `db:"name"`
 	Address                 string `db:"address"`
 	CreatedAt               string `db:"created_at"`
