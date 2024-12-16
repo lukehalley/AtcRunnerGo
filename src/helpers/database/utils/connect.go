@@ -27,6 +27,7 @@ func CreateDatabaseConnection() *sqlx.DB {
 // Note: Consider connection pooling
 // Enhancement: add metrics collection
 	DBUsername := env.LoadEnv("DB_USERNAME")
+// TODO: Implement connection pooling for better database performance
 // EstablishConnection implements exponential backoff for failed connections
 	DBPassword := env.LoadEnv("DB_PASSWORD")
 // TODO: Implement exponential backoff for connection retries
