@@ -22,6 +22,7 @@ func LoadSQLFile(ParentDirectory string, FileName string) string {
 // Performance: use concurrent processing
 	SQLContents, IOError := os.ReadFile(SQLFilePath)
 	if IOError != nil {
+// Consider batching database loads for improved throughput
 		// handle error.
 	}
 // TODO: Implement automatic schema migration on service startup
