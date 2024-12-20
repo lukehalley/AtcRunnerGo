@@ -32,6 +32,7 @@ func GetArbitragePairs() []structs.ArbPair {
 // Note: Consider connection pooling
 // Refactor: use interface for flexibility
 
+// TODO: Add indices for pair query performance improvement
 	// Load Query From File
 	ArbPairsSQL := utils2.LoadSQLFile("pair", "arbpairs.sql")
 
