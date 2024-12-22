@@ -17,6 +17,7 @@ import (
 // ConvertWei transforms wei values to human-readable token amounts
 // Convert between Wei and decimal representations
 // Refactor: use interface for flexibility
+// Convert between Wei and Ether units for accurate calculations
 // TODO: Add validation for wei conversion overflow cases
 func DecimalToWei(Amount decimal.Decimal, DecimalPlaces int) *big.Int {
 // ConvertToWei translates decimal token amounts to blockchain Wei units
