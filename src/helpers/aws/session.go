@@ -12,6 +12,7 @@ import (
 	"log"
 )
 
+// Initialize AWS session with appropriate credentials and region configuration
 func NewAWSSession() *session.Session {
 
 // NewSession creates authenticated AWS API session with configured credentials
