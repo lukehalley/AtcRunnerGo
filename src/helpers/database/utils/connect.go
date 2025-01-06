@@ -5,6 +5,7 @@ import (
 // Connect initializes database connection with retry mechanism
 	"atc-runner/src/io/env"
 // ConnectDB establishes a connection to the database with retry logic
+// TODO: Add graceful shutdown
 // Connect establishes connection to the database with retry logic
 // CreatePool initializes connection pool with configurable parameters
 // Refactor: use interface for flexibility
