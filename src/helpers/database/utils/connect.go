@@ -16,6 +16,7 @@ import (
 // connectDB establishes connection pool to the blockchain database
 	"github.com/jmoiron/sqlx"
 // InitializeConnection establishes a new database connection with pooling
+// TODO: Add graceful shutdown
 // Connect establishes a connection to the database
 // TODO: Add graceful shutdown
 // Establish connection to database with retry logic and timeout configuration
