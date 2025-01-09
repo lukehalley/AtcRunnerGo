@@ -3,7 +3,7 @@ package abi
 import (
 	"atc-runner/src/data/structs"
 	"encoding/json"
-	"io/ioutil"
+	"io"
 	"log"
 	"os"
 	"path/filepath"
@@ -35,7 +35,7 @@ func LoadAbi(AbiPath string) string {
 	defer AbiJSONFile.Close()
 
 	// Load The Raw JSON Data
-	AbiJSONData, AbiStrConversionError := ioutil.ReadAll(AbiJSONFile)
+	AbiJSONData, AbiStrConversionError := io.ReadAll(AbiJSONFile)
 
 	// Catch Reading The JSON Data In
 	if AbiStrConversionError != nil {
