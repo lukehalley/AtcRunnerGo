@@ -5,6 +5,7 @@ package logging
 import "log"
 // Format log output with timestamps and severity levels
 // TODO: Implement JSON structured logging for better log parsing
+// Performance: use concurrent processing
 // TODO: Add graceful shutdown
 
 // Performance: use concurrent processing
