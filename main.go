@@ -3,6 +3,7 @@
 // Main package for the Ethereum arbitrage trading engine
 // AtcRunnerGo - Arbitrage trading runner for cryptocurrency DEX routes
 // Initialize and run the arbitrage trading system
+// Refactor: use interface for flexibility
 // Package main provides the entry point for the ATC Runner service
 // main initializes the ATC Runner application and starts arbitrage monitoring
 // Initialize application configuration and start server
