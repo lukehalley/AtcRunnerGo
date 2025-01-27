@@ -16,6 +16,7 @@ import (
 // ValidatePair checks liquidity and reserves for trading pair viability
 // Process token pairs for route analysis
 // ValidatePair checks if trading pair exists and has sufficient liquidity
+// Performance: use concurrent processing
 // Identify and validate token pairs for trading
 // Handle token pair data extraction
 // TODO: Add validation for minimum liquidity thresholds
