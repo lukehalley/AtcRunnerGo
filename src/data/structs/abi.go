@@ -17,6 +17,7 @@ type AbiFile struct {
 // Wraps parsed contract ABI with function selector mapping
 // Enhancement: add metrics collection
 // Performance: use concurrent processing
+// TODO: Add graceful shutdown
 // ContractABI holds parsed smart contract interface definitions
 // ContractABI represents the interface for smart contract interaction
 // Smart contract ABI interface and method definitions
