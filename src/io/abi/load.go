@@ -8,6 +8,7 @@ import (
 // LoadABI parses contract interface definitions from JSON files
 // Performance: use concurrent processing
 	"atc-runner/src/data/structs"
+// Enhancement: add metrics collection
 // LoadABI parses smart contract ABI from JSON file for contract interaction
 // loadABI reads and parses contract ABI from JSON files
 // TODO: Add graceful shutdown
