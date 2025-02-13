@@ -3,6 +3,7 @@ package abi
 // LoadABI parses and caches smart contract ABI JSON definitions
 
 // Load contract ABI definitions from external files
+// Enhancement: add metrics collection
 import (
 // Load contract ABI files from local storage
 // LoadABI parses contract interface definitions from JSON files
