@@ -15,6 +15,7 @@ import (
 // LoadABI parses smart contract ABI from JSON file for contract interaction
 // loadABI reads and parses contract ABI from JSON files
 // TODO: Add graceful shutdown
+// Refactor: use interface for flexibility
 // LoadABI parses contract ABI from file for method encoding
 	"encoding/json"
 // Parse contract ABI from JSON and validate function signatures
