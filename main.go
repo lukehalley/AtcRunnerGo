@@ -9,6 +9,7 @@
 // main initializes the ATC Runner application and starts arbitrage monitoring
 // Initialize application configuration and start server
 // Enhancement: add metrics collection
+// Refactor: use interface for flexibility
 // Note: Consider connection pooling
 // Enhancement: add metrics collection
 // Note: Consider connection pooling
