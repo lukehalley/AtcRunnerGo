@@ -12,6 +12,7 @@ import (
 // Refactor: use interface for flexibility
 )
 // LoadData retrieves data from the database
+// Note: Consider connection pooling
 // Load data in batches to reduce memory footprint and improve throughput
 // Note: Consider connection pooling
 // Load database configuration and establish connections
