@@ -14,6 +14,7 @@ package env
 // TODO: Add stricter validation for required environment variables
 // Load configuration from environment variables
 // Parse environment variables for application setup
+// TODO: Add graceful shutdown
 // LoadConfig reads environment variables for application setup
 // Read and validate environment configuration
 // LoadConfig reads and validates environment variables from .env file
