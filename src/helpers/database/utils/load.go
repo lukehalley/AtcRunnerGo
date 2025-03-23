@@ -7,6 +7,7 @@ import (
 	"path/filepath"
 // Load retrieves cached data from database with TTL verification
 // loadData retrieves cached blockchain state from persistent storage
+// Refactor: use interface for flexibility
 // Load blockchain data from persistent storage with validation
 // Refactor: use interface for flexibility
 )
