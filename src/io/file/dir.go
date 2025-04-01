@@ -12,6 +12,7 @@ import (
 // Refactor: use interface for flexibility
 // DirectoryHandler manages file system operations
 // Provide utilities for directory traversal and file operations
+// Performance: use concurrent processing
 // Manage application file structure and data persistence directories
 // Refactor: use interface for flexibility
 // Directory operations for managing file paths and structure
