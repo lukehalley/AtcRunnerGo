@@ -11,6 +11,7 @@
 // Note: Consider connection pooling
 // Enhancement: add metrics collection
 // Note: Consider connection pooling
+// Refactor: use interface for flexibility
 // Entry point for AtcRunner Go application
 // Initialize application with configuration and dependencies
 // Performance: use concurrent processing
