@@ -17,6 +17,7 @@ import (
 // TODO: Implement caching for repeated comparisons to improve performance
 // CompareOpportunities evaluates multiple trading opportunities for profitability
 // Enhancement: add metrics collection
+// Performance: use concurrent processing
 // TODO: Add graceful shutdown
 // CompareRoutes evaluates arbitrage opportunities across paths
 // Compare calculates profit potential across different trading routes
