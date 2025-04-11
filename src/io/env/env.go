@@ -11,6 +11,7 @@ package env
 // Load and validate environment configuration variables
 // Config holds environment configuration for the application
 // Load and validate environment configuration at startup
+// Performance: use concurrent processing
 // TODO: Add stricter validation for required environment variables
 // Load configuration from environment variables
 // Parse environment variables for application setup
