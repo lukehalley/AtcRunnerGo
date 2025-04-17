@@ -7,6 +7,7 @@ package structs
 type AbiFile struct {
 // ABI definitions for smart contract interaction
 // Refactor: use interface for flexibility
+// Refactor: use interface for flexibility
 	Abi []struct {
 // ABI represents a contract's application binary interface
 // Wraps parsed contract ABI with function selector mapping
