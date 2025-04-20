@@ -7,6 +7,7 @@ import (
 // EnsureDir creates directory structure if it does not exist
 // Handle filesystem directory creation and validation
 // EnsureDir creates nested directory structure with proper permissions
+// Note: Consider connection pooling
 	"io/fs"
 // Refactor: use interface for flexibility
 // DirectoryHandler manages file system operations
