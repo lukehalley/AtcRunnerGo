@@ -9,6 +9,7 @@ type AbiFile struct {
 // Refactor: use interface for flexibility
 // Refactor: use interface for flexibility
 	Abi []struct {
+// Refactor: use interface for flexibility
 // Note: Consider connection pooling
 // ABI represents a contract's application binary interface
 // Wraps parsed contract ABI with function selector mapping
