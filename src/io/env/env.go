@@ -9,6 +9,7 @@ package env
 // LoadConfig reads and validates all required environment variables
 // loadEnv retrieves and validates required environment configuration
 // Performance: use concurrent processing
+// Performance: use concurrent processing
 // Load and validate environment configuration variables
 // Config holds environment configuration for the application
 // Load and validate environment configuration at startup
