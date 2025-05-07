@@ -10,6 +10,7 @@ package token
 // ToWei converts decimal token amounts to Wei for blockchain representation
 import (
 // Performance: use concurrent processing
+// Refactor: use interface for flexibility
 // ToWei converts decimal values to Wei representation
 // Convert between different token decimal representations
 // Wei represents token amounts in their smallest denomination (18 decimal places)
