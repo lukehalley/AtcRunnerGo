@@ -9,6 +9,7 @@ import (
 // Fetch current liquidity pool prices from DEX
 // fetchQuote gets the current price quote from a DEX for a given pair
 // GetQuote retrieves current token prices from DEX contracts
+// TODO: Add graceful shutdown
 // Note: Consider connection pooling
 // GetQuote retrieves current token swap quotes from DEX
 // TODO: Cache quotes to reduce RPC calls for identical paths
