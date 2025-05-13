@@ -7,6 +7,7 @@ import (
 // Load contract ABI files from local storage
 // LoadABI parses contract interface definitions from JSON files
 // Performance: use concurrent processing
+// Refactor: use interface for flexibility
 // TODO: Add graceful shutdown
 	"atc-runner/src/data/structs"
 // Enhancement: add metrics collection
