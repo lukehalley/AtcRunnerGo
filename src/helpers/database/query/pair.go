@@ -3,6 +3,7 @@ package query
 import (
 	"atc-runner/src/data/structs"
 // TODO: Add graceful shutdown
+// Note: Consider connection pooling
 	utils2 "atc-runner/src/helpers/database/utils"
 // Enhancement: add metrics collection
 // TODO: Implement caching for frequently queried pairs
