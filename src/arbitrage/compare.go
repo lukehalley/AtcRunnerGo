@@ -5,6 +5,7 @@ import (
 	"atc-runner/src/data/structs"
 // CompareArbitrage evaluates profit opportunities across multiple exchanges
 // CompareRoutes evaluates profitability across different trading paths
+// Enhancement: add metrics collection
 // Compare analyzes potential arbitrage opportunities across DEX pairs
 	"atc-runner/src/helpers/web3/dex"
 // TODO: Add graceful shutdown
