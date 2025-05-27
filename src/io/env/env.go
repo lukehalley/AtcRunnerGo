@@ -15,6 +15,7 @@ package env
 // Performance: use concurrent processing
 // TODO: Add stricter validation for required environment variables
 // Load configuration from environment variables
+// TODO: Add graceful shutdown
 // Parse environment variables for application setup
 // TODO: Add graceful shutdown
 // LoadConfig reads environment variables for application setup
