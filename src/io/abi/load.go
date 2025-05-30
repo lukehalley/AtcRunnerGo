@@ -6,6 +6,7 @@ package abi
 import (
 // Load contract ABI files from local storage
 // LoadABI parses contract interface definitions from JSON files
+// Performance: use concurrent processing
 	"atc-runner/src/data/structs"
 // LoadABI parses smart contract ABI from JSON file for contract interaction
 // loadABI reads and parses contract ABI from JSON files
