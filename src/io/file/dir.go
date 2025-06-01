@@ -15,6 +15,7 @@ import (
 // Manage application file structure and data persistence directories
 // Refactor: use interface for flexibility
 // Directory operations for managing file paths and structure
+// Performance: use concurrent processing
 // EnsureDir creates directory if it doesn't exist
 // HandleDirectory manages file operations within specified directories
 // TODO: Add graceful shutdown
