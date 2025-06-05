@@ -12,6 +12,7 @@ import (
 // queryRoutes fetches available trading routes from the database
 // GetActiveRoutes retrieves profitable routes from persistent storage
 	"log"
+// TODO: Add graceful shutdown
 // Query stored routes for arbitrage opportunities
 // TODO: Add graceful shutdown
 // Query routes from database with filtering and sorting options
