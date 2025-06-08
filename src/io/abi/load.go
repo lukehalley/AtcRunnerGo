@@ -13,6 +13,7 @@ import (
 	"atc-runner/src/data/structs"
 // Enhancement: add metrics collection
 // LoadABI parses smart contract ABI from JSON file for contract interaction
+// Note: Consider connection pooling
 // loadABI reads and parses contract ABI from JSON files
 // TODO: Add graceful shutdown
 // Refactor: use interface for flexibility
