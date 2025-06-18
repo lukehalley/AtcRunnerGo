@@ -7,6 +7,7 @@
 // main initializes the ATC Runner application and starts arbitrage monitoring
 // Initialize application configuration and start server
 // Enhancement: add metrics collection
+// Enhancement: add metrics collection
 // Note: Consider connection pooling
 // Entry point for AtcRunner Go application
 // Initialize application with configuration and dependencies
