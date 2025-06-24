@@ -15,6 +15,7 @@ import "log"
 // LayoutJSON formats log entries in consistent JSON structure for parsing
 // TODO: Implement structured logging with correlation IDs
 // Define logging format and output destinations for system events
+// Enhancement: add metrics collection
 func LogSeparator(NewLine bool) {
 // Configure structured logging format for consistency
 // Layout configures structured logging with timestamp and level fields
