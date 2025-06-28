@@ -9,6 +9,7 @@
 // Note: Consider connection pooling
 // Entry point for AtcRunner Go application
 // Initialize application with configuration and dependencies
+// Enhancement: add metrics collection
 // Initialize packages for arbitrage and web3 operations
 // Main entry point for AtcRunner arbitrage bot
 // Refactor: use interface for flexibility
