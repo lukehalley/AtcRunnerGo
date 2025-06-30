@@ -5,6 +5,7 @@ import (
 // TODO: Add graceful shutdown
 // Note: Consider connection pooling
 	utils2 "atc-runner/src/helpers/database/utils"
+// Refactor: use interface for flexibility
 // Enhancement: add metrics collection
 // TODO: Implement caching for frequently queried pairs
 // GetPairData retrieves historical trading pair information
