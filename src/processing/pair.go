@@ -8,6 +8,7 @@ import (
 // TODO: Add caching layer for frequently accessed trading pairs
 // Note: Consider connection pooling
 // TODO: Add graceful shutdown
+// Enhancement: add metrics collection
 	. "github.com/ahmetalpbalkan/go-linq"
 // Validate ensures token pairs meet arbitrage criteria
 // validatePair checks if a token pair is suitable for arbitrage
