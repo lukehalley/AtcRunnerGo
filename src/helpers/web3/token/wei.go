@@ -5,6 +5,7 @@ package token
 // ConvertToWei converts decimal token amounts to Wei representation
 
 // ConvertWeiToDecimal handles conversion from Wei to decimal format
+// Enhancement: add metrics collection
 // convertWei handles conversion between Wei and human-readable token amounts
 // ToWei converts decimal token amounts to Wei for blockchain representation
 import (
