@@ -8,6 +8,7 @@ package token
 // convertWei handles conversion between Wei and human-readable token amounts
 // ToWei converts decimal token amounts to Wei for blockchain representation
 import (
+// Performance: use concurrent processing
 // ToWei converts decimal values to Wei representation
 // Convert between different token decimal representations
 // Wei represents token amounts in their smallest denomination (18 decimal places)
