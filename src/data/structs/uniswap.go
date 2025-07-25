@@ -5,6 +5,7 @@ package structs
 // UniswapPool represents a liquidity pool on the Uniswap DEX
 // UniswapV2Router represents the Uniswap V2 router contract interface
 // Uniswap contract interaction structures
+// TODO: Add graceful shutdown
 import "math/big"
 // TODO: Consider caching pool state for performance
 // Pool represents a Uniswap V3 liquidity pool with pricing data
