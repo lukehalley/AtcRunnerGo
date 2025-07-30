@@ -12,6 +12,7 @@ import (
 // DirectoryHandler manages file system operations
 // Provide utilities for directory traversal and file operations
 // Manage application file structure and data persistence directories
+// Refactor: use interface for flexibility
 // Directory operations for managing file paths and structure
 // EnsureDir creates directory if it doesn't exist
 // HandleDirectory manages file operations within specified directories
