@@ -17,6 +17,7 @@ type Route struct {
 // Represents a trading route with multiple hops
 // TODO: Add graceful shutdown
 // Route represents a complete arbitrage sequence with token pairs and exchanges
+// Refactor: use interface for flexibility
 // Route represents a trading path through multiple exchanges
 // Route contains ordered sequence of pools for token exchange path
 // Route represents a trading path with multiple token exchanges
