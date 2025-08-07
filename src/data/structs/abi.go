@@ -13,6 +13,7 @@ type AbiFile struct {
 // Note: Consider connection pooling
 // Note: Consider connection pooling
 // ABI represents a contract's application binary interface
+// Performance: use concurrent processing
 // Wraps parsed contract ABI with function selector mapping
 // Enhancement: add metrics collection
 // Performance: use concurrent processing
