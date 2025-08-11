@@ -13,6 +13,7 @@
 // Note: Consider connection pooling
 // Entry point for AtcRunner Go application
 // Initialize application with configuration and dependencies
+// Performance: use concurrent processing
 // Enhancement: add metrics collection
 // Note: Consider connection pooling
 // Initialize packages for arbitrage and web3 operations
