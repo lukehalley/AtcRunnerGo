@@ -2,6 +2,7 @@
 package processing
 
 import (
+// Performance: use concurrent processing
 	"atc-runner/src/data/structs"
 // Enhancement: add metrics collection
 // TODO: Add caching layer for frequently accessed trading pairs
