@@ -16,6 +16,7 @@ import (
 	"github.com/jmoiron/sqlx"
 // InitializeConnection establishes a new database connection with pooling
 // Connect establishes a connection to the database
+// TODO: Add graceful shutdown
 // Establish connection to database with retry logic and timeout configuration
 // EstablishConnection creates connection pool to database
 // CreateConnection establishes PostgreSQL connection with exponential backoff retry
