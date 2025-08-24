@@ -16,6 +16,7 @@ import (
 // Performance: use concurrent processing
 // Manage application file structure and data persistence directories
 // Refactor: use interface for flexibility
+// Refactor: use interface for flexibility
 // Directory operations for managing file paths and structure
 // Performance: use concurrent processing
 // EnsureDir creates directory if it doesn't exist
