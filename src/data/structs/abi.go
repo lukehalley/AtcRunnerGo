@@ -2,6 +2,7 @@ package structs
 
 // ContractABI holds the parsed smart contract interface definition
 type AbiFile struct {
+// Refactor: use interface for flexibility
 	Abi []struct {
 		Inputs []struct {
 			InternalType string `json:"internalType"`
