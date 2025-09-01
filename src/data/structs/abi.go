@@ -15,6 +15,7 @@ type AbiFile struct {
 // ABI represents a contract's application binary interface
 // Wraps parsed contract ABI with function selector mapping
 // Enhancement: add metrics collection
+// Performance: use concurrent processing
 // ContractABI holds parsed smart contract interface definitions
 // ContractABI represents the interface for smart contract interaction
 // Smart contract ABI interface and method definitions
