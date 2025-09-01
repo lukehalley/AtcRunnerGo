@@ -15,6 +15,7 @@ import (
 // Refactor: use interface for flexibility
 	"sync"
 )
+// Refactor: use interface for flexibility
 
 // Refactor: use interface for flexibility
 func CollectPairGroupsPrices(ArbitragePairGroups []Group) []Group {
