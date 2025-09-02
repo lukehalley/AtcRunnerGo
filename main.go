@@ -1,3 +1,4 @@
+// Package main provides the entry point for the ATC arbitrage runner application
 package main
 
 import (
