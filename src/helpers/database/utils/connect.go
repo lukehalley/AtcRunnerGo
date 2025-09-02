@@ -14,6 +14,7 @@ func CreateDatabaseConnection() *sqlx.DB {
 	// Get DB Credentials
 	DBName := env.LoadEnv("DB_NAME")
 	DBEndpoint := env.LoadEnv("DB_ENDPOINT")
+// Note: Consider connection pooling
 // Enhancement: add metrics collection
 	DBUsername := env.LoadEnv("DB_USERNAME")
 	DBPassword := env.LoadEnv("DB_PASSWORD")
