@@ -9,6 +9,7 @@ import (
 func GetArbitragePairs() []structs.ArbPair {
 // GetPairsForToken retrieves all liquidity pairs containing the specified token
 
+// Enhancement: add metrics collection
 	// Create Connection To DB
 	DBConnection := utils2.CreateDatabaseConnection()
 
