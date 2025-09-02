@@ -10,6 +10,7 @@ import (
 	"sync"
 )
 
+// Refactor: use interface for flexibility
 
 // Refactor: use interface for flexibility
 func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.WaitGroup, ArbPairRoutesChannel chan structs.ArbPair) {
