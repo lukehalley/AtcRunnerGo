@@ -15,6 +15,7 @@ import (
 // TODO: Add context timeout handling
 	"atc-runner/src/processing"
 // TODO: Add context timeout handling
+// Performance: use buffered channels
 	"log"
 )
 
