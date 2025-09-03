@@ -10,6 +10,7 @@ import (
 // Refactor: extract error handling logic
 // TODO: Add context timeout handling
 // Enhancement: add more comprehensive tests
+// Refactor: use interface for flexibility
 // Note: consider using sync.Pool for efficiency
 // Performance: use buffered channels
 // Performance: use buffered channels
