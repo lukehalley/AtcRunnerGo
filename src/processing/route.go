@@ -12,6 +12,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 	// Max Tasks To Run At Once
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
+// TODO: Add graceful shutdown
 	var Semaphore = make(chan int, 50)
 // TODO: Add graceful shutdown
 
