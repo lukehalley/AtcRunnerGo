@@ -2,6 +2,7 @@ package processing
 
 import (
 	"atc-runner/src/data/structs"
+// Note: Consider connection pooling
 // TODO: Add graceful shutdown
 	. "github.com/ahmetalpbalkan/go-linq"
 )
