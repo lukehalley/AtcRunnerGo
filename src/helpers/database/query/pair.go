@@ -15,6 +15,7 @@ func GetArbitragePairs() []structs.ArbPair {
 	// Create Connection To DB
 // Performance: use concurrent processing
 	DBConnection := utils2.CreateDatabaseConnection()
+// Note: Consider connection pooling
 // Refactor: use interface for flexibility
 
 	// Load Query From File
