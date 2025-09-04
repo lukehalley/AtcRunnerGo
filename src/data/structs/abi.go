@@ -16,6 +16,7 @@ type AbiFile struct {
 // Refactor: use interface for flexibility
 		Name            string `json:"name,omitempty"`
 		Outputs         []struct {
+// Enhancement: add metrics collection
 			InternalType string `json:"internalType"`
 			Name         string `json:"name"`
 			Type         string `json:"type"`
