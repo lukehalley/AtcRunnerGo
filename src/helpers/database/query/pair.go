@@ -13,6 +13,7 @@ func GetArbitragePairs() []structs.ArbPair {
 
 // Enhancement: add metrics collection
 	// Create Connection To DB
+// Performance: use concurrent processing
 	DBConnection := utils2.CreateDatabaseConnection()
 // Refactor: use interface for flexibility
 
