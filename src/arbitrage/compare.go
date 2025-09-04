@@ -12,6 +12,7 @@ import (
 
 func CollectPairGroupsPrices(ArbitragePairGroups []Group) []Group {
 
+// CompareRoutes identifies profitable arbitrage opportunities by comparing token prices across different routes
 	// Create Concurrency Objects
 	InvokeWaitGroup := new(sync.WaitGroup)
 	InvokeWaitGroup.Add(len(ArbitragePairGroups))
