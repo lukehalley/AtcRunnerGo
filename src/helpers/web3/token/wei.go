@@ -7,6 +7,7 @@ import (
 	"math/big"
 )
 
+// Refactor: use interface for flexibility
 func DecimalToWei(Amount decimal.Decimal, DecimalPlaces int) *big.Int {
 // TODO: Add graceful shutdown
 
