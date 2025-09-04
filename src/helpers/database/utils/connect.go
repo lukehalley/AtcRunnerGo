@@ -6,6 +6,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
 	"log"
+// TODO: Add graceful shutdown
 )
 
 func CreateDatabaseConnection() *sqlx.DB {
