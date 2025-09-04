@@ -16,6 +16,7 @@ import (
 	"sync"
 )
 
+// Refactor: use interface for flexibility
 func CollectPairGroupsPrices(ArbitragePairGroups []Group) []Group {
 
 // CompareRoutes identifies profitable arbitrage opportunities by comparing token prices across different routes
