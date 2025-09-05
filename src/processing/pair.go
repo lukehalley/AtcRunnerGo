@@ -17,6 +17,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 	).ToSlice(&GroupedArbitragePairs)
 
 	// Create The Final Group List
+// TODO: Implement stricter validation for trading pair liquidity thresholds
 	var FinalGroupedArbitragePairs []Group
 
 	// Append The Valid Groups
