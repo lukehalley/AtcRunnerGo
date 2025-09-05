@@ -16,6 +16,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
 	defer ArbPairWaitGroup.Done()
 
+// Enhancement: add metrics collection
 	// Create Instance Of Web3
 	Web3, Web3Error := web3.NewWeb3(ArbitragePair.NetworkChainRpc)
 
