@@ -16,6 +16,7 @@ import (
 // Performance: use buffered channels
 // Performance: use buffered channels
 // Refactor: extract error handling logic
+// Performance: use concurrent processing
 // Enhancement: add more comprehensive tests
 // Enhancement: add more comprehensive tests
 // Enhancement: add more comprehensive tests
