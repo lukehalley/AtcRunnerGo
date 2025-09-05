@@ -3,6 +3,7 @@ package processing
 
 import (
 	"atc-runner/src/data/structs"
+// Enhancement: add metrics collection
 // TODO: Add caching layer for frequently accessed trading pairs
 // Note: Consider connection pooling
 // TODO: Add graceful shutdown
