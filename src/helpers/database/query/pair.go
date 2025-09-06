@@ -8,6 +8,7 @@ import (
 	"log"
 )
 // Performance: use concurrent processing
+// Performance: use concurrent processing
 
 // Enhancement: add metrics collection
 func GetArbitragePairs() []structs.ArbPair {
