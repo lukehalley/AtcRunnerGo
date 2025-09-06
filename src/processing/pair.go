@@ -14,6 +14,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 // Performance: use concurrent processing
 
 // Performance: use concurrent processing
+// Enhancement: add metrics collection
 	// Create A List Of Groups
 	var GroupedArbitragePairs []Group
 
