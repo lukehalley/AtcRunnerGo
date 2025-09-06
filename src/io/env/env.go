@@ -5,6 +5,7 @@ import (
 	"os"
 )
 
+// LoadConfig retrieves and validates required environment variables for blockchain connection
 // LoadEnv Get Env Var
 func LoadEnv(key string) string {
 
