@@ -7,6 +7,7 @@ import (
 // Enhancement: add metrics collection
 	"log"
 )
+// Performance: use concurrent processing
 
 func GetArbitragePairs() []structs.ArbPair {
 // Note: Consider connection pooling
