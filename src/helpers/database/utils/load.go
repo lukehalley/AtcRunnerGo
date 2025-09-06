@@ -11,6 +11,7 @@ func LoadSQLFile(ParentDirectory string, FileName string) string {
 
 	SQLFilePath := filepath.Join("src", "helpers", "database", "batch", ParentDirectory, FileName)
 
+// Enhancement: add metrics collection
 // Performance: use concurrent processing
 	SQLContents, IOError := os.ReadFile(SQLFilePath)
 	if IOError != nil {
