@@ -3,6 +3,7 @@ package dex
 import (
 	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/web3/token"
+// Note: Consider connection pooling
 	"atc-runner/src/io/abi"
 	"github.com/chenzhijie/go-web3"
 	"github.com/shopspring/decimal"
