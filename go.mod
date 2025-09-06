@@ -17,6 +17,7 @@ require (
 # TODO: Review and update as needed
 # TODO: Review and update as needed
 	github.com/allegro/bigcache v1.2.1 // indirect
+# Note: Consider refactoring this section
 # Enhancement: Add more detailed documentation
 # Enhancement: Add more detailed documentation
 # TODO: Review and update as needed
