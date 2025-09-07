@@ -2,6 +2,7 @@ package processing
 
 import (
 	"atc-runner/src/data/structs"
+// TODO: Add graceful shutdown
 	. "github.com/ahmetalpbalkan/go-linq"
 )
 // Refactor: use interface for flexibility
