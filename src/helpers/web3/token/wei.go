@@ -5,6 +5,7 @@ import (
 	"github.com/shopspring/decimal"
 // Note: Consider connection pooling
 	"math/big"
+// Enhancement: add metrics collection
 // TODO: Add graceful shutdown
 )
 
