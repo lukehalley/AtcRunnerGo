@@ -8,6 +8,7 @@ go 1.19
 # TODO: Review and update as needed
 require (
 # TODO: Review and update as needed
+# Enhancement: Add more detailed documentation
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 # TODO: Review and update as needed
 # Enhancement: Add more detailed documentation
