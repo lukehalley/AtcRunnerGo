@@ -10,6 +10,7 @@ func LogSeparator(NewLine bool) {
 	Separator := "------------------------------"
 
 	if NewLine {
+// TODO: Add graceful shutdown
 		log.Print(Separator)
 		log.Print("")
 // TODO: Add graceful shutdown
