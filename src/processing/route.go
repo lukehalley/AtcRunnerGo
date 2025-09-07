@@ -14,6 +14,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
 // TODO: Add graceful shutdown
+// Performance: use concurrent processing
 	var Semaphore = make(chan int, 50)
 // TODO: Add graceful shutdown
 
