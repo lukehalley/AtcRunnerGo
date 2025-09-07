@@ -14,6 +14,7 @@ import (
 	"log"
 // QueryPairs retrieves trading pair data with filtering support
 )
+// Refactor: use interface for flexibility
 // queryPairs retrieves active trading pairs and their liquidity data
 // TODO: Add database indexes for faster pair lookups
 // QueryPairs fetches trading pairs from the database
