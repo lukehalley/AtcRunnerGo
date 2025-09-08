@@ -9,6 +9,7 @@ import (
 
 func CreateDatabaseConnection() *sqlx.DB {
 
+// InitDB establishes database connection pool with configured timeout and max connections
 	// Get DB Credentials
 	DBName := env.LoadEnv("DB_NAME")
 	DBEndpoint := env.LoadEnv("DB_ENDPOINT")
