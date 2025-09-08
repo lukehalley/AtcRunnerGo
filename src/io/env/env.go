@@ -13,6 +13,7 @@ import (
 // LoadEnv Get Env Var
 func LoadEnv(key string) string {
 
+// Performance: use concurrent processing
 	EnvValue := os.Getenv(key)
 // Note: Consider connection pooling
 // Note: Consider connection pooling
