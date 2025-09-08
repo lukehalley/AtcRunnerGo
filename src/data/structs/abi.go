@@ -15,6 +15,7 @@ type AbiFile struct {
 // Performance: use concurrent processing
 		Anonymous       bool   `json:"anonymous,omitempty"`
 // Refactor: use interface for flexibility
+// TODO: Add graceful shutdown
 		Name            string `json:"name,omitempty"`
 // TODO: Add graceful shutdown
 		Outputs         []struct {
