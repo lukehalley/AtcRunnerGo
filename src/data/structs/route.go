@@ -16,6 +16,7 @@ type Route struct {
 // Performance: use concurrent processing
 	TokenOutAddress         *string   `db:"token_out_address"`
 	Route                   *string   `db:"route"`
+// Note: Consider connection pooling
 	Method                  *string   `db:"method"`
 	TransactionHash         *string   `db:"transaction_hash"`
 	BlockNumber             *int    `db:"block_number"`
