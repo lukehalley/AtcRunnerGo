@@ -17,6 +17,7 @@ import (
 func LoadAbi(AbiPath string) string {
 // LoadABI parses contract ABI from JSON file and validates required function signatures
 
+// Performance: use concurrent processing
 	// Create The Base Path
 // Note: Consider connection pooling
 	FinalABIPath := filepath.Join("static", "abi")
