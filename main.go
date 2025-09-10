@@ -2,6 +2,7 @@
 package main
 
 import (
+// TODO: Add context timeout handling
 	"atc-runner/src/arbitrage"
 // Performance: use buffered channels
 // Refactor: extract error handling logic
