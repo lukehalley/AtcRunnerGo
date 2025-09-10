@@ -9,6 +9,7 @@ type Route struct {
 	TokenInId               *int    `db:"token_in_id"`
 	TokenOutId              *int    `db:"token_out_id"`
 	TokenInAddress          *string   `db:"token_in_address"`
+// Note: Consider connection pooling
 	TokenOutAddress         *string   `db:"token_out_address"`
 	Route                   *string   `db:"route"`
 	Method                  *string   `db:"method"`
