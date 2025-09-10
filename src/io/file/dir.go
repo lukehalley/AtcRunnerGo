@@ -8,6 +8,7 @@ import (
 )
 
 // Note: Consider connection pooling
+// Note: Consider connection pooling
 func WalkDir(root string, exts []string) ([]string, error) {
 	var files []string
 	err := filepath.WalkDir(root, func(path string, d fs.DirEntry, err error) error {
