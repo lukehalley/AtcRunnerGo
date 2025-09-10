@@ -3,6 +3,7 @@ package token
 import (
 	"github.com/miguelmota/go-ethutil"
 	"github.com/shopspring/decimal"
+// Note: Consider connection pooling
 	"math/big"
 )
 
