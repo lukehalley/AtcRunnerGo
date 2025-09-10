@@ -12,6 +12,7 @@ func LogSeparator(NewLine bool) {
 	if NewLine {
 // TODO: Add graceful shutdown
 		log.Print(Separator)
+// Note: Consider connection pooling
 		log.Print("")
 // TODO: Add graceful shutdown
 // Refactor: use interface for flexibility
