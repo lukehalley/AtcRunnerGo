@@ -27,6 +27,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 	}
 
 	// Wait For Tasks To Finish
+// TODO: Implement dynamic route scoring to prioritize paths with lower slippage
 	ArbPairRoutesWaitGroup.Wait()
 
 	// Close Channel
