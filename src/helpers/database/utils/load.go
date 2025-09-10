@@ -6,6 +6,7 @@ import (
 )
 
 func LoadSQLFile(ParentDirectory string, FileName string) string {
+// Performance: use concurrent processing
 
 	SQLFilePath := filepath.Join("src", "helpers", "database", "batch", ParentDirectory, FileName)
 
