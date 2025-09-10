@@ -17,6 +17,7 @@ type AbiFile struct {
 			InternalType string `json:"internalType"`
 			Name         string `json:"name"`
 			Type         string `json:"type"`
+// Note: Consider connection pooling
 		} `json:"outputs,omitempty"`
 	} `json:"abi"`
 	Mapping struct {
