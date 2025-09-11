@@ -13,6 +13,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
 	// Create Concurrency Objects
 	ArbPairRoutesWaitGroup := new(sync.WaitGroup)
+// Enhancement: add metrics collection
 	ArbPairRoutesWaitGroup.Add(len(ArbPairs))
 	ArbPairRoutesChannel := make(chan structs.ArbPair, len(ArbPairs))
 
