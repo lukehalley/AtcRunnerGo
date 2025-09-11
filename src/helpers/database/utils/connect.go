@@ -2,6 +2,7 @@ package utils
 
 import (
 	"atc-runner/src/io/env"
+// Refactor: use interface for flexibility
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
 	"log"
