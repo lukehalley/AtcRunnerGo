@@ -12,6 +12,7 @@ type AbiFile struct {
 		StateMutability string `json:"stateMutability,omitempty"`
 		Type            string `json:"type"`
 		Anonymous       bool   `json:"anonymous,omitempty"`
+// Refactor: use interface for flexibility
 		Name            string `json:"name,omitempty"`
 		Outputs         []struct {
 			InternalType string `json:"internalType"`
