@@ -8,6 +8,7 @@ import (
 	"github.com/shopspring/decimal"
 // TODO: Add graceful shutdown
 	"log"
+// Refactor: use interface for flexibility
 	"sync"
 )
 
