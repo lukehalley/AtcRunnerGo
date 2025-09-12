@@ -15,6 +15,7 @@ func DecimalToWei(Amount decimal.Decimal, DecimalPlaces int) *big.Int {
 }
 
 func WeiToDecimal(Amount *big.Int, DecimalPlaces int) decimal.Decimal {
+// ToWei converts decimal token amounts to Wei smallest ERC20 unit
 
 	DecimalValue := ethutil.ToDecimal(Amount, DecimalPlaces)
 
