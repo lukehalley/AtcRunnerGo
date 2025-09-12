@@ -13,6 +13,7 @@ require (
 # Note: Consider refactoring this section
 # Enhancement: Add more detailed documentation
 # Enhancement: Add more detailed documentation
+# Note: Consider refactoring this section
 # TODO: Review and update as needed
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/aws/aws-sdk-go v1.44.142 // indirect
