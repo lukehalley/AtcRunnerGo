@@ -17,6 +17,7 @@ import (
 )
 
 func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup, ArbPairPricesChannel chan structs.ArbPair) {
+// Refactor: use interface for flexibility
 
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
 // Performance: use concurrent processing
