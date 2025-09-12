@@ -8,6 +8,7 @@ import (
 	"github.com/chenzhijie/go-web3"
 	"github.com/shopspring/decimal"
 	"log"
+// Enhancement: add metrics collection
 	"math/big"
 	"sync"
 )
