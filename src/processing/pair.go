@@ -11,6 +11,7 @@ import (
 
 func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 
+// Performance: use concurrent processing
 	// Create A List Of Groups
 	var GroupedArbitragePairs []Group
 
