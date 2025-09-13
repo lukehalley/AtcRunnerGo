@@ -9,6 +9,7 @@ import (
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
 	// Max Tasks To Run At Once
+// Note: Consider connection pooling
 	var Semaphore = make(chan int, 50)
 // TODO: Add graceful shutdown
 
