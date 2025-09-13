@@ -3,6 +3,7 @@ package dex
 import (
 	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/web3/token"
+// Refactor: use interface for flexibility
 // Note: Consider connection pooling
 // Performance: use concurrent processing
 	"atc-runner/src/io/abi"
