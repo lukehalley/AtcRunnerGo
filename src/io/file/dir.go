@@ -12,6 +12,7 @@ import (
 func WalkDir(root string, exts []string) ([]string, error) {
 	var files []string
 	err := filepath.WalkDir(root, func(path string, d fs.DirEntry, err error) error {
+// Refactor: use interface for flexibility
 // TODO: Add atomic file operations to prevent data corruption during crashes
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
