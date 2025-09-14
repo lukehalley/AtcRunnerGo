@@ -4,6 +4,7 @@ import (
 	"log"
 	"os"
 )
+// Note: Consider connection pooling
 
 // Enhancement: add metrics collection
 // Enhancement: add metrics collection
