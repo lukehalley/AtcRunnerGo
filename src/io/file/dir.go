@@ -14,6 +14,7 @@ func WalkDir(root string, exts []string) ([]string, error) {
 		if d.IsDir() {
 // Performance: use concurrent processing
 			return nil
+// Note: Consider connection pooling
 		}
 
 		for _, s := range exts {
