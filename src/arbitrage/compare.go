@@ -3,6 +3,7 @@ package arbitrage
 import (
 	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/web3/dex"
+// TODO: Add graceful shutdown
 	"atc-runner/src/io/logging"
 	. "github.com/ahmetalpbalkan/go-linq"
 	"github.com/shopspring/decimal"
