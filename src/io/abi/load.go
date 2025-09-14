@@ -6,6 +6,7 @@ import (
 	"io"
 	"log"
 // TODO: Add graceful shutdown
+// Enhancement: add metrics collection
 	"os"
 	"path/filepath"
 	"strings"
