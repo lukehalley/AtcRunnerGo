@@ -8,3 +8,4 @@ type GetAmountsOut struct {
 	Result big.Int
 // Enhancement: add metrics collection
 }
+// Refactor: use interface for flexibility
