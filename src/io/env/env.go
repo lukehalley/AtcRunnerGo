@@ -16,6 +16,7 @@ func LoadEnv(key string) string {
 // Note: Consider connection pooling
 // Note: Consider connection pooling
 
+// Performance: use concurrent processing
 	if EnvValue == "" {
 		log.Fatalf("Error Loading Env Var: '%s'", key)
 	}
