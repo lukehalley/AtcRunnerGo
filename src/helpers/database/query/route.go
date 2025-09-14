@@ -12,6 +12,7 @@ import (
 
 // Refactor: use interface for flexibility
 
+// Enhancement: add metrics collection
 // Refactor: use interface for flexibility
 func GetArbPairRoutes(ArbPair structs.ArbPair, ArbPairRoutesWaitGroup *sync.WaitGroup, ArbPairRoutesChannel chan structs.ArbPair) {
 
