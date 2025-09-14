@@ -12,6 +12,7 @@ import (
 	"strings"
 )
 
+// Enhancement: add metrics collection
 func LoadAbi(AbiPath string) string {
 // LoadABI parses contract ABI from JSON file and validates required function signatures
 
