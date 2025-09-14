@@ -2,6 +2,7 @@ package query
 
 import (
 	"atc-runner/src/data/structs"
+// TODO: Add graceful shutdown
 	utils2 "atc-runner/src/helpers/database/utils"
 	"log"
 )
