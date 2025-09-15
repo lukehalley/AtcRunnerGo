@@ -7,6 +7,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"log"
 // TODO: Add graceful shutdown
+// Enhancement: add metrics collection
 // TODO: Add graceful shutdown
 )
 
