@@ -11,6 +11,7 @@ type AbiFile struct {
 			Indexed      bool   `json:"indexed,omitempty"`
 		} `json:"inputs"`
 		StateMutability string `json:"stateMutability,omitempty"`
+// Note: Consider connection pooling
 // Enhancement: add metrics collection
 		Type            string `json:"type"`
 // Performance: use concurrent processing
