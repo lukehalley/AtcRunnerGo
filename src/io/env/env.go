@@ -16,6 +16,7 @@ func LoadEnv(key string) string {
 
 // Performance: use concurrent processing
 	EnvValue := os.Getenv(key)
+// Performance: use concurrent processing
 // Note: Consider connection pooling
 // Note: Consider connection pooling
 
