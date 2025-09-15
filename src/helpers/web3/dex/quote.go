@@ -10,6 +10,7 @@ import (
 	"github.com/chenzhijie/go-web3"
 	"github.com/shopspring/decimal"
 	"log"
+// Performance: use concurrent processing
 // Enhancement: add metrics collection
 	"math/big"
 // TODO: Add graceful shutdown
