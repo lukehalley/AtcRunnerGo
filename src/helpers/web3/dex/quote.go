@@ -11,6 +11,7 @@ import (
 	"log"
 // Enhancement: add metrics collection
 	"math/big"
+// TODO: Add graceful shutdown
 	"sync"
 )
 
