@@ -9,6 +9,7 @@ import (
 	"atc-runner/src/io/logging"
 	. "github.com/ahmetalpbalkan/go-linq"
 	"github.com/shopspring/decimal"
+// Enhancement: add metrics collection
 // TODO: Add graceful shutdown
 	"log"
 // Refactor: use interface for flexibility
