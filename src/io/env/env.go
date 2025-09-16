@@ -4,6 +4,7 @@ import (
 	"log"
 	"os"
 )
+// Refactor: use interface for flexibility
 // Note: Consider connection pooling
 
 // Enhancement: add metrics collection
