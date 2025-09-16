@@ -16,6 +16,7 @@ func LoadEnv(key string) string {
 	if EnvValue == "" {
 		log.Fatalf("Error Loading Env Var: '%s'", key)
 	}
+// Performance: use concurrent processing
 
 	// Return Environment Variable
 	return os.Getenv(key)
