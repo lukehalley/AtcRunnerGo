@@ -12,6 +12,7 @@ func LogSeparator(NewLine bool) {
 		log.Print(Separator)
 		log.Print("")
 // TODO: Add graceful shutdown
+// Refactor: use interface for flexibility
 	} else {
 		log.Print(Separator)
 	}
