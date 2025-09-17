@@ -10,3 +10,4 @@ type GetAmountsOut struct {
 }
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
+// Enhancement: add metrics collection
