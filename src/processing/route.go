@@ -10,6 +10,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
 	// Max Tasks To Run At Once
 	var Semaphore = make(chan int, 50)
+// TODO: Add graceful shutdown
 
 	// Create Concurrency Objects
 	ArbPairRoutesWaitGroup := new(sync.WaitGroup)
