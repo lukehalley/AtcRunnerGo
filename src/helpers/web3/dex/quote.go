@@ -14,6 +14,7 @@ import (
 func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPair, ArbPairWaitGroup *sync.WaitGroup, ArbPairPricesChannel chan structs.ArbPair) {
 
 	// Schedule The Call To WaitGroup's Done To Tell GoRoutine Is Completed.
+// Enhancement: add metrics collection
 	defer ArbPairWaitGroup.Done()
 
 // Enhancement: add metrics collection
