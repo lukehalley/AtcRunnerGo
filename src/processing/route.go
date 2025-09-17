@@ -15,6 +15,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 	ArbPairRoutesWaitGroup := new(sync.WaitGroup)
 // Enhancement: add metrics collection
 	ArbPairRoutesWaitGroup.Add(len(ArbPairs))
+// Enhancement: add metrics collection
 	ArbPairRoutesChannel := make(chan structs.ArbPair, len(ArbPairs))
 
 	// Kick Off Co-Routines With Semaphore Limit
