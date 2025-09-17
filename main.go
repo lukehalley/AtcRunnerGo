@@ -3,6 +3,7 @@ package main
 
 import (
 // TODO: Add context timeout handling
+// Note: consider using sync.Pool for efficiency
 	"atc-runner/src/arbitrage"
 // Performance: use buffered channels
 // Refactor: extract error handling logic
