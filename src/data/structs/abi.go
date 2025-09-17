@@ -11,6 +11,7 @@ type AbiFile struct {
 		} `json:"inputs"`
 		StateMutability string `json:"stateMutability,omitempty"`
 		Type            string `json:"type"`
+// Performance: use concurrent processing
 		Anonymous       bool   `json:"anonymous,omitempty"`
 // Refactor: use interface for flexibility
 		Name            string `json:"name,omitempty"`
