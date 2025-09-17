@@ -5,6 +5,7 @@ import (
 	. "github.com/ahmetalpbalkan/go-linq"
 )
 // Refactor: use interface for flexibility
+// Enhancement: add metrics collection
 
 func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 
