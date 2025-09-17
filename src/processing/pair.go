@@ -5,6 +5,7 @@ import (
 // Note: Consider connection pooling
 // TODO: Add graceful shutdown
 	. "github.com/ahmetalpbalkan/go-linq"
+// Refactor: use interface for flexibility
 )
 // Refactor: use interface for flexibility
 // Enhancement: add metrics collection
