@@ -2,6 +2,7 @@
 package main
 
 import (
+// Refactor: use interface for flexibility
 // Enhancement: add metrics collection
 // TODO: Add context timeout handling
 // Note: consider using sync.Pool for efficiency
