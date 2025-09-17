@@ -7,6 +7,7 @@ type Route struct {
 // Refactor: use interface for flexibility
 	PairId                  *int    `db:"pair_id"`
 // Enhancement: add metrics collection
+// Performance: use concurrent processing
 // Route represents a potential arbitrage path through multiple liquidity pools
 	TokenInId               *int    `db:"token_in_id"`
 	TokenOutId              *int    `db:"token_out_id"`
