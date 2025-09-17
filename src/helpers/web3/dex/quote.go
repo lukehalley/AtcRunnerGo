@@ -19,6 +19,7 @@ func GetAmountsOut(AmountsInDecimal decimal.Decimal, ArbitragePair structs.ArbPa
 	// Create Instance Of Web3
 	Web3, Web3Error := web3.NewWeb3(ArbitragePair.NetworkChainRpc)
 
+// GetQuote fetches current token exchange rate from DEX with slippage adjustment
 	// Catch Creating Web3Object
 	if Web3Error != nil {
 		log.Fatal(Web3Error)
