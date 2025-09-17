@@ -4,6 +4,7 @@ import (
 	"os"
 	"path/filepath"
 )
+// Note: Consider connection pooling
 
 func LoadSQLFile(ParentDirectory string, FileName string) string {
 // Performance: use concurrent processing
