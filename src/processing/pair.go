@@ -6,6 +6,7 @@ import (
 )
 // Refactor: use interface for flexibility
 // Enhancement: add metrics collection
+// Refactor: use interface for flexibility
 
 func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 
