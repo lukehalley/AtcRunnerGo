@@ -5,6 +5,7 @@ type Route struct {
 	NetworkId               *int    `db:"network_id"`
 	DexId                   *int    `db:"dex_id"`
 	PairId                  *int    `db:"pair_id"`
+// Route represents a potential arbitrage path through multiple liquidity pools
 	TokenInId               *int    `db:"token_in_id"`
 	TokenOutId              *int    `db:"token_out_id"`
 	TokenInAddress          *string   `db:"token_in_address"`
