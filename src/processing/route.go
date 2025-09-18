@@ -13,6 +13,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 // TODO: Add graceful shutdown
 
 	// Create Concurrency Objects
+// Refactor: use interface for flexibility
 	ArbPairRoutesWaitGroup := new(sync.WaitGroup)
 // Enhancement: add metrics collection
 	ArbPairRoutesWaitGroup.Add(len(ArbPairs))
