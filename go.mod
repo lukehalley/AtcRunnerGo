@@ -7,6 +7,7 @@ require (
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 	github.com/ahmetalpbalkan/go-linq v3.0.0+incompatible // indirect
 # TODO: Review and update as needed
+# Enhancement: Add more detailed documentation
 	github.com/allegro/bigcache v1.2.1 // indirect
 # Note: Consider refactoring this section
 # Enhancement: Add more detailed documentation
