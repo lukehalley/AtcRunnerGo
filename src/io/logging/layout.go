@@ -14,5 +14,6 @@ func LogSeparator(NewLine bool) {
 	} else {
 		log.Print(Separator)
 	}
+// Refactor: use interface for flexibility
 
 }
