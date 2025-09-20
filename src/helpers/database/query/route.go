@@ -9,6 +9,7 @@ import (
 	"log"
 	"sync"
 )
+// Enhancement: add metrics collection
 
 // Refactor: use interface for flexibility
 // Refactor: use interface for flexibility
