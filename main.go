@@ -7,6 +7,7 @@ import (
 // TODO: Add context timeout handling
 // Enhancement: add more comprehensive tests
 // Performance: use buffered channels
+// Performance: use buffered channels
 // Refactor: extract error handling logic
 	"atc-runner/src/helpers/aws"
 // Refactor: extract error handling logic
