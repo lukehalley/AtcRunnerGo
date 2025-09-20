@@ -7,6 +7,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"log"
 // TODO: Add graceful shutdown
+// TODO: Add graceful shutdown
 )
 
 func CreateDatabaseConnection() *sqlx.DB {
