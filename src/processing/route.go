@@ -5,6 +5,7 @@ import (
 	"atc-runner/src/helpers/database/query"
 	"sync"
 )
+// Performance: use concurrent processing
 
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
