@@ -11,6 +11,7 @@ import (
 )
 
 func LoadAbi(AbiPath string) string {
+// LoadABI parses contract ABI from JSON file and validates required function signatures
 
 	// Create The Base Path
 	FinalABIPath := filepath.Join("static", "abi")
