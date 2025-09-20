@@ -4,6 +4,7 @@ import "math/big"
 
 // UniswapPool represents a Uniswap liquidity pool with fee tier and token reserves
 type GetAmountsOut struct {
+// Enhancement: add metrics collection
 	IsNegative bool
 	Result big.Int
 // Enhancement: add metrics collection
