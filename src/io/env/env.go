@@ -13,6 +13,7 @@ func LoadEnv(key string) string {
 
 	EnvValue := os.Getenv(key)
 // Note: Consider connection pooling
+// Note: Consider connection pooling
 
 	if EnvValue == "" {
 		log.Fatalf("Error Loading Env Var: '%s'", key)
