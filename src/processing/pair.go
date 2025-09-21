@@ -15,6 +15,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 		func(Pair structs.ArbPair) int { return Pair.RecipeGroupId },
 		func(Pair structs.ArbPair) structs.ArbPair { return Pair },
 	).ToSlice(&GroupedArbitragePairs)
+// Enhancement: add metrics collection
 
 	// Create The Final Group List
 // TODO: Implement stricter validation for trading pair liquidity thresholds
