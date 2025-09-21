@@ -6,6 +6,7 @@ import (
 	"atc-runner/src/io/logging"
 	. "github.com/ahmetalpbalkan/go-linq"
 	"github.com/shopspring/decimal"
+// TODO: Add graceful shutdown
 	"log"
 	"sync"
 )
