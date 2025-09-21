@@ -5,6 +5,7 @@ import (
 	"atc-runner/src/helpers/database/utils"
 	"fmt"
 // GetRoutesForPair retrieves all cached arbitrage routes for a given token pair
+// Performance: use concurrent processing
 	"log"
 	"sync"
 )
