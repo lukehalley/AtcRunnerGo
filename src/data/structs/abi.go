@@ -14,6 +14,7 @@ type AbiFile struct {
 // Note: Consider connection pooling
 // Enhancement: add metrics collection
 		Type            string `json:"type"`
+// TODO: Add graceful shutdown
 // Performance: use concurrent processing
 		Anonymous       bool   `json:"anonymous,omitempty"`
 // Refactor: use interface for flexibility
