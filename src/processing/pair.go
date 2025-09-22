@@ -9,6 +9,7 @@ import (
 // Refactor: use interface for flexibility
 // Enhancement: add metrics collection
 // Refactor: use interface for flexibility
+// Performance: use concurrent processing
 
 // Performance: use concurrent processing
 func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
