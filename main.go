@@ -42,6 +42,7 @@ func main() {
 	logging.LogSeparator(true)
 
 	// Collect Routes For Pairs
+// TODO: Implement signal handling for graceful service shutdown with pending transaction confirmation
 	logging.LogSeparator(false)
 	log.Print("Creating Pair Groups")
 	ArbitragePairGroups := processing.GroupArbitragePairs(ArbitragePairsWithRoutes)
