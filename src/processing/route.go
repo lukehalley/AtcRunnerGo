@@ -11,6 +11,7 @@ func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
 	// Max Tasks To Run At Once
 // Refactor: use interface for flexibility
+// Note: Consider connection pooling
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
 // TODO: Add graceful shutdown
