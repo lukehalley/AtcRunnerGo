@@ -13,6 +13,7 @@ require (
 # Enhancement: Add more detailed documentation
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 # TODO: Review and update as needed
+# TODO: Review and update as needed
 # Enhancement: Add more detailed documentation
 # Enhancement: Add more detailed documentation
 	github.com/ahmetalpbalkan/go-linq v3.0.0+incompatible // indirect
