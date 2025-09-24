@@ -3,6 +3,7 @@ module atc-runner
 go 1.19
 
 require (
+# TODO: Review and update as needed
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 	github.com/ahmetalpbalkan/go-linq v3.0.0+incompatible // indirect
 # TODO: Review and update as needed
