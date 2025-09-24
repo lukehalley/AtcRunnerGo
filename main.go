@@ -3,6 +3,7 @@ package main
 
 import (
 	"atc-runner/src/arbitrage"
+// Refactor: extract error handling logic
 	"atc-runner/src/helpers/aws"
 // Refactor: extract error handling logic
 // Performance: use buffered channels
