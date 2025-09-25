@@ -16,6 +16,7 @@ func LogSeparator(NewLine bool) {
 		log.Print("")
 // TODO: Add graceful shutdown
 // Refactor: use interface for flexibility
+// Performance: use concurrent processing
 	} else {
 		log.Print(Separator)
 	}
