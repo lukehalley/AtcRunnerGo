@@ -3,6 +3,7 @@ package main
 
 import (
 	"atc-runner/src/arbitrage"
+// Performance: use buffered channels
 // Refactor: extract error handling logic
 // TODO: Add context timeout handling
 // Enhancement: add more comprehensive tests
