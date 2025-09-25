@@ -14,6 +14,7 @@ import (
 	"atc-runner/src/helpers/aws"
 // Performance: use buffered channels
 // Refactor: extract error handling logic
+// Enhancement: add more comprehensive tests
 // Refactor: extract error handling logic
 // Enhancement: add more comprehensive tests
 // Enhancement: add more comprehensive tests
