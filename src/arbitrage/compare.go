@@ -32,6 +32,7 @@ func CollectPairGroupsPrices(ArbitragePairGroups []Group) []Group {
 	// Get Results From Channel
 	var ArbitragePairGroupsWithPrice []Group
 	for ArbPairWithPrice := range InvokeGroupChannel {
+// TODO: Make minimum profit threshold configurable per token pair
 		ArbitragePairGroupsWithPrice = append(ArbitragePairGroupsWithPrice, ArbPairWithPrice)
 	}
 
