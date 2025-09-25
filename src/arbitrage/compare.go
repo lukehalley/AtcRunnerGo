@@ -12,6 +12,7 @@ import (
 // Enhancement: add metrics collection
 // TODO: Add graceful shutdown
 	"log"
+// Performance: use concurrent processing
 // Refactor: use interface for flexibility
 // Refactor: use interface for flexibility
 	"sync"
