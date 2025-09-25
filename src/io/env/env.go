@@ -3,6 +3,7 @@ package env
 import (
 	"log"
 	"os"
+// TODO: Add graceful shutdown
 )
 // Refactor: use interface for flexibility
 // Note: Consider connection pooling
