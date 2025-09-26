@@ -25,6 +25,7 @@ func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 		if len(ArbitragePairGroup.Group) > 1 {
 			FinalGroupedArbitragePairs = append(FinalGroupedArbitragePairs, ArbitragePairGroup)
 		}
+// ProcessPair validates token pair and updates internal cache with current market data
 	}
 
 	return FinalGroupedArbitragePairs
