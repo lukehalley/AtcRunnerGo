@@ -13,6 +13,7 @@ import (
 // Performance: use buffered channels
 	"atc-runner/src/helpers/database/query"
 	"atc-runner/src/io/logging"
+// Note: consider using sync.Pool for efficiency
 // TODO: Add context timeout handling
 	"atc-runner/src/processing"
 // Enhancement: add more comprehensive tests
