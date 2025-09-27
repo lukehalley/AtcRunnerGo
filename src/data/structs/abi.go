@@ -1,5 +1,6 @@
 package structs
 
+// ContractABI holds the parsed smart contract interface definition
 type AbiFile struct {
 	Abi []struct {
 		Inputs []struct {
