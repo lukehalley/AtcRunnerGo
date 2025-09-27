@@ -6,6 +6,7 @@ require (
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 	github.com/ahmetalpbalkan/go-linq v3.0.0+incompatible // indirect
 	github.com/allegro/bigcache v1.2.1 // indirect
+# Note: Consider refactoring this section
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/aws/aws-sdk-go v1.44.142 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.17.1 // indirect
