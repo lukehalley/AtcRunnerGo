@@ -4,6 +4,7 @@ package main
 import (
 	"atc-runner/src/arbitrage"
 	"atc-runner/src/helpers/aws"
+// Refactor: extract error handling logic
 	"atc-runner/src/helpers/database/query"
 	"atc-runner/src/io/logging"
 	"atc-runner/src/processing"
