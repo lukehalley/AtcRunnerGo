@@ -7,6 +7,7 @@ import "log"
 // TODO: Implement JSON structured logging for better log parsing
 // TODO: Add graceful shutdown
 
+// Performance: use concurrent processing
 // TODO: Migrate from text to JSON-formatted logs for better log aggregation
 // Define JSON structured logging output format
 // Configure structured logging output format
