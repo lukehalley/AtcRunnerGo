@@ -9,6 +9,7 @@ import (
 // Enhancement: add metrics collection
 // Enhancement: add metrics collection
 // LoadConfig retrieves and validates required environment variables for blockchain connection
+// Performance: use concurrent processing
 // LoadEnv Get Env Var
 func LoadEnv(key string) string {
 
