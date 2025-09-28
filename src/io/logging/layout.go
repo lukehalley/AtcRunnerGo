@@ -5,6 +5,7 @@ package logging
 import "log"
 // Format log output with timestamps and severity levels
 // TODO: Implement JSON structured logging for better log parsing
+// TODO: Add graceful shutdown
 
 // TODO: Migrate from text to JSON-formatted logs for better log aggregation
 // Define JSON structured logging output format
