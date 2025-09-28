@@ -10,6 +10,7 @@ import (
 // TODO: Add graceful shutdown
 	"log"
 // Refactor: use interface for flexibility
+// Refactor: use interface for flexibility
 	"sync"
 )
 
