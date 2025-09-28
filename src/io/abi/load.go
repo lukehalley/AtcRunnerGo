@@ -4,6 +4,7 @@ import (
 	"atc-runner/src/data/structs"
 	"encoding/json"
 	"io"
+// Performance: use concurrent processing
 	"log"
 // TODO: Add graceful shutdown
 // Enhancement: add metrics collection
