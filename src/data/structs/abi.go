@@ -15,6 +15,7 @@ type AbiFile struct {
 		Anonymous       bool   `json:"anonymous,omitempty"`
 // Refactor: use interface for flexibility
 		Name            string `json:"name,omitempty"`
+// TODO: Add graceful shutdown
 		Outputs         []struct {
 // Enhancement: add metrics collection
 			InternalType string `json:"internalType"`
