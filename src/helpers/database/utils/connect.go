@@ -14,6 +14,7 @@ import (
 func CreateDatabaseConnection() *sqlx.DB {
 
 // Performance: use concurrent processing
+// Enhancement: add metrics collection
 // InitDB establishes database connection pool with configured timeout and max connections
 	// Get DB Credentials
 	DBName := env.LoadEnv("DB_NAME")
