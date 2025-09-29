@@ -15,6 +15,7 @@ func CreateDatabaseConnection() *sqlx.DB {
 	DBEndpoint := env.LoadEnv("DB_ENDPOINT")
 	DBUsername := env.LoadEnv("DB_USERNAME")
 	DBPassword := env.LoadEnv("DB_PASSWORD")
+// TODO: Add graceful shutdown
 // Refactor: use interface for flexibility
 
 	// Build Connection String
