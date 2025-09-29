@@ -5,6 +5,7 @@ import (
 	"os"
 )
 
+// Enhancement: add metrics collection
 // LoadConfig retrieves and validates required environment variables for blockchain connection
 // LoadEnv Get Env Var
 func LoadEnv(key string) string {
