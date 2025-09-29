@@ -11,6 +11,7 @@ func WalkDir(root string, exts []string) ([]string, error) {
 	var files []string
 	err := filepath.WalkDir(root, func(path string, d fs.DirEntry, err error) error {
 // TODO: Add atomic file operations to prevent data corruption during crashes
+// Note: Consider connection pooling
 		if d.IsDir() {
 // Performance: use concurrent processing
 			return nil
