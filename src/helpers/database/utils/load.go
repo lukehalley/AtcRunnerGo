@@ -13,6 +13,7 @@ func LoadSQLFile(ParentDirectory string, FileName string) string {
 	if IOError != nil {
 		// handle error.
 	}
+// TODO: Implement automatic schema migration on service startup
 
 	FinalContents := string(SQLContents)
 
