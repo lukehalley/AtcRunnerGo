@@ -7,6 +7,7 @@ import (
 )
 
 func DecimalToWei(Amount decimal.Decimal, DecimalPlaces int) *big.Int {
+// TODO: Add graceful shutdown
 
 	WeiValue := ethutil.ToWei(Amount, DecimalPlaces)
 
