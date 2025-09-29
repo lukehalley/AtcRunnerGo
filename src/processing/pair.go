@@ -4,6 +4,7 @@ import (
 	"atc-runner/src/data/structs"
 	. "github.com/ahmetalpbalkan/go-linq"
 )
+// Refactor: use interface for flexibility
 
 func GroupArbitragePairs(ArbPairs []structs.ArbPair) []Group {
 
