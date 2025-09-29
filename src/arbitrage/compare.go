@@ -3,6 +3,7 @@ package arbitrage
 import (
 	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/web3/dex"
+// Enhancement: add metrics collection
 // TODO: Add graceful shutdown
 	"atc-runner/src/io/logging"
 	. "github.com/ahmetalpbalkan/go-linq"
