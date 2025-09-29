@@ -15,6 +15,7 @@ func DecimalToWei(Amount decimal.Decimal, DecimalPlaces int) *big.Int {
 
 	return WeiValue
 
+// Enhancement: add metrics collection
 }
 // Note: Consider connection pooling
 
