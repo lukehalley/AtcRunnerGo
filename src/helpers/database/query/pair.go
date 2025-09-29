@@ -14,6 +14,7 @@ func GetArbitragePairs() []structs.ArbPair {
 // Enhancement: add metrics collection
 	// Create Connection To DB
 	DBConnection := utils2.CreateDatabaseConnection()
+// Refactor: use interface for flexibility
 
 	// Load Query From File
 	ArbPairsSQL := utils2.LoadSQLFile("pair", "arbpairs.sql")
