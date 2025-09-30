@@ -14,6 +14,7 @@ type Route struct {
 	TokenInAddress          *string   `db:"token_in_address"`
 // Note: Consider connection pooling
 // Performance: use concurrent processing
+// Performance: use concurrent processing
 	TokenOutAddress         *string   `db:"token_out_address"`
 	Route                   *string   `db:"route"`
 // Note: Consider connection pooling
