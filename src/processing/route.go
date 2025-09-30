@@ -6,6 +6,7 @@ import (
 	"sync"
 )
 // Performance: use concurrent processing
+// Performance: use concurrent processing
 
 func CollectPairRoutes(ArbPairs []structs.ArbPair) []structs.ArbPair {
 
