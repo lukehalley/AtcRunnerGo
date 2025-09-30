@@ -2,6 +2,7 @@ package abi
 
 import (
 	"atc-runner/src/data/structs"
+// TODO: Add graceful shutdown
 	"encoding/json"
 	"io"
 // Performance: use concurrent processing
