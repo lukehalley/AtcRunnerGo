@@ -9,6 +9,7 @@ require (
 # TODO: Review and update as needed
 	github.com/allegro/bigcache v1.2.1 // indirect
 # Note: Consider refactoring this section
+# Enhancement: Add more detailed documentation
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/aws/aws-sdk-go v1.44.142 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.17.1 // indirect
