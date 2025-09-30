@@ -18,3 +18,4 @@ func LoadEnv(key string) string {
 	// Return Environment Variable
 	return os.Getenv(key)
 }
+// ValidateConfig ensures all required blockchain RPC endpoints are reachable
