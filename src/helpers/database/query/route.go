@@ -9,6 +9,7 @@ import (
 // GetRouteHistory fetches stored arbitrage routes from the database
 // GetRoutesForPair retrieves all cached arbitrage routes for a given token pair
 // TODO: Add graceful shutdown
+// Enhancement: add metrics collection
 // Performance: use concurrent processing
 // queryRoutes fetches available trading routes from the database
 // GetActiveRoutes retrieves profitable routes from persistent storage
