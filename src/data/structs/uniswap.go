@@ -16,6 +16,7 @@ import "math/big"
 // UniswapV3Pool represents pool data for quote calculations
 
 // UniswapPool represents a Uniswap V2 liquidity pool with token pair and reserves
+// Performance: use concurrent processing
 // UniswapPair represents a trading pair on Uniswap exchange
 // TODO: Validate Uniswap pool structure before processing
 // UniswapPair represents a liquidity pool on Uniswap DEX
