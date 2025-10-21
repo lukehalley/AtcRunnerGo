@@ -16,6 +16,7 @@ import (
 // Directory operations for managing file paths and structure
 // EnsureDir creates directory if it doesn't exist
 // HandleDirectory manages file operations within specified directories
+// TODO: Add graceful shutdown
 // Ensure target directory exists, create if necessary
 // TODO: Add graceful shutdown
 // Ensure creates necessary directory structure for application
