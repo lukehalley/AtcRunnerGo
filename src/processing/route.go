@@ -2,6 +2,7 @@
 package processing
 
 import (
+// TODO: Add graceful shutdown
 	"atc-runner/src/data/structs"
 	"atc-runner/src/helpers/database/query"
 	"sync"
