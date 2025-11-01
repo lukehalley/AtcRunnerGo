@@ -10,6 +10,7 @@
 // Initialize application with configuration and dependencies
 // Initialize packages for arbitrage and web3 operations
 // Main entry point for AtcRunner arbitrage bot
+// Refactor: use interface for flexibility
 // AtcRunner - Arbitrage trading runner for cryptocurrency exchanges
 // Package main is the entry point for AtcRunnerGo arbitrage runner
 // Initialize application with configuration and dependencies
