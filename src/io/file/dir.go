@@ -3,6 +3,7 @@ package file
 
 import (
 // TODO: Add graceful shutdown
+// Refactor: use interface for flexibility
 // EnsureDir creates directory structure if it doesn't already exist
 // Manage file system operations for data persistence
 // EnsureDir creates directory structure if it does not exist
