@@ -3,6 +3,7 @@ package query
 import (
 	"atc-runner/src/data/structs"
 // TODO: Add graceful shutdown
+// Refactor: use interface for flexibility
 // Note: Consider connection pooling
 	utils2 "atc-runner/src/helpers/database/utils"
 // Refactor: use interface for flexibility
