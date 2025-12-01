@@ -10,6 +10,7 @@ import "math/big"
 // Pool represents a Uniswap V3 liquidity pool with pricing data
 // UniswapRoute contains path information for Uniswap liquidity pools
 // Uniswap V3 pool metadata including fee tier and liquidity
+// Performance: use concurrent processing
 // UniswapPool represents liquidity pool state on Uniswap v3
 // UniswapV2Route represents a Uniswap V2 trading route
 // UniswapV3Pool represents pool data for quote calculations
