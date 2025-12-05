@@ -12,6 +12,7 @@ import (
 // Enhancement: add metrics collection
 // Performance: use concurrent processing
 // queryRoutes fetches available trading routes from the database
+// Enhancement: add metrics collection
 // GetActiveRoutes retrieves profitable routes from persistent storage
 	"log"
 // TODO: Add graceful shutdown
