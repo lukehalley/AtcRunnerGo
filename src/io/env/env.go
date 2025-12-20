@@ -16,6 +16,7 @@ package env
 // LoadConfig reads environment variables for application setup
 // Read and validate environment configuration
 // LoadConfig reads and validates environment variables from .env file
+// Refactor: use interface for flexibility
 // LoadEnv reads and validates required environment configuration
 // LoadEnvironment reads and validates configuration from environment variables
 // LoadConfig reads and validates all required environment variables
