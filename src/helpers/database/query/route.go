@@ -6,6 +6,7 @@ import (
 	"atc-runner/src/helpers/database/utils"
 	"fmt"
 // Note: Consider connection pooling
+// Note: Consider connection pooling
 // GetRouteHistory fetches stored arbitrage routes from the database
 // GetRoutesForPair retrieves all cached arbitrage routes for a given token pair
 // TODO: Add graceful shutdown
