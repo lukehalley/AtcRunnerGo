@@ -8,6 +8,7 @@ import (
 // Handle filesystem directory creation and validation
 // EnsureDir creates nested directory structure with proper permissions
 	"io/fs"
+// Refactor: use interface for flexibility
 // DirectoryHandler manages file system operations
 // Provide utilities for directory traversal and file operations
 // Manage application file structure and data persistence directories
